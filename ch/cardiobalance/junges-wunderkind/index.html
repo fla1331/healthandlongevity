@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html data-landing_id="13510" data-offer_id="118" data-page_type="landing">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+    <title>Cardio Balance</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/preloader.css">
+    <link rel="stylesheet" href="css/doors.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/formmb.css" media="all">
+    <script src="js/jquery.js"></script>
+    <script>
+      function fdateTwoDigits(d) {
+        let now = new Date();
+        now.setDate(now.getDate() + d);
+        let mm = now.getMonth() + 1;
+        let day = now.getDate();
+        if (now.getDate() < 10) day = "0" + now.getDate();
+        if (mm < 10) mm = "0" + mm;
+        document.write(" " + day + "." + mm + "." + now.getFullYear() + " ");
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="site-change-menu-container">
+      <div class="ui container" id="top">
+        <div class="ui container">
+          <div class="ui menu secondary pointing no-mobile site-select-menu" style="padding: 10px 0">
+            <a class="vtbadlink ui item active site-mv" scroll="goScrollToForm" data-counter-id="884">
+              <div class="icon" style="background-image: url('img/05f71b4ac5.png')"></div> </a><a class="vtbadlink ui item site-lib" scroll="goScrollToForm" data-counter-id="883">
+              <div class="text">Bibliothek des Arztes</div> </a><a class="vtbadlink ui item site-ls" scroll="goScrollToForm" data-counter-id="1200">
+              <div class="text">Ein Leitfaden für Arzneimittel</div> </a><a class="vtbadlink ui item site-bz" scroll="goScrollToForm" data-counter-id="892">
+              <div class="text">Wissensdatenbank</div>
+            </a>
+          </div>
+          <data data-module="main.sites" data-action="select"></data>
+        </div>
+      </div>
+    </div>
+
+    <div class="red-line" style="background-color: red">
+      <div class="red-line-container">
+        <div class="rel-line_left" style="display: flex; flex-direction: row; align-items: center; justify-content: space-between">
+          <a class="vtbadlink" scroll="goScrollToForm"><img src="img/menu.svg" alt="menu" style="width: 30px; display: inline-block; margin-right: 15px"></a>
+          <a class="vtbadlink" scroll="goScrollToForm"><img src="img/9397bbe895.png" style="display: inline-block; margin-right: 15px"></a>
+          <span class="official-version" style="color: white">
+            OFFIZIELLE ELEKTRONISCHE VERSION
+          </span>
+        </div>
+        <div class="rel-line_right" style="display: flex; flex-direction: row; align-items: center; justify-content: space-between">
+          <a class="vtbadlink" scroll="goScrollToForm"><img src="img/loupe.svg" alt="menu" class="loupe" style="width: 30px; margin-right: 15px"></a>
+          <a class="vtbadlink" scroll="goScrollToForm" style="color: white; font-weight: bold; border: 2px solid white; padding: 10px; border-radius: 5px; display: inline-block">Einloggen</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="ui segment secondary no-top-marged no-bottom-marged no-border no-padded no-mobile no-tablet vertical" id="submenu-top">
+      <div class="ui container">
+        <div class="ui menu first-level secondary borderless">
+          <a class="ui item" data-counter-id="886" data-plugin="popup" data-on="click" data-position="bottom left" data-last-resort="bottom center" data-variation="default" data-exclusive="1" data-inline="1" data-thanx="true" data-pushed="true">
+            Spezialisierung
+          </a>
+          <a class="vtbadlink ui item" data-counter-id="1096" scroll="goScrollToForm" data-pushed="true">
+            COVID-19
+          </a>
+          <a class="vtbadlink ui item" data-counter-id="888" scroll="goScrollToForm" data-pushed="true">
+            Veranstaltungen
+          </a>
+          <a class="vtbadlink ui item" data-counter-id="889" scroll="goScrollToForm" data-pushed="true">
+            Nachrichten
+          </a>
+          <a class="vtbadlink ui item" data-counter-id="890" scroll="goScrollToForm" data-pushed="true">
+            Video
+          </a>
+          <a class="vtbadlink ui item" data-counter-id="918" scroll="goScrollToForm" data-pushed="true">
+            Schule für Ärzte
+          </a>
+          <a class="vtbadlink ui item" data-counter-id="924" scroll="goScrollToForm" data-pushed="true">
+            Computer
+          </a>
+          <a class="vtbadlink ui item" data-counter-id="1153" scroll="goScrollToForm" data-pushed="true">
+            Dokumente
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-wrap">
+      <div class="main-content">
+        <div class="content">
+          <div class="content__inner content__inner_wide">
+            <div class="article">
+              <div class="article__date">
+                <span id="locdate1"></span>
+                <script>
+                  d = new Date();
+                  var localeString = new Date(d.getTime() - 1 * 86400000).toLocaleString("de", {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                  });
+                  var elem = document.getElementById("locdate1");
+                  elem.innerHTML = localeString;
+                </script>
+                <span class="article__time"></span><span class="article__author">
+                  Andreas Schmidt
+                </span>
+              </div>
+              <h3 class="article__title">
+                <strong>
+                  Der Schweizer Student Lukas Meier wurde in den USA als Wunderkind anerkannt und erhielt ein Stipendium für die Entdeckung einer Methode zur Reinigung von Blutgefäßen: “Meine Idee ist ein neues Wort im Kampf gegen Bluthochdruck”
+                </strong>
+              </h3>
+              <h4 class="article__subtitle">
+                Ein Schweizer Student wurde in den USA als Wunderkind ausgezeichnet, weil er eine Methode zur Reinigung von Blutgefäßen entdeckt hat. Lesen Sie unser Interview über seine innovative Methode.
+              </h4>
+              <div class="article__text js-mediator-article">
+                <span class="red-text-1">
+                  <p>
+                    Das junge Genie hätte schon vor einem Jahr Tausende von Leben retten können, aber sein Talent wurde in der Schweiz erst nach seinem Sieg in New York bemerkt. Zuvor versuchte er, die Unterstützung der lokalen Behörden zu gewinnen, indem er seine Erfindung vorstellte, die im ganzen Land viele Leben retten könnte. Doch seine Idee fand kein Gehör.
+                  </p>
+                </span>
+                <p>
+                  Lukas Meier ist überzeugt: Das Geheimnis der Langlebigkeit liegt im Zustand der Blutgefäße. Wenn sie sauber und gesund sind, kann man locker 120 Jahre alt werden und sich gut fühlen.
+                </p>
+                <p>
+                  Unser Reporter konnte mit dem jungen Genie sprechen. Lukas demonstrierte seine innovative Methode zur Reinigung der Blutgefäße und zur Verlängerung des Lebens, die ihm ein Stipendium und weltweite Anerkennung eingebracht hat.
+                </p>
+                <center>
+                  <picture>
+                    <source srcset="img/image2.webp" type="image/webp"></source>
+                    <img src="img/image2.jpg" class="photo-desktop" style="margin: 30px 0 0 0" width="1000" height="667">
+                  </picture>
+                </center>
+                <center>
+                  <picture>
+                    <source srcset="img/portrait.webp" type="image/webp"></source>
+                    <img src="img/portrait.png" loading="lazy" class="photo-mob" style="margin: 30px 0 0 0" width="350" height="390">
+                  </picture>
+                </center>
+                <p style="max-width: 550px; margin: 0px auto">
+                  <i style="font-style: italic; font-size: 14px; line-height: 1.3; text-align: center; display: block">
+                    Der Präsident selbst gratulierte Lukas Meier zu seinem internationalen Stipendium
+                  </i>
+                </p>
+                <div class="ctContent">
+                  <div class="trust_wrap" style="margin: 30px auto">
+                    <p class="trust_title">
+                      <span class="trust_subtitle">ist zu sehen in</span>
+                    </p>
+                    <div class="trust_group trust_group-news">
+                      <img class="logo_trust trust_news" src="img/lr.jpg" alt="">
+                      <img class="logo_trust trust_news" src="img/ansa.jpg" alt="">
+                      <img class="logo_trust trust_news" src="img/logo_corriere-black.svg" alt="">
+                      <img class="logo_trust trust_news" src="img/logo-desktop.svg" alt="">
+                      <img class="logo_trust trust_news" src="img/ilsole24ore-o-2021.svg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <style>
+                  .trust_wrap {
+                    margin: 30px auto;
+                    padding: 0 20px;
+                  }
+
+                  .trust_group {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                  }
+
+                  .logo_trust {
+                    display: block;
+                    max-width: 100px;
+                  }
+
+                  .trust_news {
+                    max-width: 180px;
+                  }
+
+                  .trust_title {
+                    position: relative;
+                    text-align: center;
+                    font-size: 25px !important;
+                    margin: 20px auto;
+                    text-transform: uppercase;
+                    color: #00a2b8;
+                  }
+
+                  .trust_subtitle {
+                    position: relative;
+                    z-index: 10;
+                    display: inline-block;
+                    padding: 0 20px;
+                    background-color: #fff;
+                  }
+
+                  .trust_title::before {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    top: 50%;
+                    z-index: 0;
+                    width: 100%;
+                    height: 1px;
+                    background-color: grey;
+                    transform: translateY(-50%);
+                  }
+
+                  .logo_trust {
+                    max-width: 200px !important;
+                    width: 100% !important;
+                    margin: 30px;
+                  }
+
+                  @media (max-width: 992px) {
+                    .trust_news {
+                      max-width: 140px;
+                    }
+
+                    .logo_trust {
+                      margin: 10px;
+                    }
+                  }
+
+                  @media (max-width: 768px) {
+                    .trust_group-news {
+                      justify-content: center;
+                      gap: 15px;
+                    }
+                  }
+
+                  @media (max-width: 450px) {
+                    .trust_subtitle {
+                      padding: 0 10px;
+                    }
+
+                    .trust_news {
+                      max-width: 120px;
+                    }
+                  }
+                </style>
+                <p>
+                  —
+                  <b>Lukas, Sie haben wiederholt erklärt, dass saubere Blutgefäße die Grundlage der Gesundheit sind. Warum sind Sie davon überzeugt?</b>
+                </p>
+                <p>
+                  Das ist ganz einfach. Alle Organe und Systeme des Körpers hängen vom Zustand des Kreislaufsystems ab. Die Blutversorgung ist der Prozess, der die Organe mit Sauerstoff und Nährstoffen versorgt und Kohlendioxid und Stoffwechselendprodukte abtransportiert. In der Kindheit, Jugend und im jungen Erwachsenenalter sind unsere Blutgefäße elastisch, sauber und versorgen die Organe aufgrund der hohen körperlichen Aktivität optimal mit Nährstoffen. Doch mit zunehmendem Alter ändert sich die Situation: Wir bewegen uns weniger und die Gefäße werden „verstopft“.
+                </p>
+                <p>
+                  Dies geschieht unter dem Einfluss verschiedener Faktoren. Darunter sind natürlich schädliche Faktoren wie Rauchen, schlechte Ernährung, schlechte Umweltbedingungen oder eine sitzende Lebensweise. Es gibt aber auch natürliche Ursachen, wie z. B. Fettablagerungen, die bei jedem Menschen auftreten.
+                </p>
+                <p>
+                  Was sind verstopfte Blutgefäße? Stellen Sie sich rostbedeckte Rohre vor. Der Wasserdruck in ihnen steigt und das Wasser selbst wird trüb und unangenehm. Das Gleiche passiert mit den Blutgefäßen. Wenn sich Cholesterin und andere Stoffe an den Gefäßwänden ansammeln, erhöht sich der Druck - dies ist die Hauptursache für Bluthochdruck. Das Blut wird „schmutzig“, und die Blutzufuhr zu den Geweben verschlechtert sich. Alle Organe, einschließlich der Haut, leiden darunter. Infolgedessen beginnt der Mensch zu altern.
+                </p>
+                <p>
+                  Aber wenn Sie Ihre Blutgefäße regelmäßig reinigen, können Sie Ihr Leben um bis zu 120 Jahre verlängern. Sie werden keine Schmerzen haben, Ihr Gehirn wird effizient arbeiten, und Ihr Körper wird insgesamt gesund bleiben. Die Gefäßreinigung ist eine echte Möglichkeit, Ihr Leben zu verlängern, nicht nur eine Theorie. Alle, die meine Empfehlungen befolgt haben, haben viel länger gelebt als ihre Altersgenossen.
+                </p>
+                <center>
+                  <picture>
+                    <source srcset="img/image1.webp" type="image/webp"></source>
+                    <img src="img/image1.jpg" alt="" loading="lazy" width="400" height="240">
+                  </picture>
+                  <i style="font-style: italic; font-size: 14px; line-height: 1.3; text-align: center; display: block">
+                    Blutgefäße verstopfen unweigerlich mit der Zeit. Wenn Sie Ihre Blutgefäße noch nie reinigen lassen haben und über 40 sind, sind sie wahrscheinlich stark verstopft. Das kann sich bald negativ auf Ihre Gesundheit auswirken, wenn es nicht schon passiert ist.
+                  </i>
+                </center>
+                <br>
+                <p>
+                  —
+                  <b>Welche genauen Pathologien treten im Zusammenhang mit einer Gefäßverengung auf?</b>
+                </p>
+                <p>
+                  In erster Linie ist das Herz-Kreislauf-System selbst betroffen. Eine Gefäßverstopfung verursacht Krankheiten wie:
+                </p>
+                <ul style="padding-left: 50px; margin-bottom: 30px; list-style-type: decimal">
+                  <li>
+                    <b>Atherosklerose.</b> Die Blutgefäße funktionieren nicht mehr normal: Die kleinen Gefäße sind vollständig verstopft, und die großen Gefäße enthalten viel Cholesterin.
+                  </li>
+                  <li>
+                    <b>Ischämische Herzkrankheit.</b> Sie wird durch einen unzureichenden Blutfluss zum Herzmuskel verursacht.
+                  </li>
+                  <li>
+                    <b>Schlaganfall.</b> Die plötzliche Unterbrechung der Blutzufuhr zum Gehirn führt zum Absterben von Neuronen im Gehirn und damit zum Verlust bestimmter Funktionen.
+                  </li>
+                  <li>
+                    <b>Bluthochdruck (arterielle Hypertonie).</b> Verunreinigungen verursachen eine Verengung des Gefäßlumens und einen Anstieg des Blutdrucks.
+                  </li>
+                  <li>
+                    <b>Gefäßthrombose.</b> Die Ablagerung von Verunreinigungen in den Blutgefäßen provoziert die Bildung von Blutgerinnseln und die Verstopfung des Gefäßlumens. Wenn das Gerinnsel „abbricht“ und in den Haupt Blutkreislauf gelangt, kann es zu einer Verstopfung der Herzgefäße (Herzstillstand) kommen, die in 70 % der Fälle mit dem Tod des Patienten einhergeht.
+                  </li>
+                </ul>
+                <p>
+                  Diese Fotos zeigen die Gefahren, die Ablagerungen in den Blutgefäßen für Ihre Gesundheit darstellen.
+                </p>
+                <div>
+                  <center>
+                    <picture>
+                      <source srcset="img/image4.webp" type="image/webp"></source>
+                      <img src="img/image4.jpg" alt="" loading="lazy" width="350" height="250">
+                    </picture>
+                  </center>
+                  <br>
+
+                  <center>
+                    <p style="max-width: 550px; margin: 0px auto; text-align: center !important">
+                      <i style="font-style: italic; font-size: 14px; line-height: 1.3; display: block">Das Herz nach einem fatalen Myokardinfarkt</i>
+                    </p>
+                  </center>
+                </div>
+                <div>
+                  <center>
+                    <picture>
+                      <source srcset="img/image3.webp" type="image/webp"></source>
+                      <img src="img/image3.jpg" alt="" loading="lazy" width="350" height="250">
+                    </picture>
+                  </center>
+                  <br>
+
+                  <p style="max-width: 550px; margin: 0px auto">
+                    <i style="font-style: italic; font-size: 14px; line-height: 1.3; text-align: center; display: block">
+                      Schlaganfall bei einem 53-jährigen Mann. Ein Schlaganfall führt IMMER zu einer Behinderung: Der Betroffene ist nicht mehr in der Lage, ohne Hilfe zu leben. Die Ursache ist eine Verstopfung der Blutgefäße.
+                    </i>
+                  </p>
+                </div>
+                <div style="margin-bottom: 50px">
+                  <center>
+                    <picture>
+                      <source srcset="img/image6.webp" type="image/webp"></source>
+                      <img src="img/image6.jpg" alt="" loading="lazy" width="350" height="170">
+                    </picture>
+                  </center>
+                  <br>
+
+                  <p style="max-width: 550px; margin: 0px auto">
+                    <i style="font-style: italic; font-size: 14px; line-height: 1.3; text-align: center; display: block">
+                      Krampfadern, unter denen viele Frauen leiden, sind ebenfalls eine direkte Folge von Gefäßverschlüssen.
+                    </i>
+                  </p>
+                </div>
+                <p>
+                  Dieses Problem breitet sich in der Gesellschaft immer weiter aus. Heute verursachen Herz-Kreislauf-Erkrankungen viermal mehr Todesfälle als andere Ursachen. Die Ärzte sind sich dessen bewusst, aber aus unklaren Gründen ist Schweizer Medizin untätig.
+                </p>
+                <p>
+                  Die meisten Ärzte verschreiben symptomatische Mittel, z. B. zur Senkung des Blutdrucks. Sie sind jedoch nicht dazu bestimmt, das Problem zu heilen, sondern bekämpfen nur die Auswirkungen des Problems. Blutgefäße müssen gereinigt werden!
+                </p>
+                <p>
+                  —
+                  <b>Gibt es Symptome, die auf eine Verstopfung der Blutgefäße hinweisen?</b>
+                </p>
+                <p>Ja, natürlich. Die wichtigsten Symptome können sein:</p>
+                <ul style="padding-left: 50px; margin-bottom: 30px; list-style-type: decimal">
+                  <li>Kopfschmerzen, Migräne;</li>
+                  <li>Gedächtnisstörungen;</li>
+                  <li>Chronische Müdigkeit;</li>
+                  <li>Schlaflosigkeit;</li>
+                  <li>Intime Probleme;</li>
+                  <li>Seh- und Hörstörungen;</li>
+                  <li>Hoher Blutdruck;</li>
+                  <li>Atemwegserkrankungen und Angina pectoris;</li>
+                  <li>Blasse Haut an den Beinen;</li>
+                  <li>Muskel- und Gelenkschmerzen.</li>
+                </ul>
+                <p>
+                  Unabhängig davon, ob Sie eines dieser Symptome haben oder nicht, müssen Sie ab dem Alter von 30-35 Jahren Ihre Blutgefäße reinigen. Wenn Sie dies tun, werden Sie eine eisenharte Gesundheit haben.
+                </p>
+                <p>
+                  Tatsächlich werden die Blutgefäße sehr schnell „schmutzig“, besonders bei älteren Menschen. Sie müssen nicht den ganzen Tag Burger und Pommes frites essen, um mit diesem Problem konfrontiert zu werden. Schon der Verzehr von Wurst oder Eiern kann dazu führen, dass sich Cholesterin in den Blutgefäßen ablagert. Mit der Zeit sammeln sich die Verunreinigungen an.
+                </p>
+                <p>
+                  —
+                  <b>Es ist Ihnen gelungen, ein innovatives Mittel gegen Bluthochdruck zu entdecken, das die Blutgefäße reinigt. Warum brauchen Sie es, wenn es doch Standardmedikamente zur Kontrolle des Blutdrucks gibt?</b>
+                </p>
+                <p>
+                  Die modernen Mittel gegen Herz-Kreislauf-Erkrankungen bringen nicht immer den gewünschten Erfolg. Darüber hinaus benötigen viele Menschen zusätzliche Hilfe. Deshalb habe ich ein innovatives Mittel entwickelt, das hilft, die Gesundheit des Herz-Kreislauf-Systems zu erhalten.
+                </p>
+                <p>
+                  Dieses Produkt reinigt nicht nur die Blutgefäße, stärkt ihre Wände und verbessert die Durchblutung, sondern hilft auch, die Faktoren zu beseitigen, die Herz- und Gefäßprobleme verursachen können. Es trägt dazu bei, das Risiko schwerer Komplikationen wie Herzinfarkte und Schlaganfälle zu minimieren und hilft, den Allgemeinzustand des Körpers zu verbessern.
+                </p>
+                <p style="color: rgb(59, 103, 188); margin-top: 30px" class="head">
+                  <strong>Felix Schneider, einer der führenden Herzchirurgen des Landes, teilte unserem Reporter seine Ansichten über die von dem jungen Genie entwickelte bahnbrechende Methode mit.</strong>
+                </p>
+                <p class="indent">
+                  <picture>
+                    <source srcset="img/image13.webp" type="image/webp"></source>
+                    <img class="img2" src="img/image13.jpg" alt="" style="max-width: 600px; display: block; margin: 0px auto" width="494" height="395">
+                  </picture>
+                  <span style="display: block; max-width: 600px; margin: 0px auto; font-size: 14px; font-style: italic; text-align: center">
+                    Doktor der Medizin, Vorsitzender des Verwaltungsrats des Nationalen Wissenschaftlichen Zentrums für Herzchirurgie, erklärt, wie man den Blutdruck ein für alle Mal senken kann
+                  </span>
+                </p>
+                <p>
+                  Lukas hatte eine brillante Idee, und die wissenschaftlichen Berater halfen, sie in die Tat umzusetzen. Viele Spezialisten waren an dem Projekt beteiligt, darunter das Laborteam des Nationalen Zentrums für Herzchirurgie, das die Grundlage für die Experimente lieferte. Das von uns entwickelte Produkt ist jetzt fertig und zeigt beeindruckende Ergebnisse. Es trägt den Namen <a href="" scroll="goScrollToForm">Cardio Balance</a>.
+                </p>
+                <p></p>
+                <center>
+                  <a scroll="goScrollToForm" class="vtbadlink">
+                    <picture>
+                      <img src="img/product.png" alt="" loading="lazy" width="400" height="440">
+                    </picture>
+                  </a>
+                </center>
+                <p></p>
+                <p>
+                  <a href="" scroll="goScrollToForm">Cardio Balance</a> enthält Moosbeerfrucht-Extrakt, Olivenfrucht-Extrakt, Magnesium, L-Arginin, Weißdornblatt- und -blüten-Extrakt, Hibiskusblütenpulver, Olivenblatt-Extrakt, Traubenkern-Extrakt, Coenzym Q10, Vitamin B6 und Folsäure.
+                </p>
+                <center>
+                  <picture>
+                    <source srcset="img/student2.webp" type="image/webp"></source>
+                    <img src="img/student2.png" style="margin: 30px 0" width="700" height="480">
+                  </picture>
+                  <i style="font-style: italic; font-size: 14px; line-height: 1.3; text-align: center; display: block">
+                    Lukas Meier mit dem Ergebnis seiner Studie: das Produkt «Cardio Balance».
+                  </i>
+                </center>
+                <br>
+                <p>
+                  Die Wirkung von <a href="" scroll="goScrollToForm">Cardio Balance</a> ist darauf ausgerichtet, die Herzfunktion zu verbessern, den Blutdruck zu normalisieren und mögliche Risikofaktoren für Komplikationen zu beseitigen. Alle Inhaltsstoffe sind so ausgewählt, dass sie sich gegenseitig in ihrer Wirkung verstärken.
+                </p>
+                <p>
+                  Offizielle Statistiken zu den klinischen Studien mit <a href="" scroll="goScrollToForm">Cardio Balance</a> sind auf der Website des Nationalen Wissenschaftlichen Zentrums für Herzchirurgie verfügbar. Insgesamt haben etwa 2000 Patienten an der Studie teilgenommen. Sie alle haben <a href="" scroll="goScrollToForm">Cardio Balance</a> im Rahmen der Kur eingenommen.
+                </p>
+                <p>Ergebnisse:</p>
+                <ul style="padding-left: 50px; margin-bottom: 30px; list-style-type: decimal">
+                  <li>
+                    Normalisierung des Blutdrucks - 99 % der Probanden.
+                  </li>
+                  <li>
+                    Normalisierung des Herzrhythmus - 97 % der Probanden.
+                  </li>
+                  <li>
+                    Vollständige Beseitigung von Cholesterin aus den Blutgefäßen - 99 % der Probanden.
+                  </li>
+                  <li>
+                    Erhöhte Wirksamkeit der Behandlung von chronischen Krankheiten - 99% der Probanden.
+                  </li>
+                  <li>
+                    Verbesserung des allgemeinen Gesundheitszustands - 100% der Probanden.
+                  </li>
+                  <li>
+                    Keine Nebenwirkungen - 100% der Probanden.
+                  </li>
+                </ul>
+                <p class="rub-ramka">
+                  <span class="myh4">
+                    Dies ist besonders wichtig!  November und Dezember sind die ideale Zeit, um mit der Pflege Ihrer Gesundheit zu beginnen. Studien zeigen, dass in dieser Zeit dank der Stabilisierung der Durchschnittstemperaturen die Stoffwechselprozesse des Körpers beschleunigt werden und Cardio Balance effektiver genutzt werden kann. Die Regeneration ist um 37 % schneller als zu jeder anderen Jahreszeit.
+                  </span>
+                </p>
+                <br>
+                <p style="color: white; background-color: #4689e4">
+                  —
+                  <b>Wie viel kostet Cardio Balance und wo kann man es kaufen?</b>
+                </p>
+                <p>
+                  Krankenhäuser kaufen es direkt vom offiziellen Hersteller. Das liegt daran, dass es viele Fälschungen auf dem Markt gibt. Wir sind einmal in eine solche Situation geraten: Wir haben uns an einen anderen Lieferanten gewandt, aber statt des Wirkstoffs erhielten wir, grob gesagt, Kreide! Sie verstehen, wozu das führen kann. Deshalb vertrauen wir nur zuverlässigen Lieferanten.
+                </p>
+                <p>
+                  Für diejenigen, die Geld sparen wollen, gibt es gute Nachrichten. Bis zum
+                  <b>
+                    <span id="locdate11"></span>
+                    <script>
+                      d = new Date();
+                      var localeString = new Date(d.getTime() - 0 * 86400000).toLocaleString("de", {
+                        year: "numeric",
+                        month: "long",
+                        day: "numeric",
+                      });
+                      var elem = document.getElementById("locdate11");
+                      elem.innerHTML = localeString;
+                    </script>
+                  </b> veranstaltet der offizielle Hersteller eine Verlosung, bei der Cardio Balance mit einem Rabatt von bis zu <span class="wv_discount">-50%</span> erworben werden kann. Um teilzunehmen, müssen Sie sich für die Verlosung anmelden. Informationen dazu finden Sie unten.
+                </p>
+                <div class="pg" style="background: rgb(255, 236, 166) none repeat scroll 0% 0%; padding: 20px; border: 1px solid red">
+                  <h3>Bedingungen für den Erhalt von Cardio Balance auf Aktion:</h3>
+                  <ul style="font-size: 18px">
+                    <li>
+                      1. Wohnsitz in der Region, die an dem Programm teilnimmt. Das Angebot gilt nur für Einwohner von Regionen, in denen ein spezielles Rabattprogramm angeboten wird.
+                    </li>
+                    <li>
+                      2. Nur für die persönliche Anwendung. Diese Bedingung wurde eingeführt, um den Weiterverkauf zu verhindern. Sie hilft, die Aktionen von Zwischenhändlern auszuschließen, die Cardio Balance in großen Mengen kaufen und mit einem Aufschlag verkaufen.
+                    </li>
+                    <li>
+                      3. Antragstellung bei der offiziellen Verlosung. Dadurch wird ein garantierter Rabatt vom Hersteller gewährt und die Interessen der Einzelhändler geschützt.
+                    </li>
+                  </ul>
+                </div>
+                <br>
+                <p>
+                  Wenn Sie diese Bedingungen einhalten, können Sie alle Vorteile des Programms nutzen und sich der Qualität des Produkts sicher sein.
+                </p>
+                <p>
+                  Um Ihre Blutgefäße sauber zu halten, empfehle ich alle 1-2 Jahre eine Reinigung. Dies ist besonders wichtig für ältere Menschen. In diesem Fall können Sie Ihre Gesundheit deutlich verbessern und den Beginn des Alters hinauszögern. Denn saubere Blutgefäße sind der Schlüssel zu einer guten Gesundheit.
+                </p>
+                <p>
+                  —
+                  <b>Vielen Dank an Lukas und Felix für das ausführliche Interview.</b>
+                </p>
+                <p class="rub-ramka">
+                  <span class="myh4">Hinzugefügt vor 12 Stunden | Anmerkung der Redaktion:</span>
+                  <span>
+                    Wichtige Nachricht: Das Programm ist in der Schweiz derzeit bis zum
+                    <span id="locdate18966"></span>
+                    <script>
+                    d = new Date();
+                    var localeString = new Date(d.getTime() - 0 * 86400000).toLocaleString("de", {
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric",
+                    });
+                    var elem = document.getElementById("locdate18966");
+                    elem.innerHTML = localeString;</script> gültig. Bis zum Ende der Aktion kann das Originalprodukt von <a class="vtbadlink" scroll="goScrollToForm">Cardio Balance</a> über die <a class="vtbadlink" scroll="goScrollToForm">offizielle Website</a> für jedermann mit einem Rabatt von bis zu <span class="wv_discount">-50%</span> erworben werden! Im Moment gibt es noch <font color="red"><b>43 Aktionspakete</b></font>.
+                  </span>
+                </p>
+                <br>
+                <div class="v-order-wrapper-fon-bg2">
+                  <div class="vik-winners-bl">
+                    <div class="left_block">
+                      <div class="lb_top">
+                        <div class="lbt_text_1 lt37">
+                          Versuchen Sie Ihr Glück! Klicken Sie auf die Tür! Probieren Sie Cardio Balance zu einem ermäßigten Preis!
+                        </div>
+                        <div class="lbt_text_2 lt38">
+                          <script>
+                            fdateTwoDigits(0);
+                          </script>
+                          Die Aktion beginnt
+                        </div>
+                      </div>
+                      <div class="lb_text lt39">
+                        Sie haben bereits einen Rabatt,
+                        <br>
+                        und Sie können auch einen bekommen!
+                      </div>
+                      <div class="wins">
+                        <div class="win_line">
+                          <div class="lt40">Name</div>
+                          <div class="lt41">Rabatt</div>
+                        </div>
+                        <div class="win_line wincomment">
+                          <div class="lt42">Anna C.</div>
+                          <div class="lt43">Gewann -40% Rabatt</div>
+                        </div>
+                        <div class="win_line wincomment">
+                          <div class="lt42">Sofia S.</div>
+                          <div class="lt43">Gewann -25% Rabatt</div>
+                        </div>
+                        <div class="win_line wincomment">
+                          <div class="lt42">Maximilian F.</div>
+                          <div class="lt43">Gewann -30% Rabatt</div>
+                        </div>
+                        <div class="win_line wincomment">
+                          <div class="lt42">Maria R.</div>
+                          <div class="lt43">Gewann -15% Rabatt</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <script>
+                    $(document).ready(function () {
+                      var discounts = [],
+                        curWinner;
+
+                      function randomIntFromInterval(min, max) {
+                        return Math.floor(Math.random() * (max - min + 1) + min);
+                      }
+
+                      function fnShowNextWinner(i) {
+                        var rndInt = randomIntFromInterval(7, 15);
+                        setTimeout(function () {
+                          curWinner = $('<div style="display:none;" class="win_line wincomment"><div class="lt48">' + discounts[i].name + '</script></div><div class="lt49">' + discounts[i].text + "</div></div>");
+
+                          $(".wins .wincomment").first().css("opacity", "0");
+
+                          $(".wins").append(curWinner);
+                          setTimeout(function () {
+                            curWinner.fadeIn();
+                            if (i + 1 
+
+                  <div id="roll"></div>
+                </div>
+                <span id="goToForm"></span>
+                <div id="form-block">
+                  <h3 class="door__head">
+                    Nehmen Sie an der Verlosung teil und gewinnen Sie bis zu <span class="wv_discount">-50%</span> Rabatt auf Ihren Cardio Balance-Einkauf.
+                  </h3>
+                  <div class="door__wrapper">
+                    <h2 class="door__title">
+                      RATEN SIE MAL, BEI WELCHER TÜR ES <span class="wv_discount">-50%</span> RABATT GIBT
+                    </h2>
+                    <div class="door__container">
+                      <div class="door_box">
+                        <div class="hi">
+                          <p id="door__sales2" class="door__sales"></p>
+                        </div>
+                        <div id="door__2" class="door"></div>
+                      </div>
+
+                      <div class="door_box">
+                        <div class="hi">
+                          <p id="door__sales1" class="door__sales"></p>
+                        </div>
+                        <div id="door__1" class="door"></div>
+                      </div>
+
+                      <div class="door_box">
+                        <div class="hi">
+                          <p id="door__sales3" class="door__sales"></p>
+                        </div>
+                        <div id="door__3" class="door"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="order">
+                    <div class="order_block">
+                      <div id="form" class="api-form1">
+                        <div class="form-header1">
+                          <div class="cta-form1">
+                            <div class="product-image1">
+                              <img src="img/product.png">
+                              <div class="product-banner1">
+                                <div class="product-banner-text1">
+                                  <span class="wv_new-price">49</span>
+                                  <span class="wv_currency">CHF</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-body">
+                          <div class="text">
+                            Füllen Sie das Formular aus, um Cardio Balance <span class="danger-text">mit <span class="wv_discount">-50%</span> Rabatt zu erhalten*</span>
+                          </div>
+                          <div class="deadline1">
+                            <b>
+                              <br>
+                              Alles, was Sie tun müssen, ist, Ihren Namen und Ihre Telefonnummer einzugeben. Beeilen Sie sich! Sie haben noch<br>
+                              <div class="time-remain">
+                                <div class="time-remain-items">
+                                  <span class="hour">03</span>
+                                  <span class="time-text">STUNDEN</span>
+                                </div>
+                                <div class="time-dots">:</div>
+                                <div class="time-remain-items">
+                                  <span class="minutes">45</span>
+                                  <span class="time-text">MINUTEN</span>
+                                </div>
+                                <div class="time-dots">:</div>
+                                <div class="time-remain-items">
+                                  <span class="seconds">00</span>
+                                  <span class="time-text">SEKUNDEN</span>
+                                </div>
+                              </div>
+                            </b>
+                          </div>
+
+                          <form name="form" class="orderForm landing__form wv_order-form" method="post" action="order.php">
+                            <div class="form_control_vik_group">
+                              <select class="country_select" id="id_country" name="id_country">
+                                <option value="ch">Switzerland</option>
+                              </select>
+                            </div>
+                            <div class="form_control_vik_group">
+                              <input type="text" class="form_control_vik name wv_name" required="" name="name" minlength="2" placeholder="Name">
+                            </div>
+                            <div class="form_control_vik_group">
+                              <input type="tel" class="form_control_vik phone wv_phone" required="" name="phone" placeholder="+41">
+                            </div>
+                            <input name="lang" type="hidden" class="" value="de">
+                            <input name="ym" type="hidden" class="" value="default">
+                            <input name="utm_source" type="hidden" class="">
+                            <input name="utm_medium" type="hidden" class="">
+                            <input name="utm_campaign" type="hidden" class="">
+                            <input name="utm_content" type="hidden" class="">
+                            <input name="utm_term" type="hidden" class="">
+                            <input name="referer" type="hidden" class="" value="default">
+                            <input name="guid" type="hidden" class="">
+                            <input name="first_guid" type="hidden" class="">
+                            <input name="landing_id" type="hidden" class="" value="13510">
+                            <input name="prelanding_id" type="hidden" class="">
+                            <input name="offer_id" type="hidden" class="" value="118">
+                            <input name="url" type="hidden" class="">
+                            <input name="shopwindow_id" type="hidden" class="">
+                            <input name="cookie_enabled" type="hidden" class="">
+
+                            <button class="btn1 px30 bold upp white blg shakingbutton" type="submit">BESTELLEN</button>
+                          </form>
+                          <p class="footnote1">
+                            * - bei der Bestellung einer Kur.
+                            <br>
+                            Der Schutz Ihrer Daten wird durch Verschlüsselung gewährleistet.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <br>
+                <br>
+                <div class="trust_wrap" style="margin: 30px auto">
+                  <p style="text-align: center; font-size: 30px !important; font-weight: 600; margin: 20px auto">Mit Unterstützung von</p>
+                  <div class="trust_group">
+                    <img class="logo_trust" loading="lazy" src="img/log1.svg" alt="">
+                    <img class="logo_trust" loading="lazy" src="img/log2.png" alt="">
+                    <img class="logo_trust" loading="lazy" src="img/log3.svg" alt="">
+                    <img class="logo_trust" loading="lazy" src="img/log4.jpg" alt="">
+                    <img class="logo_trust" loading="lazy" src="img/log5.svg" alt="">
+                    <img class="logo_trust" loading="lazy" src="img/log6.png" alt="">
+                    <img class="logo_trust" loading="lazy" src="img/log7.svg" alt="">
+                  </div>
+                </div>
+                <style>
+                  .logo_trust {
+                    display: block;
+                    max-width: 100px;
+                  }
+                </style>
+              </div>
+            </div>
+          </div>
+          <br><br>
+
+          <div class="comment-block">
+            <div class="article">
+              <br><br><br>
+              <h3 class="article__title">Kommentare</h3>
+              <div class="article__text">
+                <div class="comment-user">
+                  <p class="user-name">Lena P.</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Was ist das für ein Unsinn???? Warum ist in meiner Stadt nichts los? Leben hier keine Menschen?!?!?!?!?!?!?!?!?!?!?!?!?!?!??? Warum gibt es ein Programm nur für „ausgewählte“ Regionen? Und was soll der Rest von uns tun? ????
+                  </p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Clara</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Ich habe Cardio Balance bereits bestellt und seine Wirkung erlebt. Seit 7 Jahren litt ich an Bluthochdruck und wusste nicht mehr, wie es ist, sich normal zu fühlen. Auf Anraten des Arztes beschloss ich, meine Blutgefäße zu reinigen. Nach der Cardio-Balance-Kur hat sich mein Blutdruck völlig normalisiert! Seit zwei Monaten lebe ich nun ohne Bluthochdruck. Es ist ein völlig anderes Leben, ich fühle mich viel besser. Ich empfehle dieses wunderbare Mittel jedem, vor allem, solange es solche Rabatte gibt!
+                  </p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Matthias</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Unsere Kinder sind wirklich die klügsten! Gut gemacht, Junge! Und ich habe Cardio Balance-Kapseln eingenommen, und mein Bluthochdruck ist völlig verschwunden. Jetzt fühle ich mich großartig!
+                  </p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Emma V.</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Ich danke Ihnen! Ich habe auch Cardio Balance bestellt. Es ist sehr praktisch, dass die Lieferung per Post erfolgt - man kann das Produkt überall im Land bekommen.
+                  </p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Julian</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Unsere Behörden schenken den jungen und begabten Menschen kaum Beachtung! Es ist gut, dass der Erfinder seinen Weg gefunden hat. Ich habe dieses Mittel bereits bestellt und gestern erhalten. Ich werde es zusammen mit meiner Frau einnehmen, da wir beide an Bluthochdruck leiden.
+                  </p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Emma</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Ich nehme Cardio Balance seit einem Monat, und in dieser Zeit ist mein Blutdruck nur gelegentlich angestiegen. Jetzt fühle ich mich wie ein gesunder Mensch.
+                  </p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Sebastian</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Ich bin 61 Jahre alt und praktiziere die Gefäßreinigung jetzt seit etwa 5 Jahren. Sie hilft mir, stark und gesund zu bleiben. Ich habe keine Krankheiten, während viele meiner Altersgenossen leider schon verstorben sind. Und, offen gesagt, habe ich immer noch ein aktives Intimleben. Eine Gefäßreinigung ist etwas, das Sie unbedingt machen sollten!
+                  </p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Elena M.</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Bluthochdruck gehört schon lange zu meinem Leben, und mit der Zeit kamen Diabetes und Nierenprobleme hinzu. Auch mein Gedächtnis und mein Sehvermögen haben sich stark verschlechtert. Ich habe viele Methoden ausprobiert, aber nichts hat geholfen. Dann beschloss ich, Cardio Balance auszuprobieren. Ich habe das Produkt zum ersten Mal online bestellt, und die Registrierung war einfach und bequem.
+                  </p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Sofia</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Ich danke Ihnen! Ich habe kürzlich im Fernsehen eine Sendung über diesen Mann und seine Kapseln gesehen. Viele Ärzte lobten das neue Produkt.
+                  </p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Joaquín Godoy</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Tolles Mittel, stimme voll zu! Mein Blutdruck lag lange Zeit bei 140 zu 90 und ich habe mehrere Jahre damit gelebt. Nach der Cardio-Balance-Kur ist mein Blutdruck auf 125 zu 85 gesunken. Meine Gesundheit hat sich um ein Vielfaches verbessert!
+                  </p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Felix</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Ich habe gerade von diesen Kapseln erfahren. Beeindruckend!
+                  </p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Alexander</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Ich habe Cardio Balance bestellt! Ich danke Ihnen!
+                  </p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Sebastian H.</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Ich nehme Cardio Balance (mit Unterbrechungen). Mein Blutdruck hat sich fast normalisiert und ich fühle mich insgesamt spürbar besser.
+                  </p>
+                  <br>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Johanna M.</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Ich will ehrlich sein, das ist ein erstaunliches Produkt! Ich habe Cardio Balance sofort bestellt, als ich von unserem kleinen Wunder und dem Rabattprogramm hörte. Das Paket kam innerhalb von 3 Tagen an. Sobald ich es erhielt, begann ich sofort mit der Einnahme der Kapseln. Mein Blutdruck hat sich allmählich normalisiert - nicht nur „normal für einen Hypertoniker“, sondern wie bei einem gesunden Menschen. Ich bemerkte auch erstaunliche Veränderungen: Ich hatte mehr Energie, schlief besser und fühlte mich am Abend wie ein völlig gesunder Mensch. Dies ist das beste Mittel, das ich je ausprobiert habe!
+                  </p>
+                </div>
+                <br>
+              </div>
+              <br><br>
+            </div>
+          </div>
+
+          <div>
+            <div id="roll_bottom"></div>
+          </div>
+        </div>
+      
+      <strong> </strong>
+    
+    <strong>
+      <div>
+        <div class="ui segment vertical inverted" id="copyright">
+          <div class="ui container">
+            <div class="ui grid stackable computer reversed tablet reversed">
+              <div class="column twelve wide computer eleven wide tablet">
+                <div class="ui grid stackable">
+                  <div class="column twelve wide">
+                    <small>
+                      <div style="line-height: 120%">
+                        <p>
+                          Durch Anklicken des Buttons "Bestellen" erklären Sie sich mit der Bearbeitung Ihrer persönlichen Daten einverstanden.
+                        </p>
+                        <p>
+                          © <script>document.write(new Date().getFullYear());</script> Cardio Balance. Alle Rechte vorbehalten.
+                        </p>
+                      </div>
+                    </small>
+                  </div>
+                  <div class="column right aligned mobile-aligned-center four wide">
+                    <a class="vtbadlink ui button facebook circular icon" scroll="goScrollToForm" style="padding: 0; background-color: transparent; display: inline">
+                      <img src="img/facebook.svg" alt="menu" style="width: 30px; display: inline-block">
+                    </a>
+                    <a class="vtbadlink ui button twitter circular icon" scroll="goScrollToForm" style="padding: 0; background-color: transparent; display: inline">
+                      <img src="img/twitter.svg" alt="menu" style="width: 30px; display: inline-block">
+                    </a>
+                    <a class="vtbadlink ui button youtube circular icon" scroll="goScrollToForm" style="padding: 0; background-color: transparent; display: inline">
+                      <img src="img/youtube.svg" alt="menu" style="width: 30px; display: inline-block">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="column four wide computer five wide tablet no-mobile">
+                <a class="vtbadlink ui" scroll="goScrollToForm"><img class="ui image" src="img/9397bbe895.png"></a><a class="vtbadlink ui" scroll="goScrollToForm"><img class="ui image small spaced-top-half" src="img/537209b54a.png"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </strong>
+
+    <div class="spin-result-wrapper" style="display: none">
+      <div class="pop-up-window">
+        <div class="close-popup"></div>
+        <span class="pop-up-heading">Herzlichen Glückwunsch!</span>
+        <p class="ruletka-p pop-up-text">
+          Sie haben <span class="danger-text"><span class="wv_discount">-50%</span></span> Rabatt erhalten und können den Artikel <span class="danger-text">jetzt</span> kaufen!
+        </p>
+        <a class="pop-up-button">OK</a>
+      </div>
+    </div>
+
+    <script>
+      document.querySelectorAll("[scroll='goScrollToForm']").forEach((link) => {
+        link.addEventListener("click", function (e) {
+          e.preventDefault();
+          document.getElementById("goToForm").scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+          });
+        });
+      });
+    </script>
+    <script src="js/doors.js"></script>
+    <script>
+      function flytoorder() {
+        return (
+          $("html, body").animate(
+            {
+              scrollTop: $("#goToForm").offset().top + 2,
+            },
+            500
+          ),
+          !1
+        );
+      }
+      $(document).ready(function () {
+        0 == $("#btnbarscroll").length &&
+          ($("body").prepend('<div class="b-top-bar-button" id="anchor_0"><div><span id="btnbarscroll" onclick="flytoorder();" class="btn-main"><span>Startseite'),
+          $(document).scroll(function () {
+            var t = $(this).scrollTop();
+            var o = $("#roll").offset().top;
+            var rollbot = $("#roll_bottom");
+            if (rollbot.length > 0) {
+              var z = $("#roll_bottom").offset().top;
+            } else {
+              var z = o;
+            }
+            66 < t && (t < o - 100 || o + 480 < t) && (t < z - 300 || z + 480 < t) ? $(".b-top-bar-button").addClass("sticky") : $(".b-top-bar-button").removeClass("sticky");
+          }));
+      });
+    </script>
+        <noscript><img src="//webvkrd.com/pixel.php?offer_id=118&landing_id=13510&page_type=landing" alt=""></noscript>
+        <script src="js/webvork.js"></script>
+    
+  </body>
+</html>

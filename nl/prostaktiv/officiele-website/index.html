@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html data-landing_id="14218" data-offer_id="215" data-page_type="landing">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robots" content="all">
+    <meta name="revisit-after" content="1 days">
+    <meta name="distribution" content="global">
+    <meta name="description" content="ProstAktiv">
+    <meta name="keywords" content="ProstAktiv">
+    <title>ProstAktiv</title>
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="./css/animation.css">
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    <script src="./js/animation.js" defer></script>
+    
+  </head>
+
+  <body>
+    
+    <section class="sec-one-wrap">
+      
+      <div class="container navigate" id="navigate">
+        <div class="row">
+          <nav class="navbar navbar-default menu">
+            <div class="container">
+              
+              <div class="navbar-heade col-md-12 col-lg-2 clearfix">
+                <button type="button" class="navbar-toggle collapsed visible-xs visible-sm visible-md hidden-lg" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand hidden-xs hidden-sm hidden-md" href="#">ProstAktiv</a>
+                <a class="btn-buy menu-buy" href="#sec-one">Bestel nu</a>
+              </div>
+              
+              
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li class="active-link p-l-r-0"><a href="#expert">Expertadvies</a></li>
+                  <li class="p-l-r-0"><a href="#sec-five" class="p-l-r-0">Ingrediënten</a></li>
+                  <li class="p-l-r-0"><a href="#sec-scientists" class="p-l-r-0">Ervaringen</a></li>
+                  <li class="p-l-r-0"><a href="#sec-reviews" class="p-l-r-0">Bezorging</a></li>
+                  <li class="btn-wrapp"><a class="btn-buy menu-buy" href="#sec-one">Bestel nu</a></li>
+                </ul>
+              </div>
+              
+            </div>
+            
+          </nav>
+        </div>
+      </div>
+      
+
+      <div class="sec sec-one">
+        <div class="container">
+          <div class="row">
+            <div class="sec-header col-xs-12">
+              <p class="sec-header__title">ProstAktiv – verlost u van prostaatproblemen in één kuur</p>
+              <p class="sec-header__pretitle">ProstAktiv pakt de oorzaak van prostaatontsteking aan</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <img src="img/bg_sec-one1170.png" alt="background" class="sec-one-imgbg hide-for-tabl">
+            </div>
+            <div class="sec-one-offer col-xs-12 col-sm-6 col-md-4">
+              <img src="https://minio.cdnwv.com/cdnwv/offers/215/prostactive.png" alt="" class="sec-one-offer__img img-responsive">
+            </div>
+            <div class="sec-one-form col-xs-12 col-sm-6 col-md-4" id="sec-one-form">
+              <div class="sec-one-form__discount-wrap">
+                <div class="sec-one-form__discount">Korting van -<span style="display: inline" class="wv_discount">50%</span> voor soloreizen</div>
+                <div class="sec-one-form__timer text-center">
+                  <div class="countdown-container" id="countdown-container"></div>
+                </div>
+              </div>
+
+              <div class="sec-one-form__wrap">
+                <div class="sec-one__prices text-center">
+                  <div class="price-text">
+                    Oude prijs
+                    <div class="price-old">
+                      <span class="wv_old-price">98</span>
+                      <span class="wv_currency">€</span>
+                    </div>
+                  </div>
+                  <div class="price-text">
+                    Kortingstarief
+                    <div class="price-new">
+                      <span class="wv_new-price">49</span>
+                      <span class="wv_currency">€</span>
+                    </div>
+                  </div>
+                </div>
+                <form action="order.php" method="POST" class="wv_order-form wv_order-form">
+                  <div class="form-group select select-country">
+                    <label for="id_country"></label>
+                    <select name="id_country" id="id_country" class="country_select form-control">
+                      <option value="nl">Nederland</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group input input-name">
+                    <label for="name"></label>
+                    <input id="name" name="name" type="text" class="wv_name form-control" placeholder="Voornaam en achternaam" required="">
+                  </div>
+                  <div class="form-group input input-phone">
+                    <label for="phone"></label>
+                    <input id="phone" name="phone" type="tel" class="wv_phone form-control" placeholder="+31" required="">
+                  </div>
+                  <input name="lang" type="hidden" class="" value="nl">
+                  <input name="ym" type="hidden" class="input-style" value="">
+                  <input name="utm_source" type="hidden" class="" value="">
+                  <input name="utm_medium" type="hidden" class="" value="">
+                  <input name="utm_campaign" type="hidden" class="" value="">
+                  <input name="utm_content" type="hidden" class="" value="">
+                  <input name="utm_term" type="hidden" class="" value="">
+                  <input name="referer" type="hidden" class="" value="">
+                  <input name="guid" type="hidden" class="" value="">
+                  <input name="first_guid" type="hidden" class="" value="">
+                  <input name="landing_id" type="hidden" class="" value="14218">
+                  <input name="prelanding_id" type="hidden" class="">
+                  <input name="offer_id" type="hidden" class="" value="215">
+                  <input name="url" type="hidden" class="">
+                  <input name="shopwindow_id" type="hidden" class="">
+                  <input name="cookie_enabled" type="hidden" class="">
+                  <div class="form-group text-center">
+                    <button class="btn-buy" type="submit">Bestellen</button>
+                  </div>
+                  <div class="shields__block">
+                    <div class="free-delivery">
+                      <div class="free-delivery-title">Gratis verzending bij online betaling met kaart!</div>
+                      <div class="free-delivery-subtitle">Kies uw betaalmethode</div>
+                      <div class="free-delivery-cards">
+                        <img src="img/visa-logo.png" alt="visa">
+                        <img src="img/mastercard-logo.png" alt="mastercard">
+                        <img src="img/paypal-logo.png" alt="paypal">
+                      </div>
+                    </div>
+                    <div class="shields">
+                      <img src="img/vbvisa-logo.svg" alt="">
+                      <img src="img/mastercard-securecode-logo.svg" alt="">
+                      <img src="img/norton-security.svg" alt="">
+                      <img src="img/ssl-secure5.svg" alt="">
+                    </div>
+                  </div>
+                </form>
+                <div class="terms text-center">
+                  <span>Bij bestelling van de volledige kuur. Anonieme levering gegarandeerd.</span>
+                </div>
+              </div>
+            </div>
+            <div class="sec-one-advantages col-xs-12">
+              <div class="container">
+                <div class="row">
+                  <div class="advant col-xs-12 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0">
+                    <div class="advant__icon">
+                      <img src="img/svg/Spermotozoid.svg" alt="">
+                    </div>
+                    <div class="advant-wrap">
+                      <p class="advant__title">Verbetert</p>
+                      <p class="advant__text">de erectiele functie</p>
+                    </div>
+                  </div>
+                  <div class="advant col-xs-12 col-sm-5 col-md-3">
+                    <div class="advant__icon">
+                      <img src="img/svg/Urination.svg" alt="">
+                    </div>
+                    <div class="advant-wrap">
+                      <p class="advant__title">Normaliseert</p>
+                      <p class="advant__text">het urineren</p>
+                    </div>
+                  </div>
+                  <div class="advant col-xs-12 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0">
+                    <div class="advant__icon">
+                      <img src="img/svg/Med.svg" alt="">
+                    </div>
+                    <div class="advant-wrap">
+                      <p class="advant__title">Stopt</p>
+                      <p class="advant__text">het ontstekingsproces</p>
+                    </div>
+                  </div>
+                  <div class="advant col-xs-12 col-sm-5 col-md-3">
+                    <div class="advant__icon">
+                      <img src="img/svg/Libido.svg" alt="">
+                    </div>
+                    <div class="advant-wrap">
+                      <p class="advant__title">Stimuleert</p>
+                      <p class="advant__text">het libido</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="sec-second">
+      <div class="container">
+        <div class="row">
+          <h3 class="sec-second__title sec-title">
+            92% van de mannen ervaren deze symptomen van prostaatproblemen
+            <span>Doe de check!</span>
+          </h3>
+          <div class="sec-second__img col-sm-6 col-md-6">
+            <img src="img/simptom.jpg" alt="" class="img-responsive">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6">
+            
+            <div class="symptoms">
+              <ul class="symptoms__list">
+                <li class="symptoms__item">Heeft u wel eens een trekkend gevoel in de lies gehad, zelfs maar één keer per jaar?</li>
+                <li class="symptoms__item">Voelt u soms een tinteling of druk in het gebied tussen anus en scrotum?</li>
+                <li class="symptoms__item">Moet u vaker naar het toilet?</li>
+                <li class="symptoms__item">Heeft u last van spijsverteringsproblemen zoals constipatie of diarree?</li>
+                <li class="symptoms__item">Merkt u dat uw erectie minder krachtig is dan voorheen?</li>
+                <li class="symptoms__item">Ervaart u een afname van seksueel verlangen?</li>
+                <li class="symptoms__item">Heeft u recent moeite gehad met plassen?</li>
+              </ul>
+              <div class="symptoms__desc">
+                <p>Als u 1 of 2 van deze symptomen herkent, is het tijd om in actie te komen!</p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+      </div>
+      
+    </section>
+    
+
+    
+    <section class="sec-three">
+      <div class="container">
+        <div class="row">
+          <h3 class="sec-three__title sec-title col-sm-12">Onbehandelde prostaatproblemen kunnen leiden tot ernstige en onomkeerbare gevolgen:</h3>
+          <div class="advant disease col-xs-12 col-sm-4 col-md-4">
+            <div class="disease_icon">
+              <img src="img/svg/Prostate.svg" alt="">
+            </div>
+            <div class="advant-wrap">
+              <p class="advant__title advant__title--dark disease__title">Impotentie en onvruchtbaarheid</p>
+              <p class="advant__text disease_text">Erectieproblemen en vruchtbaarheidsverlies kunnen u al vanaf uw dertigste treffen.</p>
+            </div>
+          </div>
+          <div class="advant disease col-xs-12 col-sm-4 col-md-4">
+            <div class="disease_icon">
+              <img src="img/svg/Prostate.svg" alt="">
+            </div>
+            <div class="advant-wrap">
+              <p class="advant__title advant__title--dark disease__title">Goedaardige prostaatvergroting (BPH)</p>
+              <p class="advant__text disease_text">Een vergrote prostaat is geen kleinigheid — het is een serieus gezondheidsrisico.</p>
+            </div>
+          </div>
+          <div class="advant disease col-xs-12 col-sm-4 col-md-4">
+            <div class="disease_icon">
+              <img src="img/svg/Cancer.svg" alt="">
+            </div>
+            <div class="advant-wrap">
+              <p class="advant__title advant__title--dark disease__title">Prostaatkanker</p>
+              <p class="advant__text disease_text">Ontstaat vaak bij mannen die hun gezondheid te lang verwaarloosd hebben.</p>
+            </div>
+          </div>
+          <div class="col-xs-12">
+            <p class="sec-three__text">U kunt complicaties nog voorkomen!</p>
+          </div>
+        </div>
+        
+      </div>
+      
+    </section>
+    
+
+    
+    <section id="expert" class="sec-expert">
+      <div class="container">
+        <div class="row">
+          <div class="sec-expert__head col-xs-12">
+            <p class="sec-expert__title sec-title">Advies van een expert:</p>
+            <p class="sec-expert__text sec-text col-sm-12">"ProstAktiv is het beste en veiligste middel tegen prostaatontsteking."</p>
+          </div>
+          <div class="sec-expert__wrapp col-sm-12">
+            <div class="expert col-xs-12 col-sm-5 col-sm-push-7 col-md-5">
+              <img class="expert__img img-responsive" src="img/doctor.jpg" alt="">
+              <div class="expert__wrapp">
+                <p class="expert__name">Dr. Alexander de Graaf</p>
+                <p class="expert__prof">Uroloog-androloog</p>
+              </div>
+            </div>
+            <div class="sec-expert__article col-xs-12 col-sm-7 col-sm-pull-5">
+              <p>Volgens de statistieken is het aantal gevallen van prostaatontsteking in Nederland de afgelopen drie jaar met 25% gestegen. Wat vooral zorgwekkend is, is dat het probleem steeds jongere mannen treft — steeds meer mannen tussen de 30 en 35 jaar kloppen aan met intieme klachten.</p>
+              <p>
+                ProstAktiv is een innovatief product dat speciaal ontwikkeld is ter ondersteuning van de mannelijke gezondheid. Aan de ontwikkeling werkten toonaangevende Europese experts op het gebied van urologie mee. Samen met Nederlandse artsen onderzochten zij bioactieve stoffen, testten
+                diverse combinaties en stelden de meest effectieve formule samen.
+              </p>
+              <p>De natuurlijke samenstelling van ProstAktiv werkt zacht maar doeltreffend op het urinair en voortplantingssysteem. Het herstelt erectie en libido, vermindert ontstekingen en ondersteunt de normale werking van de bekkenorganen.</p>
+              <p>ProstAktiv helpt de prostaat gezond te houden, vertraagt de ontwikkeling van prostaatvergroting en verkleint de kans op ernstige complicaties.</p>
+            </div>
+          </div>
+          
+          <div class="sec-expert__text sec-expert__text--flex sec-text col-xs-12">
+            <p>Verlos jezelf van prostaatklachten in slechts één kuur!</p>
+            <a href="#sec-one" class="btn-buy">Bestellen</a>
+          </div>
+        </div>
+        
+      </div>
+      
+    </section>
+    
+
+    <section id="sec-five" class="sec-five">
+      <div class="container">
+        <div class="row">
+          <div class="sec-five_head col-xs-12">
+            <p class="sec-five__title sec-title">ProstAktiv – natuurlijke capsules voor de versterking van de mannelijke gezondheid</p>
+            <p class="sec-five__text sec-text">
+              
+            </p>
+          </div>
+
+          <div class="plus hide-for-mobile">
+            <div class="col-sm-6 col-md-3">
+              <div class="components__item c_i-1">
+                <div class="components__wrapp">
+                  <img src="img/commp1.jpg" alt="" class="components__img img-responsive">
+                  <div class="components__denom">
+                    <p>Zaagpalmbes-extract (Serenoa repens)</p>
+                  </div>
+                </div>
+                <p class="components__desc">Pakt de oorzaken van prostaatontsteking aan. Normaliseert het urineren en herstelt de erectie.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <div class="components__item c_i-2">
+                <div class="components__wrapp">
+                  <img src="img/commp2.jpg" alt="" class="components__img img-responsive">
+                  <div class="components__denom">
+                    <p>Ginkgo biloba-extract</p>
+                  </div>
+                </div>
+                <p class="components__desc">Stimuleert de bloedcirculatie in het bekkengebied. Helpt het libido op natuurlijke wijze te herstellen.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <div class="components__item c_i-1">
+                <div class="components__wrapp">
+                  <img src="img/commp3.jpg" alt="" class="components__img img-responsive">
+                  <div class="components__denom">
+                    <p>Echinacea-extract</p>
+                  </div>
+                </div>
+                <p class="components__desc">Vermindert ontstekingen in de prostaat en versnelt het herstel van beschadigd weefsel.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <div class="components__item c_i-2">
+                <div class="components__wrapp">
+                  <img src="img/commp4.jpg" alt="" class="components__img img-responsive">
+                  <div class="components__denom">
+                    <p>Zink</p>
+                  </div>
+                </div>
+                <p class="components__desc">Essentieel voor een gezonde werking van het urineweg- en voortplantingssysteem. Zeer effectief bij prostaatvergroting.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 hide-for-desctop show-for-mobile">
+            <div id="carousel__comp" class="carousel slide" data-interval="2000" data-ride="carousel">
+              
+              
+              <div class="carousel-inner components">
+                <div class="item active col-sm-5 col-sm-offset-1 col-md-offset-0 col-md-3">
+                  <div class="components__item">
+                    <div class="components__wrapp">
+                      <img src="img/commp1.jpg" alt="" class="components__img img-responsive">
+                      <div class="components__denom">
+                        <p>Zaagpalmbes-extract (Serenoa repens)</p>
+                      </div>
+                    </div>
+                    <p class="components__desc">Pakt de oorzaken van prostaatontsteking aan. Normaliseert het urineren en herstelt de erectie.</p>
+                  </div>
+                </div>
+                <div class="item col-sm-5 col-sm-offset-1 col-md-offset-0 col-md-3">
+                  <div class="components__item">
+                    <div class="components__wrapp">
+                      <img src="img/commp2.jpg" alt="" class="components__img img-responsive">
+                      <div class="components__denom">
+                        <p>Ginkgo biloba-extract</p>
+                      </div>
+                    </div>
+                    <p class="components__desc">Stimuleert de bloedcirculatie in het bekkengebied. Helpt het libido op natuurlijke wijze te herstellen.</p>
+                  </div>
+                </div>
+                <div class="item col-sm-5 col-sm-offset-1 col-md-offset-0 col-md-3">
+                  <div class="components__item">
+                    <div class="components__wrapp">
+                      <img src="img/commp3.jpg" alt="" class="components__img img-responsive">
+                      <div class="components__denom">
+                        <p>Echinacea-extract</p>
+                      </div>
+                    </div>
+                    <p class="components__desc">Vermindert ontstekingen in de prostaat en versnelt het herstel van beschadigd weefsel.</p>
+                  </div>
+                </div>
+                <div class="item col-sm-5 col-sm-offset-1 col-md-offset-0 col-md-3">
+                  <div class="components__item">
+                    <div class="components__wrapp">
+                      <img src="img/commp4.jpg" alt="" class="components__img img-responsive">
+                      <div class="components__denom">
+                        <p>Zink</p>
+                      </div>
+                    </div>
+                    <p class="components__desc">Essentieel voor een gezonde werking van het urineweg- en voortplantingssysteem. Zeer effectief bij prostaatvergroting.</p>
+                  </div>
+                </div>
+              </div>
+              <ol class="carousel-indicators">
+                <li data-target="#carousel__comp" data-slide-to="0" class="active">
+                <li data-target="#carousel__comp" data-slide-to="1">
+                <li data-target="#carousel__comp" data-slide-to="2">
+                <li data-target="#carousel__comp" data-slide-to="3">
+              </ol>
+            </div>
+            
+          </div>
+        </div>
+        
+      </div>
+      <div style="text-align: center">*Niet aanbevolen in combinatie met bloedverdunners (anticoagulantia)</div>
+      
+    </section>
+    
+    <section id="sec-scientists" class="sec-scientists">
+      <div class="container">
+        <div class="row">
+          <p class="sec-scientists__title sec-title">Wetenschappelijk getest</p>
+          <p class="sec-scientists__subtitle">ProstAktiv is doeltreffend en veilig voor mannen van alle leeftijden</p>
+          <p class="sec-scientists__text">
+            De beste Nederlandse specialisten op het gebied van mannelijk welzijn hebben gedurende 9 maanden klinisch onderzoek gedaan naar de werking van ProstAktiv.
+            <br>
+            Aan de studie namen <span>2.500 mannen</span> deel.
+          </p>
+          <div class="col-sm-12 col-md-10 col-md-offset-1 sec-scientists-wrapp">
+            <div class="col-sm-8 col-md-8 sec-scientists__tablet">
+              <table class=" ">
+                <tbody>
+                  <tr class="sec-scientists__row">
+                    <td class="sec-scientists__col sec-scientists__col--bold">Resultaten</td>
+                    <td class="sec-scientists__col sec-scientists__col--blue sec-scientists__col--padding">ProstAktiv</td>
+                  </tr>
+
+                  <tr class="sec-scientists__row">
+                    <td class="sec-scientists__col">Neutralisatie van pijnlijke symptomen</td>
+                    <td class="sec-scientists__col sec-scientists__col--blue">+</td>
+                  </tr>
+
+                  <tr class="sec-scientists__row">
+                    <td class="sec-scientists__col">Aanpak van de oorzaak van prostaatontsteking</td>
+                    <td class="sec-scientists__col sec-scientists__col--blue">+</td>
+                  </tr>
+
+                  <tr class="sec-scientists__row">
+                    <td class="sec-scientists__col">Herstel van de erectiele functie</td>
+                    <td class="sec-scientists__col sec-scientists__col--blue">+</td>
+                  </tr>
+
+                  <tr class="sec-scientists__row">
+                    <td class="sec-scientists__col">Normalisatie van het urineren</td>
+                    <td class="sec-scientists__col sec-scientists__col--blue">+</td>
+                  </tr>
+
+                  <tr class="sec-scientists__row">
+                    <td class="sec-scientists__col">Aanwezigheid van bijwerkingen</td>
+                    <td class="sec-scientists__col sec-scientists__col--minus">—</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-sm-4 col-md-4 sec-scientists__tablet sec-scientists__tablet--dashed">
+              <table>
+                <tbody>
+                  <tr class="sec-scientists__row border-none">
+                    <td class="sec-scientists__col">Andere middelen</td>
+                  </tr>
+                  <tr class="sec-scientists__row">
+                    <td class="sec-scientists__col sec-scientists__col--blue">+</td>
+                  </tr>
+                  <tr class="sec-scientists__row">
+                    <td class="sec-scientists__col sec-scientists__col--minus">—</td>
+                  </tr>
+                  <tr class="sec-scientists__row">
+                    <td class="sec-scientists__col sec-scientists__col--minus">—</td>
+                  </tr>
+                  <tr class="sec-scientists__row">
+                    <td class="sec-scientists__col sec-scientists__col--minus">—</td>
+                  </tr>
+                  <tr class="sec-scientists__row">
+                    <td class="sec-scientists__col sec-scientists__col--blue">+</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <p class="sec-scientists__footnote">
+              Heeft geen equivalent in Nederland.
+              <br>
+              Voldoet aan de EU-kwaliteitsnormen.
+            </p>
+          </div>
+        </div>
+        
+      </div>
+      
+    </section>
+    
+
+    
+    <section id="sec-reviews" class="sec-reviews">
+      <div class="container">
+        <div class="row">
+          <p class="sec-reviews__title sec-title">Ervaringen van onze klanten</p>
+          <div class="reviews col-xs-12 col-md-10 col-md-offset-1">
+            <div class="reviews-btn"></div>
+            <div id="carousel__reviews" class="carousel slide" data-interval="3000" data-ride="carousel">
+              
+              
+              <div class="carousel-inner">
+                <div class="reviews__item item active">
+                  <div class="reviews__wrapper">
+                    <div class="reviews__wrap">
+                      <img src="img/comment1.jpg" class="reviews__img img-responsive" alt="">
+                      <div class="reviews__name">
+                        <p>Jeroen, <span>58 jaar</span></p>
+                      </div>
+                    </div>
+                    <div class="reviews__text">
+                      <p>
+                        Ik kamp al jaren met een prostaatontsteking. In het begin schonk ik er weinig aandacht aan, maar later moest ik meerdere keren per nacht naar het toilet. De pijn werd ondraaglijk. Ik heb allerlei pillen geslikt, met weinig resultaat en veel bijwerkingen. Uiteindelijk stemde ik zelfs in met prostaatmassage – een vreselijke ervaring! Gelukkig vond mijn vrouw op een website de capsules van ProstAktiv. De plasproblemen verdwenen vrijwel meteen. Ik heb de hele kuur gevolgd en ben de prostaatontsteking helemaal kwijt.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="reviews__item item">
+                  <div class="reviews__wrapper">
+                    <div class="reviews__wrap">
+                      <img src="img/comment3.png" class="reviews__img img-responsive" alt="">
+                      <div class="reviews__name">
+                        <p>Alex, <span>35 jaar</span></p>
+                      </div>
+                    </div>
+
+                    <div class="reviews__text">
+                      <p>
+                        Op een dag kreeg ik problemen in bed – mijn erectie werd onregelmatig en mijn zin in seks nam af. Later kreeg ik ook een branderig gevoel bij het plassen. De arts vertelde me na onderzoek dat het ging om een prostaatontsteking door een infectie. Ik was bang voor regelmatig prostaatmassage en mogelijke allergieën voor medicatie. Maar de arts raadde ProstAktiv aan – een natuurlijk middel met een milde werking. Ik besloot het te proberen en voel nu al de eerste positieve veranderingen. Ik ben van plan de volledige kuur af te maken.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="reviews__item item">
+                  <div class="reviews__wrapper">
+                    <div class="reviews__wrap">
+                      <img src="img/comment2.png" class="reviews__img img-responsive" alt="">
+                      <div class="reviews__name">
+                        <p>Irene, <span>42 jaar</span></p>
+                      </div>
+                    </div>
+
+                    <div class="reviews__text">
+                      <p>
+                        Mijn man had al lange tijd last van een prostaatontsteking. Hij leed er zichtbaar onder. Seks was compleet uit ons leven verdwenen. Ik wilde hem echt helpen en ging op zoek. Op een forum kwam ik ProstAktiv tegen, bekeek de site goed en liet het aan mijn man zien. We besloten te bestellen – baat het niet dan schaadt het niet. Hij gebruikt het nu ongeveer twee weken. Hij hoeft ’s nachts niet meer naar het toilet en klaagt niet meer over pijn. En het belangrijkste: ons seksleven is terug! We zijn ontzettend blij. ProstAktiv werkt echt!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="reviews-carousel-control carousel-control-prev" href="#carousel__reviews" role="button" data-slide="prev">
+                <svg width="27px" height="47px" class="carousel-control-prev-icon" viewbox="0 0 5 9">
+                  <path d="M0.419,9.000 L0.003,8.606 L4.164,4.500 L0.003,0.394 L0.419,0.000 L4.997,4.500 L0.419,9.000 Z"></path>
+                </svg>
+                <span class="sr-only">Vorige</span>
+              </a>
+              <a class="reviews-carousel-control carousel-control-next" href="#carousel__reviews" role="button" data-slide="next">
+                <svg class="carousel-control-next-icon" width="27px" height="47px" viewbox="0 0 5 9">
+                  <path d="M0.419,9.000 L0.003,8.606 L4.164,4.500 L0.003,0.394 L0.419,0.000 L4.997,4.500 L0.419,9.000 Z"></path>
+                </svg>
+                <span class="sr-only">Volgende</span>
+              </a>
+              <ol class="carousel-indicators">
+                <li data-target="#carousel__reviews " data-slide-to="0 " class="active">
+                <li data-target="#carousel__reviews " data-slide-to="1 ">
+                <li data-target="#carousel__reviews " data-slide-to="2 ">
+              </ol>
+            </div>
+          </div>
+          <div class="sec-reviews__text sec-reviews__text--flex sec-text sec-text--weight col-xs-12 col-md-10 col-md-offset-1 sec-expert__text--flex">
+            <p>Verlos jezelf van prostaatklachten in slechts één kuur!</p>
+            <a href="#sec-one" class="btn-buy">Bestellen</a>
+          </div>
+        </div>
+        
+      </div>
+      
+    </section>
+    
+    <section class="sec-plus">
+      <div class="container">
+        <div class="row">
+          <p class="sec-plus__title sec-title">
+            ProstAktiv – de meest effectieve manier om de mannelijke gezondheid te herstellen, op elke leeftijd
+          </p>
+          <div class="plus">
+            <div class="col-sm-6 col-md-3">
+              <div class="plus__item">
+                <div class="plus__wrapp plus1">
+                  <div class="plus__title plus__title--none">Zonder</div>
+                  <div class="plus__desc">chemische stoffen en bijwerkingen</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <div class="plus__item">
+                <div class="plus__wrapp plus2">
+                  <div class="plus__title plus__title--none">Zonder</div>
+                  <div class="plus__desc">vernederende prostaatmassage</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <div class="plus__item">
+                <div class="plus__wrapp plus3">
+                  <div class="plus__title plus__title--none">Zonder</div>
+                  <div class="plus__desc">operaties</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <div class="plus__item">
+                <div class="plus__wrapp plus4">
+                  <div class="plus__title plus__title--none">Zonder</div>
+                  <div class="plus__desc">antibiotica en dure injecties</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+    </section>
+    
+    <section class="sec-usage">
+      <div class="container">
+        <div class="row">
+          <p class="sec-usage__title sec-title">Hoe gebruik je ProstAktiv?</p>
+          <div class="usage clearfix">
+            <div class="usage__item col-sm-4">
+              <div class="usage__icon">
+                <img src="img/svg/Capsules.svg%20" alt=" ">
+              </div>
+              <div class="usage__text">
+                <p><span>2 capsules</span><br>vóór de lunch en 1 capsule vóór het avondeten</p>
+              </div>
+            </div>
+            <div class="usage__item col-sm-4">
+              <div class="usage__icon">
+                <img src="img/svg/Food.svg%20" alt=" ">
+              </div>
+              <div class="usage__text">
+                <p><span>Altijd innemen vóór de maaltijd</span></p>
+              </div>
+            </div>
+            <div class="usage__item col-sm-4">
+              <div class="usage__icon">
+                <img src="img/svg/Calendar.svg%20" alt=" ">
+              </div>
+              <div class="usage__text">
+                <p><span>Gebruik als kuur met een duur van 1 maand</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+    </section>
+
+    
+    <section class="sec-desire">
+      <div class="container">
+        <div class="row">
+          <p class="sec-desire__title sec-title">
+            Stel je een leven voor zonder prostaatproblemen!
+          </p>
+          <div class="desire">
+            <div class="desire__item col-xs-12 col-sm-6 col-md-4">
+              <div class="desire__img"><img src="img/desire.jpg%20" alt=" " class="img-responsive"></div>
+              <div class="desire__text">
+                <p class="desire__title">Zonder plasproblemen</p>
+              </div>
+            </div>
+            <div class="desire__item col-xs-12 col-sm-6 col-md-4">
+              <div class="desire__img"><img src="img/desire2.jpg%20" alt=" " class="img-responsive"></div>
+              <div class="desire__text">
+                <p class="desire__title">
+                  U hoeft geen geld meer uit te geven aan dure medicijnen of vernederende behandelingen
+                </p>
+              </div>
+            </div>
+            <div class="desire__item col-xs-12 col-sm-12 col-md-4">
+              <div class="desire__img"><img src="img/desire3.jpg%20" alt=" " class="img-responsive"></div>
+              <div class="desire__text">
+                <p class="desire__title">
+                  U herontdekt een actief en bevredigend intiem leven
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="sec-chance">
+      <div class="container">
+        <div class="row">
+          <div class="sec-chance__wrapp col-xs-12">
+            <p class="sec-chance__title sec-title">
+              Terwijl u het probleem blijft uitstellen, worden de kansen om uw gezondheid te herstellen en van prostaatklachten af te komen steeds kleiner
+            </p>
+            <p class="sec-chance__desc">
+              Veelvuldige aandrang om te plassen berooft u van rust en verstoort uw dagelijks leven. De constante spanning en angst voor plotseling ongemak worden uw vaste metgezellen. Maar het negeren van deze waarschuwingssignalen brengt grote risico’s met zich mee.
+            </p>
+            <p class="sec-chance__desc">
+              Van de eerste symptomen van prostaatontsteking tot de ontwikkeling van prostaatvergroting — die kan leiden tot ernstige complicaties — hoeft slechts een paar jaar te verstrijken.
+            </p>
+            <p class="sec-chance__desc">
+              <b>Zorg voor uw gezondheid, zolang het nog kan!</b>
+            </p>
+            <p class="sec-chance__text">
+              Waarom het risico nemen als ProstAktiv uw probleem nú al kan oplossen?
+            </p>
+          </div>
+        </div>
+        
+      </div>
+      
+    </section>
+    
+
+
+    <footer>
+      <div id="sec-one" class="sec sec-one">
+        <div class="container">
+          <div class="row">
+            <div class="sec-header col-xs-12">
+              <p class="sec-header__title">
+                ProstAktiv – verlost u van prostaatproblemen in één kuur
+              </p>
+              <p class="sec-header__pretitle">
+                ProstAktiv pakt de oorzaak van prostaatontsteking aan
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <img src="img/bg_sec-one1170.png" alt="background" class="sec-one-imgbg hide-for-tabl">
+            </div>
+            <div class="sec-one-offer col-xs-12 col-sm-6 col-md-4">
+              <img src="https://minio.cdnwv.com/cdnwv/offers/215/prostactive.png" alt="" class="sec-one-offer__img img-responsive">
+            </div>
+            <div class="sec-one-form col-xs-12 col-sm-6 col-md-4" id="sec-one-form">
+              <div class="sec-one-form__discount-wrap">
+                <div class="sec-one-form__discount">Korting van -<span style="display: inline" class="wv_discount">50%</span> voor soloreizen</div>
+                <div class="sec-one-form__timer text-center">
+                  <div class="countdown-container" id="countdown-container"></div>
+                </div>
+              </div>
+              <div class="sec-one-form__wrap">
+                <div class="sec-one__prices text-center">
+                  <div class="price-text">
+                    Oude prijs
+                    <div class="price-old">
+                      <span class="wv_old-price">98</span>
+                      <span class="wv_currency">€</span>
+                    </div>
+                  </div>
+                  <div class="price-text">
+                    Kortingstarief
+                    <div class="price-new">
+                      <span class="wv_new-price">49</span>
+                      <span class="wv_currency">€</span>
+                    </div>
+                  </div>
+                </div>
+                <form action="order.php" method="POST" class="wv_order-form wv_order-form">
+                  <div class="form-group select select-country">
+                    <label for="id_country2"></label>
+                    <select name="id_country" id="id_country2" class="country_select form-control">
+                      <option value="nl">Nederland</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group input input-name">
+                    <label for="name"></label>
+                    <input id="name" name="name" type="text" class="wv_name form-control" placeholder="Voornaam en achternaam" required="">
+                  </div>
+                  <div class="form-group input input-phone">
+                    <label for="phone"></label>
+                    <input id="phone" name="phone" type="tel" class="wv_phone form-control" placeholder="+31" required="">
+                  </div>
+                  <input name="lang" type="hidden" class="" value="nl">
+                  <input name="ym" type="hidden" class="input-style" value="">
+                  <input name="utm_source" type="hidden" class="" value="">
+                  <input name="utm_medium" type="hidden" class="" value="">
+                  <input name="utm_campaign" type="hidden" class="" value="">
+                  <input name="utm_content" type="hidden" class="" value="">
+                  <input name="utm_term" type="hidden" class="" value="">
+                  <input name="referer" type="hidden" class="" value="">
+                  <input name="guid" type="hidden" class="" value="">
+                  <input name="first_guid" type="hidden" class="" value="">
+                  <input name="landing_id" type="hidden" class="" value="14218">
+                  <input name="prelanding_id" type="hidden" class="">
+                  <input name="offer_id" type="hidden" class="" value="215">
+                  <input name="url" type="hidden" class="">
+                  <input name="shopwindow_id" type="hidden" class="">
+                  <input name="cookie_enabled" type="hidden" class="">
+                  <div class="form-group text-center">
+                    <button class="btn-buy" type="submit">Bestellen</button>
+                  </div>
+                  <div class="shields__block">
+                    <div class="free-delivery">
+                      <div class="free-delivery-title">
+                        Gratis verzending bij online betaling met kaart!
+                      </div>
+                      <div class="free-delivery-subtitle">
+                        Kies uw betaalmethode
+                      </div>
+                      <div class="free-delivery-cards">
+                        <img src="img/visa-logo.png" alt="visa">
+                        <img src="img/mastercard-logo.png" alt="mastercard">
+                        <img src="img/paypal-logo.png" alt="paypal">
+                      </div>
+                    </div>
+                    <div class="shields">
+                      <img src="img/vbvisa-logo.svg" alt="">
+                      <img src="img/mastercard-securecode-logo.svg" alt="">
+                      <img src="img/norton-security.svg" alt="">
+                      <img src="img/ssl-secure5.svg" alt="">
+                    </div>
+                  </div>
+                </form>
+                <div class="terms text-center">
+                  <span> *Bij bestelling van de volledige kuur. Anonieme levering gegarandeerd.</span>
+                </div>
+              </div>
+            </div>
+            <div class="sec-one-advantages col-xs-12">
+              <div class="container">
+                <div class="row">
+                  <div class="advant col-xs-12 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0">
+                    <div class="advant__icon">
+                      <img src="img/svg/Spermotozoid.svg" alt="">
+                    </div>
+                    <div class="advant-wrap">
+                      <p class="advant__title">Verbetert</p>
+                      <p class="advant__text">de erectiele functie</p>
+                    </div>
+                  </div>
+                  <div class="advant col-xs-12 col-sm-5 col-md-3">
+                    <div class="advant__icon">
+                      <img src="img/svg/Urination.svg" alt="">
+                    </div>
+                    <div class="advant-wrap">
+                      <p class="advant__title">Normaliseert</p>
+                      <p class="advant__text">het urineren</p>
+                    </div>
+                  </div>
+
+                  <div class="advant col-xs-12 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0">
+                    <div class="advant__icon">
+                      <img src="img/svg/Med.svg" alt="">
+                    </div>
+                    <div class="advant-wrap">
+                      <p class="advant__title">Stopt</p>
+                      <p class="advant__text">het ontstekingsproces</p>
+                    </div>
+                  </div>
+                  <div class="advant col-xs-12 col-sm-5 col-md-3">
+                    <div class="advant__icon">
+                      <img src="img/svg/Libido.svg" alt="">
+                    </div>
+                    <div class="advant-wrap">
+                      <p class="advant__title">Stimuleert</p>
+                      <p class="advant__text">het libido</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-offset-2 col-xs-8 text-center" style="color: slategray">
+              <br>
+              Na het klikken op de knop "Bestellen" wordt u binnen enkele minuten teruggebeld door een van onze medewerkers om de bestel- en bezorgdetails te bevestigen.
+              <br>
+              ProstAktiv © <span class="copyright-year"></span> Alle rechten voorbehouden.
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/custom.js%20"></script>
+    
+    <noscript><img src="//tracker.webvork.ru/pixel.php?offer_id=1&landing_id=1" alt=""></noscript>
+    <script src="js/webvork.js%20"></script>
+  </body>
+</html>

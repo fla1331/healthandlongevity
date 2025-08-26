@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html data-landing_id="9412" data-offer_id="215" data-page_type="landing">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="shortcut icon" type="image/png" href="img/prostatricum-favicon.png" sizes="16x16">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>ProstAktiv - ¡deshazte de la prostatitis en 1 tratamiento! </title>
+
+    
+    <link rel="stylesheet" href="./css/animation.css">
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    <script src="./js/animation.js" defer></script>
+    
+</head>
+
+<body>
+    
+    <section class="sec-one-wrap">
+        
+        <div class="container" id="navigate">
+            <div class="row">
+                <nav class="navbar navbar-default menu">
+                    <div class="container">
+                        
+                        <div class="navbar-heade col-md-12  col-lg-2 clearfix ">
+                            <button type="button" class=" navbar-toggle collapsed  visible-xs visible-sm visible-md hidden-lg " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand hidden-xs hidden-sm hidden-md" href="#">ProstAktiv</a>
+                            <a class="btn-buy menu-buy" href="#sec-one">Pedir</a>
+                        </div>
+                        
+                        
+                        <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="active-link p-l-r-0"><a href="#expert">Opinión del experto</a></li>
+                                <li class="p-l-r-0"><a href="#sec-five" class="p-l-r-0">Composición</a></li>
+                                <li class="p-l-r-0"><a href="#sec-scientists" class="p-l-r-0">Resultados de
+                                        investigación</a></li>
+                                <li class="p-l-r-0"><a href="#sec-reviews" class="p-l-r-0">Comentarios</a></li>
+                                <li class="btn-wrapp"> <a class="btn-buy menu-buy" href="#sec-one">Pedir</a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    
+                </nav>
+            </div>
+        </div>
+        
+
+        <div class="sec sec-one">
+            <div class="container">
+                <div class="row">
+                    <div class="sec-header col-xs-12">
+                        <p class="sec-header__title">ProstAktiv — ¡deshazte de la prostatitis en 1 tratamiento!</p>
+                        <p class="sec-header__pretitle">ProstAktiv elimina la causa de la prostatitis</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="img/bg_sec-one1170.png" alt="background" class="sec-one-imgbg hide-for-tabl">
+                    </div>
+                    <div class="sec-one-offer col-xs-12 col-sm-6 col-md-4 ">
+                        <img src="img/prostaktiv.png" alt="" class="sec-one-offer__img img-responsive">
+                    </div>
+                    <div class="sec-one-form col-xs-12 col-sm-6 col-md-4" id="sec-one-form">
+                        <div class="sec-one-form__discount-wrap">
+                            <div class="sec-one-form__discount">El <p style="display:inline" class="wv_discount">-50%
+                                </p> de descuento sólo <span class="time-today"></span></div>
+                            <div class="sec-one-form__timer text-center">
+                                <div class="countdown-container" id="countdown-container"></div>
+                                <div class="timer_name">
+                                    <span>horas</span>
+                                    <span>minutos</span>
+                                    <span>segundos</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sec-one-form__wrap">
+                            <div class="refund-top">
+                                <img src="img/refund-icon.svg" alt="Refund icon" class="refund-icon">
+                                <div class="refund-top-text">
+                                    Le garantizamos un reembolso del 100% al pagar con la tarjeta *
+                                </div>
+                            </div>
+                            <div class="sec-one__prices text-center">
+                                <div class="price-text">
+                                    <span class="text">Precio anterior</span>
+                                    <span class="price-old wv_old-price">78</span>
+                                    <span class="wv_currency">€</span>
+                                </div>
+                                <div class="price-text price-new">
+                                    <span class="text">Precio de descuento</span>
+                                    <span class="wv_new-price">39</span>
+                                    <span class="wv_currency">€</span>
+                                </div>
+                            </div>
+                            <form action="order.php" method="POST" class="wv_order-form wv_order-form">
+                                <div class="form-group select select-country"><label for="id_country"></label>
+                                    <select name="id_country" id="id_country" class="country_select form-control">
+                                        <option value="es">España</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group input input-name">
+                                    <label for="name"></label>
+                                    <input id="name" name="name" type="text" class="wv_name form-control" placeholder="Tu nombre" required="">
+                                </div>
+                                <div class="form-group input input-phone">
+                                    <label for="phone"></label>
+                                    <input id="phone" name="phone" type="tel" class="wv_phone form-control" placeholder="Su número de teléfono" required="">
+                                </div>
+                                <input name="lang" type="hidden" class="" value="es">
+                                <input name="ym" type="hidden" class="input-style" value="">
+                                <input name="utm_source" type="hidden" class="" value="">
+                                <input name="utm_medium" type="hidden" class="" value="">
+                                <input name="utm_campaign" type="hidden" class="" value="">
+                                <input name="utm_content" type="hidden" class="" value="">
+                                <input name="utm_term" type="hidden" class="" value="">
+                                <input name="referer" type="hidden" class="" value="">
+                                <input name="guid" type="hidden" class="" value="">
+                                <input name="first_guid" type="hidden" class="" value="">
+                                <input name="landing_id" type="hidden" class="" value="9412">
+                                <input name="prelanding_id" type="hidden" class="">
+                                <input name="offer_id" type="hidden" class="" value="215">
+                                <input name="url" type="hidden" class="">
+                                <input name="shopwindow_id" type="hidden" class="">
+                                <input name="cookie_enabled" type="hidden" class="">
+                                <div class="form-group text-center">
+                                    <button class="btn-buy">Ordenar</button>
+                                </div>
+                            </form>
+                            <div class="terms text-center">
+                                <span class="">Garantía de anonimato el 100% </span> <br>
+                                <span> *Si no está satisfecho con el resultado </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sec-one-advantages col-xs-12">
+                        <div class="container">
+                            <div class="row">
+                                <div class="advant col-xs-12 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0 ">
+                                    <div class="advant__icon ">
+
+                                        <img src="img/svg/Spermotozoid.svg" alt="">
+                                    </div>
+                                    <div class="advant-wrap">
+
+                                        <p class="advant__title">Mejora</p>
+                                        <p class="advant__text">la función eréctil</p>
+                                    </div>
+                                </div>
+                                <div class="advant col-xs-12 col-sm-5 col-md-3">
+                                    <div class="advant__icon">
+
+                                        <img src="img/svg/Urination.svg" alt="">
+                                    </div>
+                                    <div class="advant-wrap">
+                                        <p class="advant__title">Normaliza</p>
+                                        <p class="advant__text">la micción</p>
+                                    </div>
+                                </div>
+
+                                <div class="advant col-xs-12 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0">
+                                    <div class="advant__icon">
+                                        <img src="img/svg/Med.svg" alt="">
+                                    </div>
+                                    <div class="advant-wrap">
+                                        <p class="advant__title">Para</p>
+                                        <p class="advant__text">la inflamación</p>
+                                    </div>
+                                </div>
+                                <div class="advant col-xs-12 col-sm-5 col-md-3">
+                                    <div class="advant__icon">
+                                        <img src="img/svg/Libido.svg" alt="">
+                                    </div>
+                                    <div class="advant-wrap">
+                                        <p class="advant__title">Recupera</p>
+                                        <p class="advant__text">la libido</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <section class="sec-second">
+        <div class="container">
+            <div class="row">
+                <h3 class="sec-second__title sec-title">
+                    El 92% de los hombres sufren de estos problemas de la prostatitis
+                    <span>Revísate: </span>
+                </h3>
+                <div class="sec-second__img col-sm-6 col-md-6">
+                    <img src="img/simptom.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 ">
+                    
+                    <div class="symptoms">
+                        <ul class="symptoms__list">
+                            <li class="symptoms__item">Una vez al año has sentido la tirantez en el área de la ingle
+                            </li>
+                            <li class="symptoms__item">A veces sientes hormigueo, presión en el perineo</li>
+                            <li class="symptoms__item">Te has fijado que vas al baño con más frecuencia</li>
+                            <li class="symptoms__item">Periódicamente sufres de estreñimiento o diarrea</li>
+                            <li class="symptoms__item">Ves que la erección es más débil</li>
+                            <li class="symptoms__item">Disminución del deseo sexual</li>
+                            <li class="symptoms__item">Por lo menos una vez te has fijado en tener la dificultad para
+                                orinar</li>
+
+                        </ul>
+                        <div class="symptoms__desc">
+                            <p>Si has detectado al menos 1-2 síntomas, ¡es hora de actuar!</p>
+                        </div>
+
+
+                    </div>
+                    
+
+                </div>
+
+
+            </div>
+
+            
+        </div>
+        
+
+
+
+
+    </section>
+    
+
+    
+    <section class="sec-three">
+        <div class="container">
+            <div class="row">
+                <h3 class=" sec-three__title sec-title col-sm-12">La prostatitis avanzada puede<br>llevar a efectos
+                    irreversibles</h3>
+                <div class="advant disease col-xs-12 col-sm-4 col-md-4">
+
+
+                    <div class="disease_icon">
+                        <img src="img/svg/Infertility.svg" alt="">
+                    </div>
+
+                    <div class="advant-wrap">
+
+                        <p class="advant__title advant__title--dark disease__title">Impotencia <br>e infertilidad</p>
+                        <p class="advant__text disease_text">La impotencia masculina y la incapacidad de tener hijos
+                            pueden afectarte una vez cumplas 30 años</p>
+                    </div>
+                </div>
+
+
+
+                <div class="advant disease col-xs-12 col-sm-4 col-md-4 ">
+                    <div class="disease_icon">
+                        <img src="img/svg/Prostate.svg" alt="">
+                    </div>
+                    <div class="advant-wrap">
+
+                        <p class="advant__title advant__title--dark disease__title">Adenoma<br> de la próstata
+                        </p>
+                        <p class="advant__text disease_text">Tumor benigno en la glándula prostática es <b>una causa
+                                seria de preocupación</b></p>
+                    </div>
+                </div>
+
+
+
+
+                <div class="advant disease col-xs-12  col-sm-4 col-md-4">
+                    <div class="disease_icon">
+                        <img src="img/svg/Cancer.svg" alt="">
+                    </div>
+                    <div class="advant-wrap">
+
+                        <p class="advant__title advant__title--dark  disease__title">Cáncer <span>de próstata</span>
+                        </p>
+                        <p class="advant__text disease_text"><span>El destino</span> de los hombres que <span>no se
+                                cuidaron a tiempo</span></p>
+                    </div>
+                </div>
+
+                <div class="col-xs-12">
+
+                    <p class="sec-three__text">¡TIENES OPORTUNIDAD DE EVITAR ESTAS CONSECUENCIAS!</p>
+                </div>
+
+            </div>
+            
+        </div>
+        
+    </section>
+    
+
+
+
+    
+    <section id="expert" class="sec-expert">
+        <div class="container">
+            <div class="row">
+                <div class="sec-expert__head col-xs-12 ">
+                    <p class="sec-expert__title sec-title">Opinión del experto:</p>
+                    <p class="sec-expert__text sec-text col-sm-12">"ProstAktiv es el primer producto seguro contra la
+                        prostatitis"</p>
+
+                </div>
+
+
+
+                <div class="sec-expert__wrapp col-sm-12">
+                    <div class="expert col-xs-12 col-sm-5  col-sm-push-7 col-md-5">
+
+
+
+
+                        <img class="expert__img img-responsive" src="img/doctor.jpg" alt="">
+
+                        <div class="expert__wrapp">
+                            <p class="expert__name">Gustavo Pérez</p>
+                            <p class="expert__prof">experto en el campo de la salud masculina</p>
+                        </div>
+
+
+                    </div>
+                    <div class="sec-expert__article col-xs-12 col-sm-7 col-sm-pull-5">
+                        <p>“Según los resultados de la conferencia científica sobre la salud de los hombres, se ha
+                            aclarado que en el transcurso de los últimos 3 años la incidencia de prostatitis entre la
+                            población de Europa se ha aumentado un 25%. Y la enfermedad se está volviendo cada vez más
+                            joven. Cada vez me visitan más los hombres entre 30-35 años quejándose de los problemas de
+                            la salud masculina. </p>
+                        <p> ProstAktiv — es un producto innovador para deshacerse de la prostatitis. Los mejores
+                            expertos europeos en el campo de la salud masculina participaron en su desarrollo.
+                            Investigamos los componentes bioactivos en forma nativa, combinamos y probamos sus efectos
+                            en varias combinaciones. Al final, pudimos determinar una combinación de componentes que
+                            actúan sinérgicamente en el sistema genitourinario, complementando y fortaleciendo la acción
+                            de cada uno.
+
+                        </p>
+                        <p>
+                            Debido al efecto integral de ingredientes naturales, <span>ProstAktiv recupera la erección y
+                                libido</span>, alivia la inflamación en los órganos pélvicos, normaliza el
+                            funcionamiento del sistema genitourinario, ayuda a inhibir el crecimiento del adenoma de la
+                            próstata, lo que reduce el riesgo oncológico ".
+
+
+
+                        </p>
+                    </div>
+
+
+                </div>
+
+                
+
+                <div class="sec-expert__text sec-expert__text--flex sec-text col-xs-12">
+                    <p>¡Deshazte de la prostatitis en 1 curso!</p>
+                    <a href="#sec-one" class="btn-buy">Pedir*</a>
+                </div>
+
+            </div>
+            
+        </div>
+        
+
+    </section>
+    
+
+    <section id="sec-five" class="sec-five">
+        <div class="container">
+            <div class="row">
+                <div class="sec-five_head col-xs-12">
+                    <p class="sec-five__title sec-title">ProstAktiv es una combinación de componentes naturales</p>
+                    <p class="sec-five__text sec-text">
+                        y los últimos avances científicos
+                    </p>
+                </div>
+
+                <div class="plus hide-for-mobile">
+                    <div class=" col-sm-6 col-md-3">
+                        <div class="components__item  c_i-1">
+                            <div class="components__wrapp">
+                                <img src="img/commp1.jpg" alt="" class="components__img img-responsive">
+                                <div class="components__denom">
+                                    <p> EXTRACTO DE PALMA DE SIERRA </p>
+                                </div>
+                            </div>
+                            <p class="components__desc">
+                                Elimina la causa de la prostatitis. Normaliza la micción, recupera la erección
+                            </p>
+                        </div>
+                    </div>
+                    <div class=" col-sm-6 col-md-3">
+                        <div class="components__item c_i-2">
+                            <div class="components__wrapp">
+                                <img src="img/commp2.jpg" alt="" class="components__img img-responsive">
+                                <div class="components__denom">
+                                    <p> EXTRACTO DE GINKGO BILOBA </p>
+                                </div>
+                            </div>
+                            <p class="components__desc">
+                                Activa la circulación de sangre en los órganos pélvicos, recupera la libido de manera
+                                eficaz
+                            </p>
+                        </div>
+                    </div>
+                    <div class=" col-sm-6 col-md-3">
+                        <div class="components__item c_i-1">
+                            <div class="components__wrapp">
+                                <img src="img/commp3.jpg" alt="" class="components__img img-responsive">
+                                <div class="components__denom">
+                                    <p>EXTRACTO DE EQUINÁCEA</p>
+                                </div>
+                            </div>
+                            <p class="components__desc">
+                                Tiene efecto antiinflamatorio, acelera la regeneración de los tejidos dañados
+                            </p>
+                        </div>
+                    </div>
+                    <div class=" col-sm-6  col-md-3">
+                        <div class="components__item   c_i-2">
+                            <div class="components__wrapp">
+                                <img src="img/commp4.jpg" alt="" class="components__img img-responsive">
+                                <div class="components__denom">
+                                    <p>ZINC</p>
+                                </div>
+                            </div>
+                            <p class="components__desc">
+                                Resulta necesario para el funcionamiento normal del sistema genitourinario, eficiente en
+                                el adenoma de próstata
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 hide-for-desctop show-for-mobile">
+                    <div id="carousel__comp" class="carousel slide" data-interval="2000" data-ride="carousel">
+                        
+                        
+                        <div class="carousel-inner components">
+                            <div class="item active col-sm-5 col-sm-offset-1 col-md-offset-0 col-md-3">
+                                <div class="components__item  ">
+                                    <div class="components__wrapp">
+                                        <img src="img/commp1.jpg" alt="" class="components__img img-responsive">
+                                        <div class="components__denom">
+                                            <p> EXTRACTO DE PALMA DE SIERRA
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+                                    <p class="components__desc">Elimina la causa de la prostatitis. Normaliza la
+                                        micción, recupera la erección</p>
+                                </div>
+
+
+                            </div>
+
+
+                            <div class=" item col-sm-5 col-sm-offset-1 col-md-offset-0 col-md-3">
+                                <div class="components__item ">
+                                    <div class="components__wrapp">
+                                        <img src="img/commp2.jpg" alt="" class="components__img img-responsive">
+                                        <div class="components__denom">
+                                            <p> EXTRACTO DE GINKGO BILOBA
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <p class="components__desc">Activa la circulación de sangre en los órganos pélvicos,
+                                        recupera la libido de manera eficaz</p>
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class=" item  col-sm-5 col-sm-offset-1 col-md-offset-0 col-md-3">
+
+                                <div class="components__item">
+                                    <div class="components__wrapp">
+                                        <img src="img/commp3.jpg" alt="" class="components__img img-responsive">
+                                        <div class="components__denom">
+                                            <p>EXTRACTO DE EQUINÁCEA
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                    <p class="components__desc">Tiene efecto antiinflamatorio, acelera la regeneración
+                                        de los tejidos dañados</p>
+                                </div>
+
+
+
+                            </div>
+                            <div class="item col-sm-5 col-sm-offset-1 col-md-offset-0 col-md-3">
+                                <div class="components__item   ">
+                                    <div class="components__wrapp">
+                                        <img src="img/commp4.jpg" alt="" class="components__img img-responsive">
+                                        <div class="components__denom">
+                                            <p>ZINC</p>
+                                        </div>
+                                    </div>
+
+                                    <p class="components__desc">Resulta necesario para el funcionamiento normal del
+                                        sistema genitourinario, eficiente en el adenoma de próstata</p>
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+                        <ol class="carousel-indicators ">
+                            <li data-target="#carousel__comp" data-slide-to="0" class=" active ">
+                            <li data-target="#carousel__comp" data-slide-to="1">
+                            <li data-target="#carousel__comp" data-slide-to="2">
+                            <li data-target="#carousel__comp" data-slide-to="3">
+                        </ol>
+                    </div>
+                    
+                </div>
+
+
+                <div style="text-align: center">*Contraindicado con el uso de los anticoagulantes</div>
+            </div>
+            
+        </div>
+        
+    </section>
+    
+    <section id="sec-scientists" class="sec-scientists">
+        <div class="container">
+            <div class="row">
+                <p class="sec-scientists__title sec-title">
+                    Los científicos han demostrado que
+                </p>
+                <p class="sec-scientists__subtitle">
+                    ProstAktiv es eficaz y seguro para los hombres de cualquier edad
+                </p>
+
+                <p class="sec-scientists__text">
+                    Durante 9 meses los mejores <span>expertos</span> europeos en el campo de la salud masculina
+                    <span>realizaban los ensayos clínicos</span> de ProstAktiv. En la investigación participaron 2.500
+                    personas.
+                </p>
+
+                <div class=" col-sm-12 col-md-10 col-md-offset-1  sec-scientists-wrapp ">
+                    <div class=" col-sm-8 col-md-8 sec-scientists__tablet ">
+                        <table class=" ">
+                            <tbody>
+
+                                <tr class="sec-scientists__row">
+                                    <td class="sec-scientists__col sec-scientists__col--bold">Resultados de
+                                        investigación</td>
+                                    <td class="sec-scientists__col sec-scientists__col--blue   sec-scientists__col--padding">
+                                        ProstAktiv</td>
+                                </tr>
+
+                                <tr class="sec-scientists__row">
+                                    <td class="sec-scientists__col">Neutralización de los<br> síntomas dolorosos</td>
+                                    <td class="sec-scientists__col sec-scientists__col--blue">+</td>
+
+                                </tr>
+
+                                <tr class="sec-scientists__row">
+                                    <td class="sec-scientists__col">Eliminación de la causa<br> de la prostatitis</td>
+                                    <td class="sec-scientists__col sec-scientists__col--blue">+</td>
+                                </tr>
+
+                                <tr class="sec-scientists__row">
+                                    <td class="sec-scientists__col">Recuperación<br> de la función eréctil</td>
+                                    <td class="sec-scientists__col sec-scientists__col--blue ">+</td>
+                                </tr>
+
+                                <tr class="sec-scientists__row">
+                                    <td class="sec-scientists__col">Normalización<br> del sistema genitourinario</td>
+                                    <td class="sec-scientists__col sec-scientists__col--blue">+</td>
+                                </tr>
+
+                                <tr class="sec-scientists__row">
+                                    <td class="sec-scientists__col">Presencia<br> de efectos secundarios</td>
+                                    <td class="sec-scientists__col sec-scientists__col--minus ">—</td>
+                                </tr>
+
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class=" col-sm-4 col-md-4 sec-scientists__tablet sec-scientists__tablet--dashed ">
+
+
+                        <table>
+                            <tbody>
+                                <tr class="sec-scientists__row border-none">
+
+                                    <td class="sec-scientists__col ">Otros productos</td>
+
+                                </tr>
+                                <tr class="sec-scientists__row">
+
+                                    <td class="sec-scientists__col sec-scientists__col--blue">+</td>
+
+                                </tr>
+                                <tr class="sec-scientists__row">
+
+                                    <td class="sec-scientists__col sec-scientists__col--minus  ">—</td>
+
+                                </tr>
+                                <tr class="sec-scientists__row">
+
+                                    <td class="sec-scientists__col sec-scientists__col--minus">—</td>
+
+                                </tr>
+                                <tr class="sec-scientists__row">
+
+
+                                    <td class="sec-scientists__col sec-scientists__col--minus">—</td>
+                                </tr>
+                                <tr class="sec-scientists__row">
+
+
+                                    <td class="sec-scientists__col sec-scientists__col--blue">+</td>
+                                </tr>
+
+
+
+                            </tbody>
+                        </table>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
+                <div class="col-sm-12">
+                    <p class="sec-scientists__footnote">
+                        No tiene análogos en Europa<br> Cumple con las normas de calidad de la UE
+                    </p>
+                </div>
+
+
+
+            </div>
+            
+        </div>
+        
+    </section>
+    
+
+
+    
+    <section id="sec-reviews" class="sec-reviews">
+        <div class="container">
+            <div class="row">
+                <p class="sec-reviews__title sec-title">Comentarios</p>
+                <p class="sec-reviews__text sec-reviews__text--dark sec-text">de nuestros clientes </p>
+                <p> </p>
+                <div class="reviews col-xs-12 col-md-10 col-md-offset-1">
+                    <div class="reviews-btn">
+
+                    </div>
+                    <div id="carousel__reviews" class="carousel slide" data-interval="3000" data-ride="carousel">
+                        
+                        
+                        <div class="carousel-inner">
+                            <div class="reviews__item  item active">
+                                <div class="reviews__wrapper">
+                                    <div class="reviews__wrap">
+                                        <img src="img/comment1.jpg" class=" reviews__img img-responsive" alt="">
+                                        <div class="reviews__name">
+                                            <p>Pablo, <span>58 años</span></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="reviews__text">
+                                        <p>Estoy sufriendo de prostatitis a lo lardo de muchos años. Al principio no le
+                                            daba mucha importancia, pero luego comencé a ir al baño cada dos por tres
+                                            por la noche. Comencé a sufrir dolores. Tomaba diferentes pastillas. Poca
+                                            eficacia y un montón de efectos secundarios. Me dolía tanto que incluso dije
+                                            que sí al masaje de próstata. Era un infierno. Menos mal que mi mujer ha
+                                            encontrado ProstAktiv en una web. Casi de inmediato se cesaron problemas de
+                                            orinar. Hice un tratamiento completo y olvidé de prostatitis.</p>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                            <div class="reviews__item  item ">
+                                <div class="reviews__wrapper">
+                                    <div class="reviews__wrap">
+                                        <img src="img/comment3.png" class=" reviews__img img-responsive" alt="">
+                                        <div class="reviews__name">
+                                            <p>Nicholas, <span>35 años</span></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="reviews__text">
+                                        <p>Primero empecé a tener problemas con el sexo. La erección comenzó a bajar, y
+                                            luego el deseo también se disminuyó. Luego se añadieron los problemas con la
+                                            micción. Fui al doctor. Dijo que era prostatitis, una infección. No quería
+                                            hacer masaje de próstata, y tengo alergia a la mayoría de los medicamentos.
+                                            El médico me aconsejó ProstAktiv, dijo que era un producto eficaz basado en
+                                            los productos naturales. Lo compré, comencé a tomarlo. Ya me he fijado que
+                                            la situación ha mejorado. Tengo intenciones de acabar el tratamiento
+                                            completo.</p>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                            <div class="reviews__item  item ">
+                                <div class="reviews__wrapper">
+                                    <div class="reviews__wrap">
+                                        <img src="img/comment2.png" class=" reviews__img img-responsive" alt="">
+                                        <div class="reviews__name">
+                                            <p>Emelina, <span>42 años</span></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="reviews__text">
+                                        <p>Mi marido padece de prostatitis ya desde hace mucho tiempo. Estaba muy
+                                            preocupado y atormentado por ello. Del sexo ya ni hablar. Le quería ayudar,
+                                            así que leí muchos artículos en Internet, y en un foro encontré ProstAktiv,
+                                            visité la web, leí todo escrupulosamente, y lo enseñé a mi marido. Decidimos
+                                            pedirlo, a ver si ayudara. Mi marido lo está tomando unas dos semanas. Por
+                                            la noche dejó de ir a orinar y ya no se quejaba de dolor. Y lo más
+                                            importante: ¡hemos recuperado nuestra vida íntima! Estamos muy satisfechos.
+                                            ¡ProstAktiv realmente ayuda!
+                                        </p>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+                        <a class=" reviews-carousel-control carousel-control-prev" href="#carousel__reviews" role="button" data-slide="prev">
+
+                            <svg width="27px" height="47px" class="carousel-control-prev-icon">
+                                <use xlink:href="#arrow-left">
+
+                                </use>
+                            </svg>
+                            <span class="sr-only ">Previous</span>
+                        </a>
+                        <a class=" reviews-carousel-control carousel-control-next" href="#carousel__reviews" role="button" data-slide="next">
+                            <svg class="carousel-control-next-icon " width="27px" height="47px">
+                                <use xlink:href="#arrow-right">
+
+                                </use>
+                            </svg>
+                            <span class="sr-only ">Next</span>
+                        </a>
+                        <ol class="carousel-indicators ">
+                            <li data-target="#carousel__reviews " data-slide-to="0 " class=" active ">
+                            <li data-target="#carousel__reviews " data-slide-to="1 ">
+                            <li data-target="#carousel__reviews " data-slide-to="2 ">
+                            <li data-target="#carousel__reviews " data-slide-to="3 ">
+                        </ol>
+                    </div>
+                </div>
+                <div class="sec-reviews__text sec-reviews__text--flex sec-text sec-text--weight col-xs-12 col-md-10 col-md-offset-1 sec-expert__text--flex ">
+                    <p>¡Deshazte de la prostatitis con 1 solo curso de tratamiento!</p>
+                    <a href="#sec-one" class="btn-buy ">Pedir</a>
+                </div>
+
+            </div>
+            
+        </div>
+        
+    </section>
+    
+    <section class="sec-plus ">
+        <div class="container ">
+            <div class="row ">
+                <p class="sec-plus__title sec-title ">ProstAktiv es una forma eficaz para recuperar</p>
+                <p class="sec-pluse__text sec-text ">la salud masculina hasta la norma de edad</p>
+
+                <div class="plus ">
+                    <div class=" col-sm-6 col-md-3">
+                        <div class="plus__item ">
+                            <div class="plus__wrapp  plus1">
+                                <div class="plus__title ">Sin</div>
+                                <div class="plus__desc ">química y efectos secundarios
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class=" col-sm-6 col-md-3">
+                        <div class="plus__item ">
+                            <div class="plus__wrapp plus2">
+                                <div class="plus__title plus__title--none ">Sin</div>
+                                <div class="plus__desc ">humillante masaje de próstata
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+                    <div class=" col-sm-6 col-md-3">
+
+                        <div class="plus__item ">
+                            <div class="plus__wrapp plus3">
+
+                                <div class="plus__title plus__title--none ">Sin</div>
+                                <div class="plus__desc ">cirugía
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class=" col-sm-6 col-md-3">
+
+                        <div class="plus__item ">
+                            <div class="plus__wrapp plus4">
+                                <div class="plus__title plus__title--none ">Sin</div>
+                                <div class="plus__desc "> costosas pastillas e inyecciones
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+        
+
+    </section>
+    
+    <section class="sec-usage ">
+        <div class="container ">
+            <div class="row ">
+                <p class="sec-usage__title sec-title ">¿Cómo tomar ProstAktiv?</p>
+                <div class="usage clearfix ">
+
+                    <div class="usage__item col-sm-4 ">
+                        <div class="usage__icon ">
+                            <img src="img/svg/Capsules.svg%20" alt=" ">
+                        </div>
+                        <div class="usage__text ">
+                            <p><span>1 CÁPSULA</span><br>3 VECES AL DÍA</p>
+                        </div>
+
+                    </div>
+
+
+
+
+
+                    <div class="usage__item col-sm-4 ">
+                        <div class="usage__icon ">
+                            <img src="img/svg/Food.svg%20" alt=" ">
+                        </div>
+                        <div class="usage__text ">
+                            <p><span>DESPUÉS DE COMER</span><br>CON UN VASO DE AGUA</p>
+                        </div>
+
+                    </div>
+                    <div class="usage__item col-sm-4 ">
+                        <div class="usage__icon ">
+                            <img src="img/svg/Calendar.svg%20" alt=" ">
+                        </div>
+                        <div class="usage__text ">
+                            <p><span>TOMAR UN</span><br>CURSO CONTINUO</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+
+    </section>
+
+    
+    <section class="sec-desire ">
+        <div class="container ">
+            <div class="row ">
+                <p class="sec-desire__title sec-title ">¡Imagínate la vida una vez te deshagas de la prostatitis!</p>
+                <div class="desire ">
+                    <div class="desire__item col-xs-12 col-sm-6 col-md-4 ">
+                        <div class="desire__img "><img src="img/desire.jpg%20" alt=" " class="img-responsive "></div>
+                        <div class="desire__text ">
+                            <p class="desire__title ">Sin problemas con</p>
+                            <p>el sistema genitourinario</p>
+                        </div>
+                    </div>
+                    <div class="desire__item col-xs-12 col-sm-6  col-md-4">
+                        <div class="desire__img "><img src="img/desire2.jpg%20" alt=" " class="img-responsive "></div>
+                        <div class="desire__text ">
+                            <p class="desire__title ">No tienes que gastar el dinero en
+                            </p>
+                            <p>medicamentos caros y tratamientos humillantes</p>
+                        </div>
+                    </div>
+                    <div class="desire__item col-xs-12 col-sm-12  col-md-4">
+                        <div class="desire__img "><img src="img/desire3.jpg%20" alt=" " class="img-responsive "></div>
+                        <div class="desire__text ">
+                            <p class="desire__title ">Vida íntima
+                            </p>
+                            <p>a tu alcance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </section>
+    
+    <section class="sec-delivery ">
+        <div class="container ">
+            <div class="row ">
+                <p class="sec-delivery__title sec-title ">¿Cómo hacer un pedido</p>
+                <p class="sec-delivery__text ">y recibir ProstAktiv?</p>
+                <div class="delivery clearfix">
+                    <div class="delivery__item col-xs-12 col-sm-6 col-md-3 ">
+                        <div class="delivery__icon ">
+
+                            <img src="img/svg/shop.svg%20" alt=" ">
+
+                        </div>
+                        <div class="delivery__text ">
+                            <div class="delivery__title ">
+                                <p>1. Dejas una solicitud</p>
+                            </div>
+                            <p>en nuestra web</p>
+                        </div>
+                    </div>
+                    <div class="delivery__item col-xs-12 col-sm-6 col-md-3 ">
+                        <div class="delivery__icon ">
+                            <img src="img/svg/Call-specialist.svg%20" alt=" ">
+                        </div>
+                        <div class="delivery__text ">
+                            <div class="delivery__title ">
+                                <p>2. Nuestro especialista
+                                </p>
+                            </div>
+                            <p>contacta contigo</p>
+                        </div>
+                    </div>
+                    <div class="delivery__item col-xs-12 col-sm-6 col-md-3">
+                        <div class="delivery__icon ">
+                            <img src="img/svg/Delivery.svg%20" alt=" ">
+                        </div>
+                        <div class="delivery__text ">
+                            <div class="delivery__title ">
+                                <p>3. Te enviamos tu pedido</p>
+                            </div>
+                            <p>en un paquete anónimo</p>
+                        </div>
+                    </div>
+                    <div class="delivery__item col-xs-12 col-sm-6 col-md-3 ">
+                        <div class="delivery__icon ">
+                            <img src="img/svg/Pay.svg%20" alt=" ">
+                        </div>
+                        <div class="delivery__text ">
+                            <div class="delivery__title ">
+                                <p>4. Pagas el pedido </p>
+                            </div>
+                            <p>solo después <br>de recibirlo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </section>
+
+    
+
+    <section class="sec-order ">
+        <div class="container ">
+            <div class="row ">
+                <div class="sec-order_wrapp col-xs-12 ">
+                    <p class="sec-order__title sec-title ">¡Entrega de tu pedido en cualquier punto de Europa!</p>
+                    <p class="sec-order__text ">ANONIMATO DE TU PEDIDO ESTÁ GARANTIZADO</p>
+                </div>
+
+            </div>
+            
+        </div>
+        
+    </section>
+    
+
+    <section class="sec-chance ">
+        <div class="container ">
+            <div class="row ">
+                <div class="sec-chance__wrapp col-xs-12 ">
+                    <p class="sec-chance__title sec-title ">Mientras estás dando largas,
+                        <span class=" sec-chance__title--none ">se te escapa la posibilidad</span> <span class="sec-chance__title--light ">de salvarte de la prostatitis.</span>
+                    </p><p>
+
+
+                    </p><p class="sec-chance__desc ">Los impulsos obsesivos de orinar no te dejan vivir. Estás en una
+                        tensión constante porque te puede pasar en cualquier momento más inoportuno. Sin prestar
+                        atención en los síntomas, te sometes a un gran peligro. Desde el comienzo de la prostatitis
+                        hasta el adenoma de próstata, que puede transformarse en cáncer, te dividen tan sólo un par de
+                        años.</p>
+
+
+
+
+
+                    <p class="sec-chance__text ">
+                        ¿Vale la pena arriesgarte, si ProstAktiv puede <br>resolver tu problema ahora mismo?
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+        
+    </section>
+    
+
+
+    <footer>
+        <div id="sec-one" class="sec sec-one">
+            <div class="container">
+                <div class="row">
+                    <div class="sec-header col-xs-12">
+                        <p class="sec-header__title">ProstAktiv — ¡deshazte de la prostatitis en 1 tratamiento!</p>
+                        <p class="sec-header__pretitle">ProstAktiv elimina la causa de la prostatitis</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="img/bg_sec-one1170.png" alt="background" class="sec-one-imgbg hide-for-tabl">
+                    </div>
+                    <div class="sec-one-offer col-xs-12 col-sm-6 col-md-4 ">
+                        <img src="img/prostaktiv.png" alt="" class="sec-one-offer__img img-responsive">
+                    </div>
+                    <div class="sec-one-form col-xs-12 col-sm-6 col-md-4" id="sec-one-form">
+                        <div class="sec-one-form__discount-wrap">
+                            <div class="sec-one-form__discount">El <p style="display:inline" class="wv_discount">-50%
+                                </p> de descuento sólo
+                                <span class="time-today"></span>
+                            </div>
+                            <div class="sec-one-form__timer text-center">
+                                <div class="countdown-container" id="countdown-container"></div>
+                                <div class="timer_name">
+                                    <span>horas</span>
+                                    <span>minutos</span>
+                                    <span>segundos</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sec-one-form__wrap">
+                            <div class="refund-top">
+                                <img src="img/refund-icon.svg" alt="Refund icon" class="refund-icon">
+                                <div class="refund-top-text">
+                                    Le garantizamos un reembolso del 100% al pagar con la tarjeta *
+                                </div>
+                            </div>
+                            <div class="sec-one__prices text-center">
+                                <div class="price-text">
+                                    <span class="text">Precio anterior</span>
+                                    <span class="price-old wv_old-price">78</span>
+                                    <span class="wv_currency">€</span>
+                                </div>
+                                <div class="price-text price-new">
+                                    <span class="text">Precio de descuento</span>
+                                    <span class="wv_new-price">39</span>
+                                    <span class="wv_currency">€</span>
+                                </div>
+                            </div>
+                            <form action="order.php" method="POST" class="wv_order-form wv_order-form">
+                                <div class="form-group select select-country"><label for="id_country"></label>
+                                    <select name="id_country" id="id_country" class="country_select form-control">
+                                        <option value="es">España</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group input input-name">
+                                    <label for="name"></label>
+                                    <input id="name" name="name" type="text" class="wv_name form-control" placeholder="Tu nombre" required="">
+                                </div>
+                                <div class="form-group input input-phone">
+                                    <label for="phone"></label>
+                                    <input id="phone" name="phone" type="tel" class="wv_phone form-control" placeholder="Su número de teléfono" required="">
+                                </div>
+                                <input name="lang" type="hidden" class="" value="es">
+                                <input name="ym" type="hidden" class="input-style" value="">
+                                <input name="utm_source" type="hidden" class="" value="">
+                                <input name="utm_medium" type="hidden" class="" value="">
+                                <input name="utm_campaign" type="hidden" class="" value="">
+                                <input name="utm_content" type="hidden" class="" value="">
+                                <input name="utm_term" type="hidden" class="" value="">
+                                <input name="referer" type="hidden" class="" value="">
+                                <input name="guid" type="hidden" class="" value="">
+                                <input name="first_guid" type="hidden" class="" value="">
+                                <input name="landing_id" type="hidden" class="" value="9412">
+                                <input name="prelanding_id" type="hidden" class="">
+                                <input name="offer_id" type="hidden" class="" value="215">
+                                <input name="url" type="hidden" class="">
+                                <input name="shopwindow_id" type="hidden" class=""> <input name="cookie_enabled" type="hidden" class="">
+                                <div class="form-group text-center">
+                                    <button class="btn-buy">Ordenar</button>
+                                </div>
+                            </form>
+                            <div class="terms text-center">
+                                <span class="">Garantía de anonimato el 100% </span> <br>
+                                <span>*Si no está satisfecho con el resultado</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sec-one-advantages col-xs-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="advant col-xs-12 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0 ">
+                                <div class="advant__icon ">
+
+                                    <img src="img/svg/Spermotozoid.svg" alt="">
+                                </div>
+                                <div class="advant-wrap">
+
+                                    <p class="advant__title">Mejora</p>
+                                    <p class="advant__text">la función eréctil</p>
+                                </div>
+                            </div>
+                            <div class="advant col-xs-12 col-sm-5 col-md-3">
+                                <div class="advant__icon">
+
+                                    <img src="img/svg/Urination.svg" alt="">
+                                </div>
+                                <div class="advant-wrap">
+                                    <p class="advant__title">Normaliza</p>
+                                    <p class="advant__text">la micción</p>
+                                </div>
+                            </div>
+
+                            <div class="advant col-xs-12 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0">
+                                <div class="advant__icon">
+                                    <img src="img/svg/Med.svg" alt="">
+                                </div>
+                                <div class="advant-wrap">
+                                    <p class="advant__title">Para</p>
+                                    <p class="advant__text">la inflamación</p>
+                                </div>
+                            </div>
+                            <div class="advant col-xs-12 col-sm-5 col-md-3">
+                                <div class="advant__icon">
+                                    <img src="img/svg/Libido.svg" alt="">
+                                </div>
+                                <div class="advant-wrap">
+                                    <p class="advant__title">Recupera</p>
+                                    <p class="advant__text">la libido </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <footer class="copyright">
+                    Al clickear en el botón “Ordenar”, usted acepta el procesamiento de sus datos personales.
+                    <br>
+                    ProstAktiv © <span class="copyright-year"></span> Todos los derechos reservados.
+                </footer>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/custom.js%20"></script>
+    
+    <noscript><img src="//webvkrd.com/pixel.php?offer_id=215&landing_id=9412&page_type=landing" alt=""></noscript>
+    <script src="js/webvork.js%20"></script>
+</body>
+
+</html>

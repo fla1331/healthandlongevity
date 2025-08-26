@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html data-landing_url="https://nl.cardiobalanceoriginal.com" data-prelanding_id="6511" data-offer_id="118" data-page_type="prelanding">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+    <title>Cardio Balance</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/preloader.css">
+    <link rel="stylesheet" href="css/doors.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/formmb.css" media="all">
+    <script src="js/jquery.js"></script>
+    <script>
+      function fdateTwoDigits(d) {
+        let now = new Date();
+        now.setDate(now.getDate() + d);
+        let mm = now.getMonth() + 1;
+        let day = now.getDate();
+        if (now.getDate() < 10) day = "0" + now.getDate();
+        if (mm < 10) mm = "0" + mm;
+        document.write(" " + day + "." + mm + "." + now.getFullYear() + " ");
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="site-change-menu-container">
+      <div class="ui container" id="top">
+        <div class="ui container">
+          <div class="ui menu secondary pointing no-mobile site-select-menu" style="padding: 10px 0">
+            <a class="vtbadlink ui item active site-mv" href="https://nl.cardiobalanceoriginal.com" target="_blank" data-counter-id="884"> <div class="icon" style="background-image: url('img/05f71b4ac5.png')"></div> </a><a class="vtbadlink ui item site-lib" href="https://nl.cardiobalanceoriginal.com" target="_blank" data-counter-id="883"> <div class="text">Bibliotheek van de arts</div> </a><a class="vtbadlink ui item site-ls" href="https://nl.cardiobalanceoriginal.com" target="_blank" data-counter-id="1200"> <div class="text">Gids voor geneesmiddelen</div> </a><a class="vtbadlink ui item site-bz" href="https://nl.cardiobalanceoriginal.com" target="_blank" data-counter-id="892">
+              <div class="text">Kennisbank</div>
+            </a>
+          </div>
+          <data data-module="main.sites" data-action="select"></data>
+        </div>
+      </div>
+    </div>
+
+    <div class="red-line" style="background-color: red">
+      <div class="red-line-container">
+        <div class="rel-line_left" style="display: flex; flex-direction: row; align-items: center; justify-content: space-between">
+          <a class="vtbadlink" href="https://nl.cardiobalanceoriginal.com" target="_blank"><img src="img/menu.svg" alt="menu" style="width: 30px; display: inline-block; margin-right: 15px"></a>
+          <a class="vtbadlink" href="https://nl.cardiobalanceoriginal.com" target="_blank"><img src="img/9397bbe895.png" style="display: inline-block; margin-right: 15px"></a>
+          <span class="official-version" style="color: white"> OFFICIËLE DIGITALE VERSIE </span>
+        </div>
+        <div class="rel-line_right" style="display: flex; flex-direction: row; align-items: center; justify-content: space-between">
+          <a class="vtbadlink" href="https://nl.cardiobalanceoriginal.com" target="_blank"><img src="img/loupe.svg" alt="menu" class="loupe" style="width: 30px; margin-right: 15px"></a>
+          <a class="vtbadlink" href="https://nl.cardiobalanceoriginal.com" target="_blank" style="color: white; font-weight: bold; border: 2px solid white; padding: 10px; border-radius: 5px; display: inline-block">Inloggen</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="ui segment secondary no-top-marged no-bottom-marged no-border no-padded no-mobile no-tablet vertical" id="submenu-top">
+      <div class="ui container">
+        <div class="ui menu first-level secondary borderless">
+          <a class="ui item" data-counter-id="886" data-plugin="popup" data-on="click" data-position="bottom left" data-last-resort="bottom center" data-variation="default" data-exclusive="1" data-inline="1" data-thanx="true" data-pushed="true"> Specialisatie </a>
+          <a class="vtbadlink ui item" data-counter-id="1096" href="https://nl.cardiobalanceoriginal.com" target="_blank" data-pushed="true"> COVID-19 </a>
+          <a class="vtbadlink ui item" data-counter-id="888" href="https://nl.cardiobalanceoriginal.com" target="_blank" data-pushed="true"> Evenementen </a>
+          <a class="vtbadlink ui item" data-counter-id="889" href="https://nl.cardiobalanceoriginal.com" target="_blank" data-pushed="true"> Nieuws </a>
+          <a class="vtbadlink ui item" data-counter-id="890" href="https://nl.cardiobalanceoriginal.com" target="_blank" data-pushed="true"> Video's </a>
+          <a class="vtbadlink ui item" data-counter-id="918" href="https://nl.cardiobalanceoriginal.com" target="_blank" data-pushed="true"> Artsenacademie </a>
+          <a class="vtbadlink ui item" data-counter-id="924" href="https://nl.cardiobalanceoriginal.com" target="_blank" data-pushed="true"> Computer </a>
+          <a class="vtbadlink ui item" data-counter-id="1153" href="https://nl.cardiobalanceoriginal.com" target="_blank" data-pushed="true"> Documenten </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-wrap">
+      <div class="main-content">
+        <div class="content">
+          <div class="content__inner content__inner_wide">
+            <div class="article">
+              <div class="article__date">
+                <span id="locdate1"></span>
+                <script>
+                  d = new Date();
+                  var localeString = new Date(d.getTime() - 1 * 86400000).toLocaleString("nl", {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                  });
+                  var elem = document.getElementById("locdate1");
+                  elem.innerHTML = localeString;
+                </script>
+                <span class="article__time"></span><span class="article__author"> Jan de Boer </span>
+              </div>
+              <h3 class="article__title">
+                <strong> De Nederlandse student Pieter van Leeuwen is in de VS uitgeroepen tot wonderkind en kreeg een beurs voor zijn ontdekking van een methode om bloedvaten te reinigen: “Mijn idee is een doorbraak in de strijd tegen hoge bloeddruk.” </strong>
+              </h3>
+              <h4 class="article__subtitle">Een Nederlandse student werd in de Verenigde Staten erkend als wonderkind vanwege zijn baanbrekende ontdekking voor het reinigen van bloedvaten — lees ons interview over zijn innovatieve aanpak.</h4>
+              <div class="article__text js-mediator-article">
+                <span class="red-text-1">
+                  Deze jonge genie had al een jaar geleden duizenden levens kunnen redden, maar zijn talent werd in Nederland pas opgemerkt na zijn overwinning in New York. Daarvoor had hij geprobeerd steun te krijgen van lokale instanties, door zijn uitvinding te presenteren die mogelijk talloze
+                  levens in het hele land zou kunnen redden. Helaas bleef zijn idee toen nog onbeantwoord.
+                </span>
+                <p><b>Pieter van Leeuwen</b> is ervan overtuigd: het geheim van een lang leven ligt in de conditie van de bloedvaten. Als ze schoon en gezond zijn, kun je moeiteloos 120 jaar worden en je daarbij fantastisch voelen.</p>
+                <p>Onze verslaggever kreeg de kans om met dit jonge genie te spreken. Pieter demonstreerde zijn innovatieve methode voor het reinigen van bloedvaten en het verlengen van het leven — een doorbraak die hem een studiebeurs én wereldwijde erkenning heeft opgeleverd.</p>
+                <center>
+                  <picture>
+                    <source srcset="img/image2.webp" type="image/webp"></source>
+                    <img src="img/image2.jpg" class="photo-desktop" style="margin: 30px 0 0 0" width="1000" height="667">
+                  </picture>
+                </center>
+                <center>
+                  <picture>
+                    <source srcset="img/portrait.webp" type="image/webp"></source>
+                    <img src="img/portrait.png" loading="lazy" class="photo-mob" style="margin: 30px 0 0 0" width="350" height="390">
+                  </picture>
+                </center>
+                <p style="max-width: 550px; margin: 0px auto">
+                  <i style="font-style: italic; font-size: 14px; line-height: 1.3; text-align: center; display: block"> Zelfs de president feliciteerde Pieter van Leeuwen met zijn internationale studiebeurs. </i>
+                </p>
+                <style>
+                  .trust_wrap {
+                    margin: 30px auto;
+                    padding: 0 20px;
+                  }
+
+                  .trust_group {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                  }
+
+                  .logo_trust {
+                    display: block;
+                    max-width: 100px;
+                  }
+
+                  .trust_news {
+                    max-width: 180px;
+                  }
+
+                  .trust_title {
+                    position: relative;
+                    text-align: center;
+                    font-size: 25px !important;
+                    margin: 20px auto;
+                    text-transform: uppercase;
+                    color: #00a2b8;
+                  }
+
+                  .trust_subtitle {
+                    position: relative;
+                    z-index: 10;
+                    display: inline-block;
+                    padding: 0 20px;
+                    background-color: #fff;
+                  }
+
+                  .trust_title::before {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    top: 50%;
+                    z-index: 0;
+                    width: 100%;
+                    height: 1px;
+                    background-color: grey;
+                    transform: translateY(-50%);
+                  }
+
+                  .logo_trust {
+                    max-width: 200px !important;
+                    width: 100% !important;
+                    margin: 30px;
+                  }
+
+                  @media (max-width: 992px) {
+                    .trust_news {
+                      max-width: 140px;
+                    }
+
+                    .logo_trust {
+                      margin: 10px;
+                    }
+                  }
+
+                  @media (max-width: 768px) {
+                    .trust_group-news {
+                      justify-content: center;
+                      gap: 15px;
+                    }
+                  }
+
+                  @media (max-width: 450px) {
+                    .trust_subtitle {
+                      padding: 0 10px;
+                    }
+
+                    .trust_news {
+                      max-width: 120px;
+                    }
+                  }
+                </style>
+                <p style="color: white; font-weight: bold; background-color: #4689e4">— Pieter, u hebt herhaaldelijk gezegd dat schone bloedvaten de basis zijn van een goede gezondheid. Waarom bent u daar zo van overtuigd?</p>
+                <p>
+                  – Het is heel eenvoudig. De werking van alle organen en systemen in ons lichaam hangt af van de conditie van ons bloedvatenstelsel. De bloedcirculatie is verantwoordelijk voor het aanvoeren van zuurstof en voedingsstoffen naar de organen, en het afvoeren van kooldioxide en
+                  afvalstoffen.
+                </p>
+                <p>Als kind, tiener of jongvolwassene zijn onze bloedvaten elastisch, schoon en optimaal functionerend dankzij een hoge fysieke activiteit. Maar naarmate we ouder worden, bewegen we minder en beginnen de bloedvaten langzaam “verstopt” te raken.</p>
+                <p>
+                  Dat gebeurt onder invloed van meerdere factoren. Sommige zijn duidelijk schadelijk, zoals roken, ongezonde voeding, vervuiling of een zittende levensstijl. Maar er zijn ook natuurlijke oorzaken, zoals de ophoping van vetachtige stoffen (lipiden), wat bij vrijwel iedereen voorkomt.
+                </p>
+                <p>
+                  Wat zijn verstopte bloedvaten? Stel je waterleidingen voor die bedekt zijn met roest. De waterdruk stijgt, en het water zelf wordt troebel en onaangenaam. Precies hetzelfde gebeurt met onze bloedvaten. Wanneer cholesterol en andere stoffen zich ophopen aan de vaatwanden, stijgt de
+                  bloeddruk — dit is de hoofdoorzaak van hypertensie. Het bloed wordt “vervuild” en de doorbloeding van de weefsels verslechtert. Daar lijden alle organen onder, zelfs de huid. Het gevolg? Het verouderingsproces versnelt.
+                </p>
+                <p>
+                  Maar als je de bloedvaten regelmatig reinigt, kun je je levensduur verlengen tot wel 120 jaar. Je zult geen pijn ervaren, je hersenen blijven scherp, en je hele lichaam blijft gezond. Vaatreiniging is een echte manier om langer te leven — het is geen theorie. Iedereen die ooit mijn
+                  aanbevelingen heeft opgevolgd, heeft aanzienlijk langer geleefd dan zijn leeftijdsgenoten.
+                </p>
+                <center>
+                  <picture>
+                    <source srcset="img/image1.webp" type="image/webp"></source>
+                    <img src="img/image1.jpg" alt="" loading="lazy" width="400" height="240">
+                  </picture>
+                  <i style="font-style: italic; font-size: 14px; line-height: 1.3; text-align: center; display: block">
+                    Bloedvaten raken na verloop van tijd onvermijdelijk verstopt. Als u uw bloedvaten nog nooit hebt gereinigd en u bent de 40 gepasseerd, is de kans groot dat ze inmiddels sterk vervuild zijn. Dit kan binnenkort een negatieve invloed op uw gezondheid hebben — als dat niet nu al het
+                    geval is.
+                  </i>
+                </center>
+                <br>
+                <p style="color: white; font-weight: bold; background-color: #4689e4">— Welke aandoeningen ontstaan precies door verstopte bloedvaten?</p>
+                <p>– Allereerst wordt het cardiovasculaire systeem zelf aangetast. Verstopte bloedvaten leiden tot de volgende ziekten:</p>
+                <ul style="padding-left: 50px; margin-bottom: 30px; list-style-type: decimal">
+                  <li><b>Atherosclerose</b> – De bloedvaten verliezen hun normale functie: kleine vaten raken volledig geblokkeerd, en in de grotere hoopt zich veel cholesterol op.</li>
+                  <li><b>Coronaire hartziekte</b> – Dit wordt veroorzaakt door een verminderde bloedtoevoer naar de hartspier.</li>
+                  <li><b>Beroerte</b> – Een plotselinge onderbreking van de bloedtoevoer naar de hersenen leidt tot afsterven van neuronen, met verlies van bepaalde hersenfuncties tot gevolg.</li>
+                  <li><b>Hypertensie (hoge bloeddruk)</b> – Ophopingen in de bloedvaten vernauwen het lumen, wat leidt tot een verhoogde bloeddruk.</li>
+                  <li>
+                    <b>Veneuze en arteriële trombose</b> – Afzettingen in de bloedvaten veroorzaken de vorming van bloedstolsels die het vat kunnen blokkeren. Als zo’n stolsel losraakt en in de grote bloedsomloop terechtkomt, kan het de kransslagaders van het hart blokkeren (hartstilstand), wat in
+                    70% van de gevallen fataal afloopt.
+                  </li>
+                </ul>
+                <p>Deze foto’s laten duidelijk zien welk gevaar afzettingen in de bloedvaten vormen voor uw gezondheid.</p>
+                <div>
+                  <center>
+                    <picture>
+                      <source srcset="img/image4.webp" type="image/webp"></source>
+                      <img src="img/image4.jpg" alt="" loading="lazy" width="350" height="250">
+                    </picture>
+                  </center>
+                  <br>
+
+                  <center>
+                    <p style="max-width: 550px; margin: 0px auto; text-align: center !important">
+                      <i style="font-style: italic; font-size: 14px; line-height: 1.3; display: block">Hart na een fatale hartinfarct</i>
+                    </p>
+                  </center>
+                </div>
+                <div>
+                  <center>
+                    <picture>
+                      <source srcset="img/image3.webp" type="image/webp"></source>
+                      <img src="img/image3.jpg" alt="" loading="lazy" width="350" height="250">
+                    </picture>
+                  </center>
+                  <br>
+
+                  <p style="max-width: 550px; margin: 0px auto">
+                    <i style="font-style: italic; font-size: 14px; line-height: 1.3; text-align: center; display: block">
+                      Beroerte bij een man van 53 jaar. Een beroerte leidt ALTIJD tot invaliditeit: de patiënt is niet langer in staat zelfstandig te leven en heeft voortdurend hulp nodig. De oorzaak? Verstopping van de bloedvaten.
+                    </i>
+                  </p>
+                </div>
+                <div style="margin-bottom: 50px">
+                  <center>
+                    <picture>
+                      <source srcset="img/image6.webp" type="image/webp"></source>
+                      <img src="img/image6.jpg" alt="" loading="lazy" width="350" height="170">
+                    </picture>
+                  </center>
+                  <br>
+
+                  <p style="max-width: 550px; margin: 0px auto">
+                    <i style="font-style: italic; font-size: 14px; line-height: 1.3; text-align: center; display: block"> Spataderen, waar veel vrouwen last van hebben, zijn óók een direct gevolg van verminderde doorstroming en verstopping van de bloedvaten. </i>
+                  </p>
+                </div>
+                <p>
+                  Dit probleem verspreidt zich snel in onze samenleving. Tegenwoordig veroorzaken hart- en vaatziekten vier keer zoveel sterfgevallen als welke andere oorzaak dan ook. Artsen zijn zich hiervan bewust, maar om onbegrijpelijke redenen blijft de Nederlandse gezondheidszorg grotendeels
+                  passief.
+                </p>
+                <p>De meeste artsen schrijven symptomatische middelen voor — zoals bloeddrukverlagers. Maar deze middelen zijn niet bedoeld om de oorzaak aan te pakken, ze bestrijden alleen de gevolgen. Bloedvaten moeten worden gereinigd!</p>
+                <p style="color: white; font-weight: bold; background-color: #4689e4">— >Zijn er symptomen die op verstopte bloedvaten wijzen?</p>
+                <p>Zeker. De belangrijkste waarschuwingssignalen zijn:</p>
+                <ul style="padding-left: 50px; margin-bottom: 30px; list-style-type: decimal">
+                  <li>Hoofdpijn, migraine;</li>
+                  <li>Geheugenproblemen;</li>
+                  <li>Chronische vermoeidheid;</li>
+                  <li>Slaap Problemen;</li>
+                  <li>Intieme disfunctie;</li>
+                  <li>Verminderd zicht of gehoor;</li>
+                  <li>Hoge bloeddruk;</li>
+                  <li>Ademhalingsproblemen, angina pectoris;</li>
+                  <li>Bleke huid van de benen;</li>
+                  <li>Spier- en gewrichtspijn.</li>
+                </ul>
+                <p>Ongeacht of u deze symptomen herkent of niet — na de leeftijd van 30 à 35 jaar is het reinigen van bloedvaten essentieel. Wie dat doet, geniet van ijzeren gezondheid.</p>
+                <p>
+                  In werkelijkheid raken bloedvaten zeer snel “vervuild”, vooral op latere leeftijd. Je hoeft er geen fastfood voor te eten: zelfs het eten van worst of een gekookt eitje kan al leiden tot cholesterolafzetting in de bloedvaten. Na verloop van tijd stapelen deze onzuiverheden zich op.
+                </p>
+                <p style="color: white; font-weight: bold; background-color: #4689e4">— U hebt een innovatief middel ontwikkeld tegen hoge bloeddruk dat ook de bloedvaten reinigt. Waarom is dit nodig als er al bestaande medicijnen zijn om de bloeddruk te regelen?</p>
+                <p>– Moderne middelen tegen hart- en vaatziekten leveren helaas niet altijd het gewenste resultaat. Veel mensen hebben extra ondersteuning nodig. Daarom heb ik een innovatief supplement ontwikkeld dat helpt de gezondheid van het cardiovasculaire systeem te behouden.</p>
+                <p>
+                  Dit middel reinigt de bloedvaten, versterkt hun wanden, stimuleert de bloedsomloop en helpt risicofactoren voor hartproblemen aanpakken. Het vermindert de kans op ernstige complicaties zoals een infarct of beroerte, en draagt bij aan het verbeteren van de algehele conditie van het
+                  lichaam.
+                </p>
+                <p style="color: rgb(59, 103, 188); margin-top: 30px" class="head">
+                  <strong>Henk van Dijk, een van de toonaangevende hartchirurgen van Nederland, deelde zijn mening over deze revolutionaire methode die werd ontwikkeld door de jonge uitvinder.</strong>
+                </p>
+                <p class="indent">
+                  <picture>
+                    <source srcset="img/image13.webp" type="image/webp"></source>
+                    <img class="img2" src="img/image13.jpg" alt="" style="max-width: 600px; display: block; margin: 0px auto" width="494" height="395">
+                  </picture>
+                  <span style="display: block; max-width: 600px; margin: 0px auto; font-size: 14px; font-style: italic; text-align: center">
+                    Henk van Dijk – doctor in de medische wetenschappen en voorzitter van de raad van bestuur van het Nationaal Wetenschappelijk Centrum voor Hartchirurgie legde uit hoe je de bloeddruk voorgoed kunt verlagen.
+                  </span>
+                </p>
+                <p>
+                  <b>– Pieter kwam met een briljant idee</b>, en onze wetenschappelijke adviseurs hielpen het werkelijkheid te maken. Aan het project werkten tal van specialisten mee, waaronder een team van het laboratorium van het Nationaal Wetenschappelijk Centrum voor Hartchirurgie, dat de
+                  experimentele basis verzorgde.
+                </p>
+                <p>
+                  Het middel dat we hebben ontwikkeld is inmiddels klaar voor gebruik en levert indrukwekkende resultaten op. <b>Het heet <a href="" target="_blank">Cardio Balance</a>.</b>
+                </p>
+                <p>
+                  <b>Cardio Balance bevat:</b>
+                </p>
+                <ul style="padding-left: 50px; margin-bottom: 30px; list-style-type: decimal">
+                  <li>– extract van veenbessen (cranberry)</li>
+                  <li>– extract van olie vruchten</li>
+                  <li>– magnesium</li>
+                  <li>– L-arginine</li>
+                  <li>– extract van meidoorn blad en -bloesem</li>
+                  <li>– hibiscusbloesem poeder</li>
+                  <li>– extract van olijfbladeren</li>
+                  <li>– extract van druivenpitten</li>
+                  <li>– co-enzym Q10</li>
+                  <li>– vitamine B6</li>
+                  <li>– foliumzuur</li>
+                </ul>
+                <center>
+                  <picture>
+                    <source srcset="img/student2.webp" type="image/webp"></source>
+                    <img src="img/student2.png" style="margin: 30px 0" width="700" height="480">
+                  </picture>
+                  <i style="font-style: italic; font-size: 14px; line-height: 1.3; text-align: center; display: block"> Pieter van Leeuwen met het resultaat van zijn onderzoek: het supplement Cardio Balance. </i>
+                </center>
+                <br>
+                <p>
+                  De werking van <a href="" target="_blank">Cardio Balance</a> is gericht op het verbeteren van de hartfunctie, het normaliseren van de bloeddruk en het uitschakelen van risicofactoren die tot complicaties kunnen leiden. Alle ingrediënten zijn zorgvuldig gekozen en versterken
+                  elkaars werking.
+                </p>
+                <p>
+                  Officiële statistieken van klinisch onderzoek naar <a href="" target="_blank">Cardio Balance</a> zijn beschikbaar op de website van het Nationaal Wetenschappelijk Centrum voor Hartchirurgie. Ongeveer 2000 patiënten namen deel aan de studie en gebruikten Cardio Balance als
+                  volledige kuur.
+                </p>
+                <p>
+                  <b>Resultaten:</b>
+                </p>
+                <ul style="padding-left: 50px; margin-bottom: 30px; list-style-type: decimal">
+                  <li>Normalisatie van de bloeddruk – <b>99%</b> van de deelnemers;</li>
+                  <li>Herstel van het hartritme – <b>97%</b>;</li>
+                  <li>Volledige verwijdering van cholesterol uit de bloedvaten – <b>99%</b>;</li>
+                  <li>Verbeterde behandeling van chronische aandoeningen – <b>99%</b>;</li>
+                  <li>Algemeen verbeterde gezondheid – <b>100%</b>;</li>
+                  <li>Geen bijwerkingen – <b>100%</b>.</li>
+                </ul>
+                <p class="rub-ramka">
+                  <span class="myh4">Dit is bijzonder belangrijk!</span>
+                </p>
+                <p class="rub-ramka">
+                  <span class="myh4"> De komende twee maanden zijn ideaal om aan uw gezondheid te werken. Onderzoek toont aan dat door stabielere temperaturen het metabolisme versnelt en Cardio Balance tot 37% sneller werkt dan in andere periodes van het jaar. </span>
+                </p>
+                <br>
+                <p style="color: white; font-weight: bold; background-color: #4689e4">— Wat kost Cardio Balance en waar is het te koop?</p>
+                <p>
+                  – Ziekenhuizen kopen het rechtstreeks in bij de officiële fabrikant. Dat komt omdat er helaas veel namaakproducten op de markt zijn. We hebben zelf ooit te maken gehad met een partij die simpelweg kalk leverde in plaats van werkzame stof — u begrijpt de risico’s. Daarom vertrouwen
+                  wij alleen op gecertificeerde leveranciers.
+                </p>
+                <p>
+                  Voor wie wil besparen is er goed nieuws: tot
+                  <b>
+                    <span id="locdate11"></span>
+                    <script>
+                      d = new Date();
+                      var localeString = new Date(d.getTime() - 0 * 86400000).toLocaleString("nl", {
+                        year: "numeric",
+                        month: "long",
+                        day: "numeric",
+                      });
+                      var elem = document.getElementById("locdate11");
+                      elem.innerHTML = localeString;
+                    </script>
+                  </b>
+                  organiseert de officiële fabrikant een loting waarmee u Cardio Balance met korting tot 50% kunt verkrijgen. Inschrijven voor de actie kan via het formulier hieronder.
+                </p>
+                <div class="pg" style="background: rgb(255, 236, 166) none repeat scroll 0% 0%; padding: 20px; border: 1px solid red">
+                  <h3>Voorwaarden voor deelname aan de kortingsactie:</h3>
+                  <ul style="font-size: 18px">
+                    <li>
+                      <b>1. Woonachtig zijn in een deelnemende regio.</b>
+                      <br>
+                      De actie geldt alleen voor bewoners van regio’s die zijn opgenomen in het kortingsprogramma.
+                    </li>
+                    <li>
+                      <b>2. Uitsluitend voor persoonlijk gebruik.</b>
+                      <br>
+                      Deze voorwaarde voorkomt wederverkoop. Zo blijven tussenpersonen die het product met winst doorverkopen, buitenspel.
+                    </li>
+                    <li>
+                      <b>3. Aanvragen via de officiële loting.</b>
+                      <br>
+                      Dit garandeert de korting rechtstreeks van de fabrikant en beschermt legitieme wederverkopers.
+                    </li>
+                  </ul>
+                </div>
+                <br>
+                <p>Wie aan deze voorwaarden voldoet, kan profiteren van de actie en zeker zijn van de kwaliteit van het product.</p>
+                <p>Om je bloedvaten schoon te houden, raad ik aan om ze elke 1 tot 2 jaar te reinigen. Vooral voor ouderen is dit essentieel. U verbetert uw gezondheid aanzienlijk en stelt veroudering uit. Want schone bloedvaten zijn de sleutel tot gezondheid.</p>
+                <p style="color: white; font-weight: bold; background-color: #4689e4">— Hartelijk dank aan Pieter en Henk voor dit uitgebreide interview.</p>
+                <p class="rub-ramka">
+                  <span class="myh4">Toegevoegd 12 uur geleden | Redactienotitie:</span>
+                  <span>
+                    Belangrijk nieuws: het programma loopt in Nederland nog tot
+                    <span id="locdate18966" style="font-weight: bold; color: crimson"></span>
+                    <script>
+                      d = new Date();
+                      var localeString = new Date(d.getTime() - 0 * 86400000).toLocaleString("nl", {
+                        year: "numeric",
+                        month: "long",
+                        day: "numeric",
+                      });
+                      var elem = document.getElementById("locdate18966");
+                      elem.innerHTML = localeString;
+                    </script>
+                    . Tot die tijd kunt u het originele Cardio Balance bestellen via de officiële website met kortingen tot <span class="wv_discount">-50%</span>! Momenteel zijn er nog <font color="red"><b>43</b></font> kortingsverpakkingen beschikbaar.
+                  </span>
+                </p>
+                <br>
+                <span id="goToForm"></span>
+                <div id="form-block">
+                  <div id="order">
+                    <div class="order_block">
+                      <div id="form" class="api-form1">
+                        <div class="form-header1">
+                          <div class="cta-form1">
+                            <div class="product-image1">
+                              <img src="img/product.png">
+                              <div class="product-banner1">
+                                <div class="product-banner-text1">
+                                  <span class="wv_new-price">49</span>
+                                  <span class="wv_currency">€</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-body">
+                          <div class="deadline1">
+                            <b>
+                              U heeft nog tijd om het op te halen<br>
+                              <div class="time-remain">
+                                <div class="time-remain-items">
+                                  <span class="hour">03</span>
+                                  <span class="time-text">uur</span>
+                                </div>
+                                <div class="time-dots">:</div>
+                                <div class="time-remain-items">
+                                  <span class="minutes">45</span>
+                                  <span class="time-text">minuten</span>
+                                </div>
+                                <div class="time-dots">:</div>
+                                <div class="time-remain-items">
+                                  <span class="seconds">00</span>
+                                  <span class="time-text">seconden</span>
+                                </div>
+                              </div>
+                            </b>
+                          </div>
+                          <a class="btn1 px30 bold upp white blg shakingbutton" href="https://nl.cardiobalanceoriginal.com" target="_blank">Bestellen</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="comment-block">
+            <div class="article">
+              <h3 class="article__title">Reacties</h3>
+              <div class="article__text">
+                <div class="comment-user">
+                  <p class="user-name">Inge de Vries</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>Wat is dit voor onzin??? Waarom geldt de actie niet in mijn woonplaats? Wonen hier soms geen mensen?!?!?!?!?!?? Waarom bestaat dit programma alleen voor ‘uitverkoren’ regio’s? Wat moeten de anderen dan doen???</p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Marieke van den Bosch</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Ik heb Cardio Balance al besteld en de werking zelf ervaren. Zeven jaar lang had ik last van hoge bloeddruk en was ik vergeten hoe het voelt om me normaal te voelen. Op aanraden van mijn arts besloot ik mijn bloedvaten te reinigen. Na de kuur met Cardio Balance is mijn bloeddruk
+                    volledig genormaliseerd! Het is nu twee maanden later en ik leef zonder hypertensie. Het voelt als een nieuw leven — ik voel me echt veel beter. Ik raad dit geweldige middel aan iedereen aan, zeker zolang de korting nog geldt!
+                  </p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Henk van Leeuwen</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>Onze jongeren zijn echt slim! Knap werk, jongen! En ik heb de capsules van Cardio Balance genomen — mijn hoge bloeddruk is helemaal verdwenen. Ik voel me nu uitstekend!</p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Saskia Jansen</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>Dank jullie wel! Ik heb Cardio Balance ook besteld. Heel handig dat het per post wordt bezorgd — zo kun je het overal in het land ontvangen.</p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Pieter de Graaf</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>De overheid schenkt zelden aandacht aan jonge talenten! Gelukkig heeft deze uitvinder zijn weg gevonden. Ik heb het middel al besteld en gisteren ontvangen. Mijn vrouw en ik gaan het samen nemen, want we hebben allebei last van hypertensie.</p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Koen Visser</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>Vorige maand heb ik Cardio Balance genomen, en sindsdien is mijn bloeddruk nauwelijks nog verhoogd. Ik voel me nu als een gezond mens.</p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Maarten van Dijk</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Ik ben 61 jaar en reinig mijn bloedvaten al zo’n vijf jaar. Het helpt me sterk en gezond te blijven. Ik heb geen aandoeningen, terwijl veel leeftijdsgenoten helaas al zijn overleden. En om eerlijk te zijn: ik heb nog steeds een actief seksleven. Bloedvaten reinigen is iets dat
+                    iedereen zou moeten doen!
+                  </p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Anouk Willems</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Hypertensie maakt al jaren deel uit van mijn leven, en later kwamen daar diabetes en nierproblemen bij. Mijn geheugen en zicht zijn ook sterk achteruitgegaan. Ik heb van alles geprobeerd, maar niets hielp. Toen besloot ik Cardio Balance te proberen. Het was de eerste keer dat ik
+                    iets online bestelde, maar het proces was eenvoudig en prettig.
+                  </p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Femke Bakker</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>Dank je wel! Ik zag laatst een tv-programma over die jongeman en zijn capsules. Veel artsen waren enthousiast over het product.</p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Jeroen Blom</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>Geweldig middel, ik ben het er helemaal mee eens! Mijn bloeddruk zat jarenlang rond de 140/90 en ik leefde er gewoon mee. Na een kuur met Cardio Balance is het gedaald naar 125/85. Mijn gezondheid is enorm vooruitgegaan!</p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Daan Meijer</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>Ik heb net over deze capsules gehoord. Heel indrukwekkend!</p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Thijs van den Heuvel</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>Ik heb Cardio Balance besteld! Bedankt!</p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Lars de Koning</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>Ik gebruik Cardio Balance (met tussenpozen). Mijn bloeddruk is bijna normaal geworden en ik voel me in het algemeen veel beter.</p>
+                  <br>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Sanne van Loon</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Eerlijk gezegd: dit is een fantastisch product! Ik bestelde Cardio Balance zodra ik hoorde over ons kleine wonder en het kortingsprogramma. Het pakketje kwam binnen 3 dagen aan. Zodra ik het had, begon ik met de capsules. Mijn bloeddruk werd geleidelijk normaal — niet “voor een
+                    hypertensiepatiënt”, maar zoals bij een gezond persoon. Ik merkte ook verrassende veranderingen: meer energie, betere slaap, en ’s avonds voelde ik me gewoon gezond. Dit is het beste middel dat ik ooit heb geprobeerd!
+                  </p>
+                </div>
+                <br>
+              </div>
+              <br><br>
+            </div>
+          </div>
+
+          <div>
+            <div id="roll_bottom"></div>
+          </div>
+        </div>
+      </div>
+      <strong> </strong>
+    </div>
+    <strong>
+      <div>
+        <div class="ui segment vertical inverted" id="copyright">
+          <p>
+            ©
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            Cardio Balance. Alle rechten voorbehouden.
+          </p>
+        </div>
+      </div>
+    </strong>
+
+    <div class="require-input-for-fix-deploy" style="visibility: hidden; height: 0; position: absolute">
+      <input name="landing_id" type="hidden" class="" value="6511">
+      <input name="prelanding_id" type="hidden" class="" value="6511">
+      <input name="offer_id" type="hidden" class="" value="118">
+    </div>
+
+    <script src="js/doors.js"></script>
+    <noscript><img src="//tracker.webvork.ru/pixel.php?offer_id=1&landing_id=1" alt=""></noscript>
+    <script src="js/webvork.js"></script>
+    <script src="js/wv_comebacker.js"></script>
+  </body>
+</html>

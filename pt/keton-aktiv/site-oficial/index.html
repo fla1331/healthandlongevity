@@ -1,0 +1,1647 @@
+<!DOCTYPE html>
+<html data-landing_id="9586" data-offer_id="269" data-page_type="landing">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="robots" content="all">
+  <meta name="revisit-after" content="1 days">
+  <meta name="distribution" content="global">
+  <meta name="description" content="Keton Aktiv">
+  <meta name="keywords" content="Keton Aktiv">
+
+  <title>Keton Aktiv</title>
+
+  <link rel="shortcut icon" type="image/png" href="img/k-favicon.png" sizes="16x16">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.min.css">
+
+  
+  
+  
+
+  <link href="./css/fonts.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/style-from-index.css">
+
+  <script src="./js/timer.min.js"></script>
+  <script defer>
+    (function () {
+      document.addEventListener('DOMContentLoaded', function () {
+        try {
+          // PRODUCT-SETS
+          const ProductSets = function () {
+            this.head = document.querySelector('head');
+            this.forms = document.querySelectorAll('form[action="order.php"]');
+            this.offer = document.querySelector('[data-offer_id]').dataset.offer_id;
+            this.form = document.querySelector('form[action="order.php"]');
+            this.availableOffers = [269, 270, 271, 272, 301, 302, 303, 304],
+              this.offers = {
+                269: {
+                  offer_id: 269,
+                  offer_name: 'Keton Aktiv',
+                  offer_class: 'ketonaktiv',
+                  offer_image: 'https://minio.cdnwv.com/cdnwv/success/it/84/',
+                  offer_image_set_6: 'https://minio.cdnwv.com/cdnwv/success/it/84/product-set6.png',
+                  offer_image_set_3: 'https://minio.cdnwv.com/cdnwv/success/it/84/product-set3.png',
+                  offer_image_set_1: 'https://minio.cdnwv.com/cdnwv/success/it/84/product-set1.png',
+                },
+                270: {
+                  offer_id: 270,
+                  offer_name: 'ProstAktiv',
+                  offer_class: 'prostaktiv',
+                  offer_image: 'https://minio.cdnwv.com/cdnwv/success/it/215/',
+                  offer_image_set_6: 'https://minio.cdnwv.com/cdnwv/success/it/215/product-set6.png',
+                  offer_image_set_3: 'https://minio.cdnwv.com/cdnwv/success/it/215/product-set3.png',
+                  offer_image_set_1: 'https://minio.cdnwv.com/cdnwv/success/it/215/product-set1.png',
+                },
+                271: {
+                  offer_id: 271,
+                  offer_name: 'Insulinorm',
+                  offer_class: 'insulinorm',
+                  offer_image: 'https://minio.cdnwv.com/cdnwv/success/it/197/',
+                  offer_image_set_6: 'https://minio.cdnwv.com/cdnwv/success/it/197/product-set6.png',
+                  offer_image_set_3: 'https://minio.cdnwv.com/cdnwv/success/it/197/product-set3.png',
+                  offer_image_set_1: 'https://minio.cdnwv.com/cdnwv/success/it/197/product-set1.png',
+                },
+                272: {
+                  offer_id: 272,
+                  offer_name: 'CardioBalance',
+                  offer_class: 'cardiobalance',
+                  offer_image: 'https://minio.cdnwv.com/cdnwv/success/it/118/',
+                  offer_image_set_6: 'https://minio.cdnwv.com/cdnwv/success/it/118/product-set6.png',
+                  offer_image_set_3: 'https://minio.cdnwv.com/cdnwv/success/it/118/product-set3.png',
+                  offer_image_set_1: 'https://minio.cdnwv.com/cdnwv/success/it/118/product-set1.png',
+                },
+                301: {
+                  offer_id: 301,
+                  offer_name: 'Varilux Premium',
+                  offer_class: 'variluxpremium',
+                  offer_image: 'https://minio.cdnwv.com/cdnwv/success/it/59/',
+                  offer_image_set_6: 'https://minio.cdnwv.com/cdnwv/success/it/59/product-set6.png',
+                  offer_image_set_3: 'https://minio.cdnwv.com/cdnwv/success/it/59/product-set3.png',
+                  offer_image_set_1: 'https://minio.cdnwv.com/cdnwv/success/it/59/product-set1.png',
+                },
+                302: {
+                  offer_id: 302,
+                  offer_name: 'Prostatricum',
+                  offer_class: 'prostatricumbest',
+                  offer_image: 'https://minio.cdnwv.com/cdnwv/success/it/5/',
+                  offer_image_set_6: 'https://minio.cdnwv.com/cdnwv/success/it/5/product-set6.png',
+                  offer_image_set_3: 'https://minio.cdnwv.com/cdnwv/success/it/5/product-set3.png',
+                  offer_image_set_1: 'https://minio.cdnwv.com/cdnwv/success/it/5/product-set1.png',
+                },
+                303: {
+                  offer_id: 303,
+                  offer_name: 'Prostatricum Plus',
+                  offer_class: 'prostatricumplus',
+                  offer_image: 'https://minio.cdnwv.com/cdnwv/success/it/77/',
+                  offer_image_set_6: 'https://minio.cdnwv.com/cdnwv/success/it/77/product-set6.png',
+                  offer_image_set_3: 'https://minio.cdnwv.com/cdnwv/success/it/77/product-set3.png',
+                  offer_image_set_1: 'https://minio.cdnwv.com/cdnwv/success/it/77/product-set1.png',
+                },
+                304: {
+                  offer_id: 304,
+                  offer_name: 'Dr.Prost',
+                  offer_class: 'bestdrprost',
+                  offer_image: 'https://minio.cdnwv.com/cdnwv/success/it/204/',
+                  offer_image_set_6: 'https://minio.cdnwv.com/cdnwv/success/it/204/product-set6.png',
+                  offer_image_set_3: 'https://minio.cdnwv.com/cdnwv/success/it/204/product-set3.png',
+                  offer_image_set_1: 'https://minio.cdnwv.com/cdnwv/success/it/204/product-set1.png',
+                },
+              }
+            this.translation = {
+              'en': {
+                title: 'Get Your Product Discounted Below While Stocks Are Available',
+                good_title6: '',
+                good_title3: '',
+                good_title1: '',
+                good_set6: '',
+                good_set3: '3 confezioni',
+                good_set1: '1 confezione',
+                // good_price_new_title: 'New price:',
+                good_price_old_title: 'Old price:',
+                good_price_content: 'Prezzo per confezione in caso di acquisto di un ciclo di trattamento',
+                // good_price_content6: 'Price for 5 piece when buying a course',
+                // good_price_content3: 'Price for 3 piece when buying a course',
+                // good_price_content1: 'Price for 2 piece when buying a course',
+                good_button: 'Choose',
+                footer_content: 'All supplements are duly registered with the Ministry of Health. All the products represented on the website are not intended to treat or prevent any disease. If you are pregnant, breastfeeding, or taking chronic medication, consult your doctor before taking any supplements. For any questions, related to products represented on this website you can reach our support via e-mail: <a href="mailto:support@geberich.com" target="_blank">support@geberich.com',
+              },
+              'it': {
+                title: 'ORDINA IL PRODOTTO CON UNO SCONTO FINCHÉ L’OFFERTA È ANCORA VALIDA!',
+                good_title6: 'Migliore offerta',
+                good_title3: 'La più popolare',
+                good_title1: 'Prova 1',
+                good_set6: 'ciclo di 60 giorni',
+                good_set3: 'ciclo di 30 giorni',
+                good_set1: 'è sufficiente per 10 giorni',
+                // good_price_new_title: 'Nuovo prezzo:',
+                good_price_old_title: 'per confezione',
+                good_benefit_content: 'RISPARMIO',
+                good_price_content: 'Prezzo per confezione in caso di acquisto di un ciclo di trattamento',
+                // good_price_content6: 'Prezzo per 5 pezzo quando si acquista un corso',
+                // good_price_content3: 'Prezzo per 3 pezzo quando si acquista un corso',
+                // good_price_content1: 'Prezzo per 2 pezzo quando si acquista un corso',
+                good_button: 'Scegliere',
+                footer_content: 'Tutti gli integratori sono regolarmente registrati presso il Ministero della Salute. Tutti i prodotti PRESENTI sul sito Web non SONO VOLTI A curare o prevenire alcuna malattia. In caso di gravidanza, allattamento o assunzione di farmaci PER LA CURA DI MALATTIE CRONICHE, consultare il proprio medico prima di assumere qualsiasi integratore. Per qualsiasi domanda relativa ai prodotti presentI su questo sito Web è possibile contattare il nostro supporto via e-mail: <a href="mailto:support@geberich.com" target="_blank">support@geberich.com',
+              },
+              'es': {
+                title: 'Obtenga su producto con descuento a continuación mientras haya existencias disponibles',
+                good_title6: 'Mejor oferta',
+                good_title3: 'El más popular',
+                good_title1: 'Prueba 1',
+                good_set6: 'duración 60 días',
+                good_set3: 'diseñado para 30 días',
+                good_set1: 'diseñado para 10 días',
+                // good_price_new_title: 'Nuevo precio:',
+                good_price_old_title: 'por frasco',
+                good_benefit_content: 'Se ahorra',
+                good_price_content: 'Precio por 1 unidad al comprar el curso',
+                // good_price_content6: 'Precio por 5 pieza al comprar un curso',
+                // good_price_content3: 'Precio por 3 pieza al comprar un curso',
+                // good_price_content1: 'Precio por 2 pieza al comprar un curso',
+                good_button: 'Elegir',
+                footer_content: 'Todos los suplementos están debidamente registrados en el Ministerio de Salud. Todos los productos representados en el sitio web no están destinados a tratar o prevenir ninguna enfermedad. Si está embarazada, amamantando o tomando medicamentos crónicos, consulte a su médico antes de tomar cualquier suplemento. Para cualquier pregunta relacionada con los productos representados en este sitio web, puede comunicarse con nuestro soporte por correo electrónico: <a href="mailto:support@geberich.com" target="_blank">support@geberich.com',
+              },
+              'pt': {
+                title: 'Obtenha seu produto com desconto abaixo enquanto os estoques estiverem disponíveis',
+                good_title6: 'Melhor oferta',
+                good_title3: 'Mais popular de',
+                good_title1: 'Experimente 1',
+                good_set6: 'dá para 90 dias',
+                good_set3: 'dá para 30 dias',
+                good_set1: 'dá para 10 dias',
+                // good_price_new_title: 'Novo preço:',
+                good_price_old_title: 'Ppor frasco',
+                good_benefit_content: 'Poupa',
+                good_price_content: 'Preço por 1 unidade na compra de um curso de tratamento',
+                // good_price_content6: 'Preço para 5 peças na compra de um curso',
+                // good_price_content3: 'Preço para 3 peças na compra de um curso',
+                // good_price_content1: 'Preço para 2 peças na compra de um curso',
+                good_button: 'Escolher',
+                footer_content: 'Todos os suplementos são devidamente registrados no Ministério da Saúde. Todos os produtos representados no site não se destinam a tratar ou prevenir qualquer doença. Se estiver grávida, amamentando ou tomando medicamentos crônicos, consulte seu médico antes de tomar qualquer suplemento. Para qualquer questão relacionada com os produtos representados neste website pode contactar o nosso suporte através do e-mail: <a href="mailto:support@geberich.com" target="_blank">support@geberich.com',
+              },
+              'at': {
+                title: 'Erhalten Sie unten einen Rabatt auf Ihr Produkt, solange der Vorrat verfügbar ist',
+                good_title6: 'Bestes Angebot',
+                good_title3: 'Die populärsten Kur',
+                good_title1: 'Versuch 1',
+                good_set6: 'berechnet für 90 Tage',
+                good_set3: 'berechnet für 30 Tage',
+                good_set1: 'berechnet für 10 Tage',
+                // good_price_new_title: 'Neuer Preis:',
+                good_price_old_title: 'pro Dose',
+                good_benefit_content: 'Sie sparen',
+                good_price_content: 'Preis für 1 Packung beim Bestellen einer Kur',
+                // good_price_content6: 'Preis für 5 Stück beim Kauf eines Kurses',
+                // good_price_content3: 'Preis für 3 Stück beim Kauf eines Kurses',
+                // good_price_content1: 'Preis für 2 Stück beim Kauf eines Kurses',
+                good_button: 'Wählen',
+                footer_content: 'Alle Nahrungsergänzungsmittel sind ordnungsgemäß beim Gesundheitsministerium registriert. Alle auf der Website dargestellten Produkte sind nicht zur Behandlung oder Vorbeugung von Krankheiten bestimmt. Wenn Sie schwanger sind, stillen oder regelmäßig Medikamente einnehmen, konsultieren Sie Ihren Arzt, bevor Sie Nahrungsergänzungsmittel einnehmen. Bei Fragen zu den auf dieser Website dargestellten Produkten erreichen Sie unseren Support per E-Mail: <a href="mailto:support@geberich.com" target="_blank">support@geberich.com',
+              },
+              'ch': {
+                title: 'Erhalten Sie unten einen Rabatt auf Ihr Produkt, solange der Vorrat verfügbar ist',
+                good_title6: 'Bestes Angebot',
+                good_title3: 'Die populärsten Kur',
+                good_title1: 'Versuch 1',
+                good_set6: 'berechnet für 90 Tage',
+                good_set3: 'berechnet für 30 Tage',
+                good_set1: 'berechnet für 10 Tage',
+                // good_price_new_title: 'Neuer Preis:',
+                good_price_old_title: 'pro Dose',
+                good_benefit_content: 'Sie sparen',
+                good_price_content: 'Preis für 1 Packung beim Bestellen einer Kur',
+                // good_price_content6: 'Preis für 5 Stück beim Kauf eines Kurses',
+                // good_price_content3: 'Preis für 3 Stück beim Kauf eines Kurses',
+                // good_price_content1: 'Preis für 2 Stück beim Kauf eines Kurses',
+                good_button: 'Wählen',
+                footer_content: 'Alle Nahrungsergänzungsmittel sind ordnungsgemäß beim Gesundheitsministerium registriert. Alle auf der Website dargestellten Produkte sind nicht zur Behandlung oder Vorbeugung von Krankheiten bestimmt. Wenn Sie schwanger sind, stillen oder regelmäßig Medikamente einnehmen, konsultieren Sie Ihren Arzt, bevor Sie Nahrungsergänzungsmittel einnehmen. Bei Fragen zu den auf dieser Website dargestellten Produkten erreichen Sie unseren Support per E-Mail: <a href="mailto:support@geberich.com" target="_blank">support@geberich.com',
+              },
+              'de': {
+                title: 'Erhalten Sie unten einen Rabatt auf Ihr Produkt, solange der Vorrat verfügbar ist',
+                good_title6: 'Bestes Angebot',
+                good_title3: 'Die populärsten Kur',
+                good_title1: 'Versuch 1',
+                good_set6: 'berechnet für 90 Tage',
+                good_set3: 'berechnet für 30 Tage',
+                good_set1: 'berechnet für 10 Tage',
+                // good_price_new_title: 'Neuer Preis:',
+                good_price_old_title: 'pro Dose',
+                good_benefit_content: 'Sie sparen',
+                good_price_content: 'Preis für 1 Packung beim Bestellen einer Kur',
+                // good_price_content6: 'Preis für 5 Stück beim Kauf eines Kurses',
+                // good_price_content3: 'Preis für 3 Stück beim Kauf eines Kurses',
+                // good_price_content1: 'Preis für 2 Stück beim Kauf eines Kurses',
+                good_button: 'Wählen',
+                footer_content: 'Alle Nahrungsergänzungsmittel sind ordnungsgemäß beim Gesundheitsministerium registriert. Alle auf der Website dargestellten Produkte sind nicht zur Behandlung oder Vorbeugung von Krankheiten bestimmt. Wenn Sie schwanger sind, stillen oder regelmäßig Medikamente einnehmen, konsultieren Sie Ihren Arzt, bevor Sie Nahrungsergänzungsmittel einnehmen. Bei Fragen zu den auf dieser Website dargestellten Produkten erreichen Sie unseren Support per E-Mail: <a href="mailto:support@geberich.com" target="_blank">support@geberich.com',
+              },
+            }
+            this.redirection = {
+              ketonaktiv: 'https://itketonpay.geberich.com/',
+              cardiobalance: 'https://itcardiobalancepay.geberich.com/',
+              insulinorm: 'https://itinsulinormpay.geberich.com/',
+              prostaktiv: 'https://itprostaktivepay.geberich.com/',
+              variluxpremium: 'https://itvariluxpremiumpay.geberich.com/',
+              prostatricumbest: 'https://itprostatricumbestpay.geberich.com/',
+              prostatricumplus: 'https://itprostatricumpluspay.geberich.com/',
+              bestdrprost: 'https://itbestdrprostpay.geberich.com/',
+            }
+            if (document.querySelector('[data-geberich-product-sets]')) {
+              this.productSets = document.querySelectorAll('[data-geberich-product-sets]')
+            }
+            this.sets = [{
+              quantity: 6,
+              price: 25
+            },
+            {
+              quantity: 3,
+              price: 49
+            },
+            {
+              quantity: 1,
+              price: 79
+            }],
+              this.buttonLink = '#',
+              this.offer = document.querySelector('[data-offer_id]').dataset.offer_id;
+            this.language = 'en'
+          }
+          ProductSets.prototype.getGeo = function () {
+            let language;
+            if (this.form.querySelector('[name="id_country"]')) {
+              language = this.form.querySelector('[name="id_country"]').value
+            } else if (this.form.querySelector('[name="country"]')) {
+              language = this.form.querySelector('[name="country"]').value
+            }
+            this.language = language.toLowerCase()
+            return this.language
+          }
+          ProductSets.prototype.setButtonRedirection = function () {
+            const geo = this.getGeo();
+            // const url = new URL(window.location.href).pathname;
+            const url = new URL(window.location.href).hostname;  //change for PRODUCTION
+
+            if (geo.toLowerCase() == 'it' || geo.toLowerCase() == 'es' || geo.toLowerCase() == 'de' || geo.toLowerCase() == 'at' || geo.toLowerCase() == 'ch' || geo.toLowerCase() == 'pt') {
+              this.redirection.ketonaktiv = `https://${geo.toLowerCase()}ketonpay.geberich.com/`
+              this.redirection.cardiobalance = `https://${geo.toLowerCase()}cardiobalancepay.geberich.com/`
+              this.redirection.insulinorm = `https://${geo.toLowerCase()}insulinormpay.geberich.com/`
+              this.redirection.prostaktiv = `https://${geo.toLowerCase()}prostaktivepay.geberich.com/`
+              this.redirection.variluxpremium = `https://${geo.toLowerCase()}variluxpremiumpay.geberich.com/`
+              this.redirection.prostatricumbest = `https://${geo.toLowerCase()}prostatricumbestpay.geberich.com/`
+              this.redirection.prostatricumplus = `https://${geo.toLowerCase()}prostatricumpluspay.geberich.com/`
+              this.redirection.bestdrprost = `https://${geo.toLowerCase()}bestdrprostpay.geberich.com/`
+            }
+
+            if (url.search(/keton/) != -1) {
+              this.buttonLink = this.redirection.ketonaktiv
+            } else if (url.search(/cardiobalance/) != -1) {
+              this.buttonLink = this.redirection.cardiobalance
+            } else if (url.search(/insulinorm/) != -1) {
+              this.buttonLink = this.redirection.insulinorm
+            } else if (url.search(/prostactive/) != -1) {
+              this.buttonLink = this.redirection.prostaktiv
+            } else if (url.search(/variluxpremium/) != -1) {
+              this.buttonLink = this.redirection.variluxpremium
+            } else if (url.search(/prostatricumbest/) != -1) {
+              this.buttonLink = this.redirection.prostatricumbest
+            } else if (url.search(/prostatricumplus/) != -1) {
+              this.buttonLink = this.redirection.prostatricumplus
+            } else if (url.search(/bestdrprost/) != -1) {
+              this.buttonLink = this.redirection.bestdrprost
+            }
+          }
+          ProductSets.prototype.getUTM = function () {
+            const url = new URL(window.location.href);
+            let utm = this.buttonLink + url.search;
+
+            if (url.origin.search(/.webvork.ru/) != -1) {
+              utm = utm.replace(/.com/, '.webvork.ru');
+            }
+
+            this.buttonLink = utm
+          }
+          ProductSets.prototype.setProductSetsStyle = function () {
+            let productSetsStyle = document.createElement('style');
+            let productSetsFonts1 = document.createElement('link');
+            let productSetsFonts2 = document.createElement('link');
+            let productSetsFonts3 = document.createElement('link');
+            productSetsFonts1.setAttribute('rel', 'preconnect');
+            productSetsFonts1.setAttribute('href', 'https://fonts.googleapis.com');
+            productSetsFonts2.setAttribute('rel', 'preconnect');
+            productSetsFonts2.setAttribute('crossorigin', 'crossorigin');
+            productSetsFonts2.setAttribute('href', 'https://fonts.gstatic.com');
+            productSetsFonts3.setAttribute('rel', 'stylesheet');
+            productSetsFonts3.setAttribute('href', 'https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300&display=swap');
+
+            productSetsStyle.textContent = `
+    .wv_geberich-sets{
+      display: block;
+      width:100%;
+      padding: 0;
+      margin: 0 auto;
+      box-sizing: border-box;
+      background: white;
+    }
+    .wv_geberich-sets__header-container{
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0 auto 40px;
+      background: #0290BF;
+    }
+    .wv_geberich-sets__header{
+      max-width: 1360px;
+      box-sizing: border-box;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 27px;
+      line-height: 1;
+      text-align: center;
+      font-variant: small-caps;
+      color: #FFFFFF;
+      padding: 36px 20px 24px;
+      margin: 0 auto;
+
+      // background: #0290BF;
+      text-transform: uppercase;
+    }
+    .wv_geberich-sets__container{
+      box-sizing: border-box;
+      padding: 0 20px;
+      margin: 0 auto;
+      max-width: 1360px;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+    }
+    .wv_geberich-set{
+      box-sizing: border-box;
+      border: 1px solid #B4B4B4;
+      border-radius: 22px;
+      padding:30px 20px;
+      margin: 15px auto;
+      max-width: 441px;
+      background: #ffffff;
+      box-shadow: 0px 100px 80px rgba(166, 166, 166, 0.07),
+      0px 41.7776px 33.4221px rgba(166, 166, 166, 0.0503198),
+      0px 22.3363px 17.869px rgba(166, 166, 166, 0.0417275),
+      0px 12.5216px 10.0172px rgba(166, 166, 166, 0.035),
+      0px 6.6501px 5.32008px rgba(166, 166, 166, 0.0282725),
+      0px 2.76726px 2.21381px rgba(166, 166, 166, 0.0196802);
+    }
+    .wv_geberich-set__header {
+      padding: 0 0 32px;
+      margin: 0;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Bebas Neue';
+      font-size: 24px;
+      line-height: 1;
+      letter-spacing: 0.02em;
+      color: rgba(0, 0, 0, 0.48);
+    }
+    .wv_geberich-set__header h3 {
+      font-family: 'Bebas Neue';
+      font-size: 32px;
+      line-height: 1;
+      letter-spacing: 0.02em;
+      color: #000000;
+      padding: 0 10px 0 0;
+      margin: 0;
+    }
+    .wv_geberich-set__header p {
+      margin: 0;
+      padding:0;
+            font-size: 20px;
+            color: #DE2A4A;
+    }
+    .wv_geberich-set__image-container {
+      display: block; 
+      position: relative;
+      margin: 0;
+      padding: 0;
+    }
+    .wv_geberich-set__image {
+      position: relative;
+      padding: 0;
+      margin: 0 auto;
+      width: 200px;
+      height: 200px;
+    }
+    .wv_geberich-set__image::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background: #B0D9FF;
+    }              
+    .wv_geberich-set__image img {
+      position: relative;
+      z-index: 2;
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      padding-top: 10px;
+    }
+    .wv_geberich-set__image-price-container {
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 3;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.07))
+      drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198))
+      drop-shadow(0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275))
+      drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035))
+      drop-shadow(0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725))
+      drop-shadow(0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802));
+    }
+    .wv_geberich-set__image-price {
+      font-family: 'Bebas Neue';
+      font-size: 27px;
+      line-height: 1;
+      color: #292a31;
+      padding: 8px 32px 8px 16px;
+      margin: 0;
+      background: #ffffff;
+      border-radius: 10px;
+      
+    }
+    .wv_geberich-set__image-discount {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Bebas Neue';
+      font-size: 27px;
+      line-height: 1.2;
+      text-align: center;
+      color: #ffffff;
+      background: #B0D9FF;
+      border-radius: 50%;
+      width: 68px;
+      height: 68px;
+      margin: 0 0 0 -16px;
+    }
+
+    .wv_geberich-set__gift {
+      // width: fit-content;
+      // background: #06b862;
+      // border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // padding: 7px;
+      font-family: 'Lato';
+      font-size: 12px;
+      line-height: 1;
+      color: rgba(0, 0, 0, 0.48);
+      text-transform: uppercase;              
+    }
+    .wv_geberich-set__price {
+      padding: 32px 0 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+             column-gap: 10px
+    }
+    .wv_geberich-set .wv_discount {
+      font-size: 11px;
+      color: #06b862;
+      font-family: 'Bebas Neue';
+      font-size: 18px;
+      line-height: 1;
+      letter-spacing: 0.02em;
+      background: linear-gradient(124.63deg, #F58604 25.72%, #FEBE5F 70.43%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }            
+    .wv_geberich-set__price-new {
+      width: fit-content;
+      font-weight: 400;
+      font-size: 24px;
+      letter-spacing: 0.02em;
+      color: #292a31;
+    }
+    .wv_geberich-set__price-title {
+      font-family: 'Bebas Neue';
+      font-size: 18px;
+      line-height: 1;
+      letter-spacing: 0.02em;
+      color: #000000;
+      padding: 0 5px 8px 0;
+      margin: 0 0 8px;
+      border-bottom: 1px solid #d9d9d9;
+    }
+    .wv_geberich-set .wv_new-price {
+      font-family: 'Bebas Neue';
+      font-size: 48px;
+      line-height: 1;
+      letter-spacing: -3px;
+      color: #292A31;
+      margin: 0;
+      padding-bottom:0;
+    }
+    .wv_geberich-set__price-old {
+      font-size: 16px;
+      letter-spacing: 0.02em;
+      width: min-content;
+    }
+    .wv_geberich-set__price-old-title {
+      width: fit-content;
+      font-weight: 400;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      font-family: 'Bebas Neue';
+      font-size: 18px;
+      line-height: 1;
+      letter-spacing: 0.02em;
+      text-align: start;
+    }
+    .wv_geberich-set__price-old_line {
+      position: relative;
+      width: fit-content;                   
+      padding: 0 !important;             
+    }
+    .wv_geberich-set__price-old_line::before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 100%;
+      height: 3px;
+      background: #999999;
+      transform: translate(-50%, -50%) rotate(-12.09deg);
+    }
+    .wv_geberich-set .wv_old-price{
+      font-family: 'Bebas Neue';
+      font-size: 32px;
+      line-height: 1;
+      letter-spacing: 0.02em;
+      color: #999999;
+      text-decoration-line: none;
+      margin: 0;
+    }
+    .wv_geberich-set__price-old-content {
+      font-family: 'Lato';
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1;
+      color: rgba(0, 0, 0, 0.48);
+      padding: 10px 0 0;
+      margin:0;
+      padding: 0 !important;
+      text-align: center;
+    }
+    .wv_geberich-set__price-benefit {
+      font-family: "Bebas Neue";
+      color: rgb(222, 42, 74);
+      text-align: center;
+    }
+    .wv_geberich-set__button {
+      display:block;
+      width: 100%;
+      margin: 32px auto 0;
+      padding: 14px 28px;
+      font-family: 'Bebas Neue';
+      font-size: 24px;
+      line-height: 1;
+      color: #FFFFFF !important;
+      text-align: center;
+      background: #B0D9FF;
+      border-radius: 12px;
+      border: 1px solid transparent;
+      transition: all ease 0.45s;      
+      box-sizing: border-box;     
+      text-decoration-line: none !important; 
+    }
+    .wv_geberich-set__button:hover {
+      color: #B0D9FF !important;
+      background: #ffffff;
+      border: 1px solid #B0D9FF;
+      }
+
+    .wv_geberich-sets__footer{
+      max-width: 1360px;
+      box-sizing: border-box;
+      padding: 40px 20px;
+      margin: 0 auto;
+      font-family: 'Lato', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 1.15;
+      text-align: center;
+      font-variant: small-caps;
+      color: #000000;
+    }
+    @media screen and (min-width:580px){
+      .wv_geberich-sets__header{
+      font-size: 36px;
+      padding: 40px 20px;
+      }
+      .wv_geberich-set{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items:flex-start;                
+      max-width: 720px;
+      }
+      .wv_geberich-set__header {
+      width: 48%;
+      align-items: flex-start;
+      }
+      .wv_geberich-set__header h3 {
+      font-size: 24px;
+      }
+      .wv_geberich-set__image-container {
+      width: 50%;
+      }
+      .wv_geberich-set__gift-container{
+      width: 48%;
+      margin: -125px 0 0;
+      }
+      .wv_geberich-set__price {
+      padding: 0;
+      justify-content: flex-start;
+      }
+      .wv_geberich-set__price-new {
+      padding: 0;
+      }
+      .wv_geberich-set__price-benefit {
+        text-align: left;
+      }
+      .wv_geberich-set__price-old-content {
+        text-align: left;
+      }
+    }
+    @media screen and (min-width:980px){
+      .wv_geberich-sets__header{
+      font-size: 64px;
+      padding: 48px 20px;
+      }
+      .wv_geberich-set__header h3 {
+      font-size: 38px;
+      }
+      .wv_geberich-set .wv_new-price {
+      font-size: 54px;
+      }
+    }
+    @media screen and (min-width:1240px){              
+      .wv_geberich-sets__container{
+      flex-direction: row;
+      }
+      .wv_geberich-set {
+        margin: 0 15px;
+        width: calc(100% / 3);
+        box-sizing: border-box;
+        min-height: 590px;
+      }
+      .wv_geberich-set:nth-child(1) { order: 2; height: 650px;}
+      .wv_geberich-set:nth-child(2) { order: 1; }
+      .wv_geberich-set:nth-child(3) { order: 3; }
+
+      .wv_geberich-set__header {
+      font-size: 27px;
+      }
+      .wv_geberich-set__header {
+        width: 100%;
+        align-items: center;
+      }
+      .wv_geberich-set__image-container {
+      width: 100%;
+      }
+      .wv_geberich-set__gift-container{
+      width: 100%;
+      margin: auto 0 0;
+      }
+      .wv_geberich-set__price {
+        justify-content: center;
+      }
+      .wv_geberich-set__price-old-content,
+      .wv_geberich-set__price-benefit {
+        text-align: center;
+      }
+    }
+
+    .ketonaktiv .wv_geberich-sets__header-container{              
+      background: url(https://minio.cdnwv.com/cdnwv/cps_landings/general/ketonaktiv-header-bg.svg) center / cover no-repeat;              
+    }
+    .ketonaktiv .wv_geberich-set__image::before{
+      background: #B0D9FF;
+    }
+    .ketonaktiv .wv_geberich-set__image-discount,
+    .ketonaktiv .wv_geberich-set__button {
+      background: linear-gradient(180deg,#fdbc40,#f95222),#d95024;
+    }
+    .ketonaktiv .wv_geberich-set__button:hover {
+      color: #d95024 !important;
+      background: #ffffff;
+      border: 1px solid #d95024;
+    }
+
+    .insulinorm .wv_geberich-set__image::before{
+      background: #ffdcdc;
+    }
+    .insulinorm .wv_geberich-sets__header-container{
+      background: url(https://minio.cdnwv.com/cdnwv/cps_landings/general/insulinorm-header-bg.svg) center / cover no-repeat;
+    }
+    .insulinorm .wv_geberich-set__image-discount,
+    .insulinorm .wv_geberich-set__button {
+      background: rgb(94, 18, 18);
+    }
+    .insulinorm .wv_geberich-set .wv_discount {              
+      color: #06b862;             
+      background: linear-gradient(124.63deg, #DE2A4A 25.72%, #DE2A4A 70.43%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+    .insulinorm .wv_geberich-set__button:hover {
+      color: rgb(94, 18, 18) !important;
+      background: #ffffff;
+      border: 1px solid rgb(94, 18, 18);
+    }
+
+    .cardiobalance .wv_geberich-set__image::before{
+      background: #edf1ff;
+    }
+    .cardiobalance .wv_geberich-sets__header-container{
+      background: url(https://minio.cdnwv.com/cdnwv/cps_landings/general/cardiobalance-header-bg.svg) center / cover no-repeat;
+    }
+    .cardiobalance .wv_geberich-set .wv_discount {              
+      color: #06b862;             
+      background: linear-gradient(124.63deg, #3E226B 25.72%, #3E226B 70.43%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+    .cardiobalance .wv_geberich-set__image-discount,
+    .cardiobalance .wv_geberich-set__button {
+      background: #21125e;
+    }
+    .cardiobalance .wv_geberich-set__button:hover {
+      color: #21125e !important;
+      background: #ffffff;
+      border: 1px solid #21125e;
+    }
+
+    .prostaktiv .wv_geberich-set__image::before{
+      background: #edf1ff;
+    }
+    .prostaktiv .wv_geberich-sets__header-container{
+      background: url(https://minio.cdnwv.com/cdnwv/cps_landings/general/prostaktiv-header-bg.svg) center / cover no-repeat;
+    }            
+    .prostaktiv .wv_geberich-set .wv_discount {              
+      color: #06b862;             
+      background: linear-gradient(124.63deg, #3E226B 25.72%, #3E226B 70.43%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+    .prostaktiv .wv_geberich-set__image-discount,
+    .prostaktiv .wv_geberich-set__button {
+      background: #21125e;
+    }
+    .prostaktiv .wv_geberich-set__button:hover {
+      color: #21125e !important;
+      background: #ffffff;
+      border: 1px solid #21125e;
+    }
+
+    .variluxpremium .wv_geberich-set__image::before{
+      background: radial-gradient(circle, rgba(61,153,237,1) 0%, rgba(26,31,113,1) 100%);
+    }
+    .variluxpremium .wv_geberich-sets__header-container{
+      background: url(https://minio.cdnwv.com/cdnwv/cps_landings/general/prostaktiv-header-bg.svg) center / cover no-repeat;
+    }
+    .variluxpremium .wv_geberich-set .wv_discount {
+      color: #06b862;
+      background: linear-gradient(124.63deg, #3E226B 25.72%, #3E226B 70.43%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+    .variluxpremium .wv_geberich-set__image-discount,
+    .variluxpremium .wv_geberich-set__button {
+      background: radial-gradient(circle, rgba(61,153,237,1) 0%, rgba(26,31,113,1) 100%);
+    }
+    .variluxpremium .wv_geberich-set__button:hover {
+      color: rgba(26,31,113,1) !important;
+      background: #ffffff;
+      border: 1px solid rgba(26,31,113,1);
+    }
+
+    .prostatricumbest .wv_geberich-set__image::before{
+      background: radial-gradient(circle, rgba(61,153,237,1) 0%, rgba(26,31,113,1) 100%);
+    }
+    .prostatricumbest .wv_geberich-sets__header-container{
+      background: url(https://minio.cdnwv.com/cdnwv/cps_landings/general/prostaktiv-header-bg.svg) center / cover no-repeat;
+    }
+    .prostatricumbest .wv_geberich-set .wv_discount {
+      color: #06b862;
+      background: linear-gradient(124.63deg, #3E226B 25.72%, #3E226B 70.43%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+    .prostatricumbest .wv_geberich-set__image-discount,
+    .prostatricumbest .wv_geberich-set__button {
+      background: rgb(72 8 8);
+    }
+    .prostatricumbest .wv_geberich-set__button:hover {
+      color: rgba(26,31,113,1) !important;
+      background: #ffffff;
+      border: 1px solid rgba(26,31,113,1);
+    }
+    .prostatricumbest .wv_geberich-set__image::before {
+      background: rgb(94 18 18 / 45%);
+    }
+
+    .prostatricumplus .wv_geberich-sets__header-container{
+      background: url(https://minio.cdnwv.com/cdnwv/cps_landings/general/cardiobalance-header-bg.svg) center / cover no-repeat;
+    }
+    .prostatricumplus .wv_geberich-set__image-discount,
+    .prostatricumplus .wv_geberich-set__button {
+      background: #03a2cf;
+    }
+    .prostatricumplus .wv_geberich-set__image::before {
+      background: #0095da80;
+    }
+
+    .bestdrprost .wv_geberich-sets__header-container{
+      background: url(https://minio.cdnwv.com/cdnwv/cps_landings/general/cardiobalance-header-bg.svg) center / cover no-repeat;
+    }
+    .bestdrprost .wv_geberich-set__image-discount,
+    .bestdrprost .wv_geberich-set__button {
+      background: #2280b2;
+    }
+    .bestdrprost .wv_geberich-set__image::before {
+      background: #0095da80;
+    }
+
+    hide-order-form{
+      visibility: hidden !important;
+    }
+    `
+            this.head.append(productSetsFonts1);
+            this.head.append(productSetsFonts2);
+            this.head.append(productSetsFonts3);
+            this.head.append(productSetsStyle);
+          }
+          ProductSets.prototype.createSection = function (section) {
+            this.getGeo();
+            this.setButtonRedirection();
+            this.getUTM()
+
+            const productSetsHeaderContainer = document.createElement('div');
+            const productSetsHeader = document.createElement('h2');
+            const productSets = document.createElement('div');
+            const productSetsFooter = document.createElement('div');
+            const buttonLink = this.buttonLink
+            const language = this.language
+            const offer = this.offer
+
+            productSetsHeaderContainer.className = 'wv_geberich-sets__header-container'
+            productSetsHeader.className = 'wv_geberich-sets__header'
+            productSetsHeader.textContent = this.translation[`${language}`]['title']
+            productSets.className = 'wv_geberich-sets__container'
+            productSetsFooter.className = 'wv_geberich-sets__footer'
+            productSetsFooter.innerHTML = this.translation[`${language}`]['footer_content']
+
+            section.append(productSetsHeaderContainer);
+            productSetsHeaderContainer.append(productSetsHeader);
+            section.append(productSets);
+            this.sets.forEach((set) => {
+              productSets.append(this.createSet(set.quantity, set.price, buttonLink, offer, language))
+            })
+            section.append(productSetsFooter);
+
+            Object.values(this.offers).forEach((offerItem) => {
+              if (offerItem.offer_id == offer) {
+                section.classList.add(offerItem.offer_class)
+              }
+            })
+
+          }
+          ProductSets.prototype.createSet = function (quantity, price, buttonLink, offer, language) {
+            const productSet = document.createElement('div');
+            let newPrice = new Intl.NumberFormat(language, { style: 'currency', currency: 'EUR', minimumFractionDigits: 0 }).format(price)
+            let oldPrice = new Intl.NumberFormat(language, { style: 'currency', currency: 'EUR', minimumFractionDigits: 0 }).format(price * 2)
+            let benefit = new Intl.NumberFormat(language, { style: 'currency', currency: 'EUR', minimumFractionDigits: 0 }).format((100 * quantity) - (price * quantity))
+            if (language == 'ch' || language == 'CH') {
+              newPrice = new Intl.NumberFormat(language, { style: 'currency', currency: 'CHF', minimumFractionDigits: 0 }).format(price)
+              oldPrice = new Intl.NumberFormat(language, { style: 'currency', currency: 'CHF', minimumFractionDigits: 0 }).format(price * 2)
+              benefit = new Intl.NumberFormat(language, { style: 'currency', currency: 'CHF', minimumFractionDigits: 0 }).format((100 * quantity) - (price * quantity))
+            }
+            if (new URL(buttonLink).search) {
+              buttonLink += `&pSet=${price}${quantity}`
+            } else {
+              buttonLink += `?pSet=${price}${quantity}`
+            }
+            productSet.className = 'wv_geberich-set';
+            productSet.setAttribute('data-set-set_id', `${price}${quantity}`)
+            productSet.innerHTML = `
+    <div class="wv_geberich-set__header">
+      <h3 class="wv_geberich-set__header-title">${this.translation[language]["good_title" + quantity]}
+      <p class="wv_geberich-set__header-subtitle">${this.translation[language]["good_set" + quantity]}
+    
+    <div class="wv_geberich-set__image-container">
+      <div class="wv_geberich-set__image">
+        <img src="${this.offers[offer].offer_image}product-set${quantity}.png" alt="${this.offers[offer].offer_name}" />
+      
+    
+    <div class="wv_geberich-set__gift-container">
+      <div class="wv_geberich-set__price">
+        <div class="wv_geberich-set__price-new">
+          <p class="wv_new-price" data-good-new-price>${newPrice}
+        
+        <div class="wv_geberich-set__price-old">
+          <h4 class="wv_geberich-set__price-old-title" data-good-price-old-title>${this.translation[language].good_price_old_title}
+        
+      
+      <div class="wv_geberich-set__price-benefit">
+        <span class="wv_geberich-set__price-benefit-content" data-good-price-old-content>
+          ${this.translation[language].good_benefit_content}
+        
+        <span>${benefit}
+      
+      <p class="wv_geberich-set__price-old-content" data-good-price-old-content>
+        ${this.translation[language].good_price_content}
+      
+      <a href="${buttonLink}" class="wv_geberich-set__button" data-good-button>
+        ${this.translation[language].good_button}
+      
+      
+    `
+            return productSet
+          }
+          ProductSets.prototype.hideForms = function () {
+            this.forms.forEach(function (form) {
+              form.classList.add('hide-order-form')
+              form.style.visibility = 'hidden';
+              form.style.display = 'none';
+            })
+          }
+          ProductSets.prototype.initEvents = function () {
+            const that = this;
+            if (this.productSets) {
+              this.setProductSetsStyle()
+              this.productSets.forEach(function (item) {
+                item.className = 'wv_geberich-sets'
+                that.createSection(item)
+              })
+              this.hideForms()
+            }
+          }
+          ProductSets.prototype.init = function () {
+            this.initEvents();
+          }
+
+          // INITIALIZE
+          window.productSets = new ProductSets().init();
+        } catch (error) {
+          console.error('Failed create online payment');
+        }
+      })
+    })();
+  </script>
+</head>
+
+<body>
+
+
+  <div class="header">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div>
+          <div class="header-title_1 ">
+            emagrecimento revolucionário
+            <img alt="" src="./img/p1.png">
+            <span>por conta da cetose!</span>
+          </div>
+          <div class="header-title_2 ">
+            <img alt="" src="./img/p2.png">
+          </div>
+          <div class="header-title_3 ">
+            <img alt="" src="./img/p3.png">
+          </div>
+        </div>
+        <div class="contact-form-area only-desctop " style="visibility:hidden;height:0;width:0;overflow:hidden;">
+          <div class="contact-awards"></div>
+          <div class="contact-form-offer-title lt1">apenas hoje!
+            <span class="wv_discount">desconto de -50%</span>
+          </div>
+          <div class="contact-form-price">
+            <div class="form-newprice lt2">novo preço:
+              <span class="price_main">
+                <span class="price_main_value wv_new-price">49</span>
+                <span class="price_main_currency wv_currency">€</span>
+              </span>
+            </div>
+            <div class="form-oldprice lt3">preço regular:
+              <span class="price_old">
+                <span class="price_main_value wv_old-price">98</span>
+                <span class="price_main_currency wv_currency">€</span>
+              </span>
+            </div>
+          </div>
+          <div class="form-timer">
+            
+
+            <div class="time-block">
+              <div class="time-title"> Até ao final da promoção: </div>
+              <div class="time-remain">
+                <div class="time-remain-items">
+                  <span class="hour">03</span><span>HORAS</span>
+                </div>
+                <div class="time-dots">:</div>
+                <div class="time-remain-items">
+                  <span class="minutes">45</span><span>MINUTOS</span>
+                </div>
+                <div class="time-dots">:</div>
+                <div class="time-remain-items">
+                  <span class="seconds">00</span><span>SEGUNDOS</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="contact-form">
+            <form action="order.php" method="POST" class="wv_order-form order_form" id="order_form0">
+              <label class="lt5">Selecione o seu país:
+                <select class="country_select" id="country" name="id_country">
+                  <option value="pt">Portugal</option>
+                </select>
+              </label>
+              <label class="lt6">Escreva o seu nome:
+                <input name="name" class="wv_name" placeholder="Olga Morães" required type="text">
+              </label>
+              <label class="lt7">Escreva o seu número de telefone:
+                <input name="phone" class="wv_phone" placeholder="+351 (937) 552-27-65" required type="tel">
+              </label>
+
+              <label class="form__checkbox">
+                <input name="terms" type="checkbox" required>
+                <span class="form__checkbox-mark" tabindex="1"></span>
+                <span>Li e concordo com a <a href="https://minio.cdnwv.com/cdnwv/document/terms_pt.pdf" target="_blank">Política de Privacidade</a></span>
+              </label>
+
+              <input name="lang" type="hidden" class="" value="pt">
+              <input name="ym" type="hidden" class="" value="default">
+              <input name="utm_source" type="hidden" class="">
+              <input name="utm_medium" type="hidden" class="">
+              <input name="utm_campaign" type="hidden" class="">
+              <input name="utm_content" type="hidden" class="">
+              <input name="utm_term" type="hidden" class="">
+              <input name="referer" type="hidden" class="" value="default">
+              <input name="guid" type="hidden" class="">
+              <input name="first_guid" type="hidden" class="">
+              <input name="landing_id" type="hidden" class="" value="9586">
+              <input name="prelanding_id" type="hidden" class="">
+              <input name="offer_id" type="hidden" class="" value="269">
+              <input name="url" type="hidden" class="">
+              <input name="shopwindow_id" type="hidden" class="">
+              <input name="cookie_enabled" type="hidden" class="">
+
+              <button class="form-btn lt8">encomendar agora</button>
+              <div class="form-arrow"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="only-mobile-btn">
+      <a class="navigate-btn margin-c lt9" href="#footerForm">encomendar agora</a>
+    </div>
+  </div>
+
+  <section data-geberich-product-sets></section>
+
+  <section class="section-2">
+    <div class="container">
+      <div class="section2-title ">Emagrecimento
+        de forma segura
+        <span>por conta da cetose</span>
+      </div>
+      <div class="left-descr">
+        <p class="">
+          <b>Cetose é a obtenção da energia das gorduras, e não da glicose que entra no corpo com carboidratos que
+            consumimos.</b> Se
+          o corpo deixar de receber a energia dos carboidratos, depois de 7 a 14 dias este entra no estado de cetose.
+          Como
+          resultado, começa a transformação ativa de gorduras em energia.
+        </p>
+        <p class="">No
+          entanto, é difícil tolerar uma dieta que envolva a exclusão de carboidratos completa da alimetação,
+          <br>
+          <span style="color: #9f116b; font-weight: 700;"> O remédio fornecerá a ingestão de сorpos cetónicos
+            <br> ajudando você a livrar-se de peso em excesso.</span>
+        </p>
+      </div>
+    </div>
+  </section>
+  <div class="h2 ">
+    <span class="lt13">A SUA</span>
+    <span class="lt14">CETO</span>
+    <span class="lt15">DIETA</span>
+  </div>
+  <section class="section-3 ">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="section-3-left">
+          <img alt="" src="./img/pz1.png">
+        </div>
+        <div class="section-3-right ">
+          <div class="h3 lt16">Keton <span> Aktiv</span>
+          </div>
+          <div class="section-3-subtitle lt17">Componente obrigatório da dieta.</div>
+          <img alt="" class="s3-img" src="./img/keton-aktiv-img2.png">
+          <p class="s3-p lt18">As cápsulas iniciam a cetose no seu corpo e transformam gorduras armazenadas em energia.
+            <b> Você vai perdendo peso todos os dias de forma garantida.</b>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-4">
+    <div class="container">
+      <div class="s4-title-line ">COMBINAÇÃO
+        VENCEDORA
+        <span class="big">CETOSE+</span>
+        <span class="h3">Keton <span> Aktiv</span>
+        </span>
+      </div>
+      <div class="s4-description ">Geralmente, a cetose leva de 7 a 14 dias para começar.
+        Apenas 1 cápsula de Keton Aktiv reduzirá esse tempo para 40 a
+        50 minutos, durante o qual a conversão de gorduras em energia e a redução de gordura corporal serão iniciados.
+        Tome
+        <span> Keton Aktiv diariamente e perca até 10 a 15 kg de peso por mês!</span>
+      </div>
+      <div class="row stages-area">
+        <div class="col-lg-6">
+          <div class="stages-title lt21">primeira fase</div>
+          <div class="stages-card ">
+            <div class="stages-description lt22">A cetose permitir-lhe-á queimar gorduras de difícil acesso, preservando
+              enquanto isso a massa muscular. A redução
+              de consumo de carboidratos garante a estabilização do peso e o não retorno de quilogramas perdidos.</div>
+            <img alt="" src="./img/fatcell.gif" width="337">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="stages-title lt23">segunda fase</div>
+          <div class="stages-card ">
+            <div class="stages-description lt24">Keton Aktiv inicia a cetose: acelera o metabolismo, reduz o apetite e
+              ataca diretamente as suas reservas de gordura!</div>
+            <img alt="" src="./img/weightloss.gif" width="337">
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="navigate-btn position-a" href="#footerForm">encomendar agora</a>
+  </section>
+  <section class="section-5">
+    <div class="s5-title-line">
+      <span class="big">PODEROSOS COMPONENTES</span> NA COMPOSIÇÃO
+      <span class="h3">Keton <span> Aktiv</span>
+      </span>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="s5-img ">
+            <img alt="" src="./img/keton-aktiv-img.png">
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="s5-list">
+            <div class="list-item ">
+              <div class="list-icon ico1"></div>
+              <div class="list-item-title lt27">Cetonas de framboesa</div>
+              <div class="list-item-description lt28">Têm uma ação semelhantes aos corpos cetónicos produzidos pelo
+                corpo humano. São extremamente ativas.
+                <ul>
+                  <li>
+                    <span>Convertem </span>a gordura em energia
+                  </li>
+                  <li>
+                    <span>Aceleram </span>o metabolismo
+                  </li>
+                  <li>
+                    <span>Diminuem </span>apetite
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="list-item ">
+              <div class="list-icon ico2"></div>
+              <div class="list-item-title lt29">Beta sitosterol</div>
+              <div class="list-item-description lt30">Neutraliza os efeitos da desnutrição
+                <ul>
+                  <li>
+                    <span>Normaliza </span>o metabolismo lipídico
+                  </li>
+                  <li>
+                    <span> Limpa os vasos sanguíneos </span>de colesterol perigoso
+                  </li>
+                  <li>
+                    <span>Melhora a condição da pele, </span>luta contra a celulite
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="list-item">
+              <div class="list-icon ico3"></div>
+              <div class="list-item-title lt31">Coenzima Q10</div>
+              <div class="list-item-description lt32">A deficiência de coenzima Q10 é a principal causa da obesidade em
+                78% dos casos
+                <ul>
+                  <li>
+                    <span>Normaliza </span>o metabolismo
+                  </li>
+                  <li>
+                    <span>Diminui </span>o nível de colesterol perigoso
+                  </li>
+                  <li>
+                    <span>Diminui, </span>apetite
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="list-item">
+              <div class="list-icon ico4"></div>
+              <div class="list-item-title lt33">L-carnitina</div>
+              <div class="list-item-description lt34">Uma substância relacionada às vitaminas B, sintetizada no corpo
+                humano
+                <ul>
+                  <li>
+                    <span>Converte </span>gorduras em energia
+                  </li>
+                  <li>
+                    <span> Alivia a irritabilidade, </span>melhora o ânimo
+                  </li>
+                  <li>
+                    <span>Livra </span>da depressão
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="list-item mobile-off ">
+              <div class="list-icon ico5"></div>
+              <div class="list-item-title lt35">Bromelina</div>
+              <div class="list-item-description lt36">Proteína digestora de gorduras secretada na polpa e no talo do
+                ananás
+                <ul>
+                  <li>
+                    <span>Dissolve ativamente </span> a gordura visceral
+                  </li>
+                  <li>
+                    <span>Elimina </span>inchaços
+                  </li>
+                  <li>
+                    <span>Previne </span>a obesidade dos órgãos internos
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="list-item mobile-off ">
+              <div class="list-icon ico6"></div>
+              <div class="list-item-title lt37">Sinefrina orgânica</div>
+              <div class="list-item-description lt38">Lipolítico ativo. Bloqueia a atividade dos receptores alfa nas
+                células adiposas
+                <ul>
+                  <li>
+                    <span> Luta conta gordura persistente, incluindo a visceral </span>
+                  </li>
+                  <li>
+                    <span>Melhora a ingestão </span>de calorias
+                  </li>
+                  <li>
+                    <span>Melhora a capacidade de trabalhar </span>e a resistência
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="expert-area">
+    <div class="container">
+      <div class="expert-title">OPINIÃO DE
+        PERITOS SOBRE
+        <span class="h3">Keton <span> Aktiv</span>
+        </span>
+      </div>
+      <div class="expert-subtitle ">
+        <span>Dorothy Goodall</span>, nutricionista norte-americana com a experiência profissional de 30 anos.
+      </div>
+      <div class="expert-description ">
+        <p class="lt41">Durante a cetose, as gorduras são decompostas em ácidos graxos e glicerina, que, posteriormente,
+          são transformadas
+          em corpos cetónicos. No entanto, a cetose começa apenas quando as reservas de glicogênio no fígado e no tecido
+          muscular estão completamente esgotados,
+          <b> geralmente tal ocorre entre 7 e 14 dias.</b>
+        </p>
+        <p class="lt42">Para acelerar esse processo e, por conseguinte, a queima de gordura, recomendo aos meus
+          pacientes o suplemento dietético
+          Keton Aktiv. Keton Aktiv sustenta perfeitamente o corpo durante a dieta cetogénica: este enriquece o corpo com os
+          elementos
+          necessários, suprime a fome, elimina a fadiga e a ansiedade..
+          <b>Keton Aktiv assegura uma perda de peso saudável e natural, sem causar flacidez da pele, trazendo benefícios
+            excepcionais
+            ao seu corpo.</b>
+        </p>
+        <div class="expert-excerpt lt43">Keton Aktiv acelera a transição do corpo para o estado de cetose e ajuda na
+          transformação de gorduras em energia.</div>
+      </div>
+    </div>
+    <a class="navigate-btn position-a " href="#footerForm">encomendar agora</a>
+  </section>
+  <section class="sucess-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-8">
+          <div class="sucess-title ">Junte-se
+            <b>a milhares de pessoas, </b>que já experimentaram
+            <span class="h3">Keton <span> Aktiv</span>
+            </span>
+          </div>
+          <div class="sucess-img ">
+            <img alt="" src="./img/success.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="feedback">
+    <div class="feedback-title ">
+      Comentários
+    </div>
+
+    <div class="feedback-container ">
+      <div class="feedback-slider">
+
+
+
+        <div class="feedback-item">
+          <div class="row  align-items-center">
+            <div class="col-lg-4">
+              <img src="./img/f3.jpg" alt="">
+            </div>
+            <div class="col-lg-8">
+              <div class="feedback-item-description">
+                <p>
+                  Sabemos tão pouco sobre o nosso corpo! Eu nunca fiquei a pensar em processos complexos que
+                  acontecem nele até chegar a uma nutricionista e ouvir sobre a cetose. Eu sou uma pessoa
+                  preguiçosa. Não consigo fazer dieta, tampouco praticar desporto. Portanto, eu estava à procura dum
+                  método fácil e rápido. Posso garantir que Keton Aktiv ajudará com certeza! Com este remédio,
+                  consegui perder um peso recorde de 15 kg e obter a minha silhueta ideal.
+                </p>
+                <p> Maria P, 34 anos </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="feedback-item">
+          <div class="row  align-items-center">
+            <div class="col-lg-4">
+              <img src="./img/f1.jpg" alt="">
+            </div>
+            <div class="col-lg-8">
+              <div class="feedback-item-description">
+                <p>
+                  Tanto quanto me lembro, eu sempre fazia dietas. Passava fome, tinha sono e problemas de pele. Às
+                  vezes conseguia perder um pouco de peso, mas depois sempre o ganhava. A minha nutricionista
+                  disse-me sobre Keton Aktiv. O resultado agradou quase imediatamente. Durante toda a semana eu perdia
+                  3 quilos. Para mim foi uma verdadeira magia. Sentia-me ótima, não tinha fome, dormia 7 horas.
+                </p>
+                <p>Amália N, 27 anos</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="feedback-item">
+          <div class="row  align-items-center">
+            <div class="col-lg-4">
+              <img src="./img/f2.jpg" alt="">
+            </div>
+            <div class="col-lg-8">
+              <div class="feedback-item-description">
+                <p>
+                  Para mim, Keton Aktiv foi uma salvação. Eu nunca pensei que eu podia comer tudo o que eu gosto e, ao
+                  mesmo tempo, perder peso. É que eu sempre tive excesso de carboidratos na dieta. Por causa disso
+                  tive 100 quilos aos 29 anos de idade. Em geral, assim que eu corrigia um pouco a quantidade de
+                  carboidratos que eu consumo, o peso começava a diminuir. Mas não consigo viver sem carboidratos,
+                  porque gosto muito de fast food. Mas depois eu descobri Keton Aktiv. Depois de tomar o remédio, a
+                  queima de peso acelerou, eu nem precisei de desistir de carboidratos. No total, durante 4 meses,
+                  eu perdi 25 kg. Keton Aktiv é o melhor que já experimentei! Recomendo-o a todos!
+                </p>
+                <p>Marta K, 49 anos</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+
+  <section class="complex-area">
+    <div class="container">
+      <div class="complex-title ">Chegou a hora
+        <b>de livrar-se de complexos</b>
+      </div>
+      <div class="complex-img ">
+        <img alt="" src="./img/complex.png">
+      </div>
+    </div>
+  </section>
+
+  <section data-geberich-product-sets id="footerForm"></section>
+
+  <div class="header">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div>
+          <div class="header-title_1 lt64">método revolucionário
+            <img alt="" src="./img/p1.png">
+            <span>por conta da cetose!</span>
+          </div>
+          <div class="header-title_2">
+            <img alt="" src="./img/p2.png">
+          </div>
+          <div class="header-title_3">
+            <img alt="" src="./img/p3.png">
+          </div>
+        </div>
+        <div class="contact-form-area" style="visibility:hidden;height:0;width:0;overflow:hidden;">
+          <div class="contact-awards"></div>
+          <div class="contact-form-offer-title lt65">apenas hoje!
+            <span class="wv_discount">desconto de -50%</span>
+          </div>
+          <div class="contact-form-price">
+            <div class="form-newprice lt66">novo preço:
+              <span class="price_main">
+                <span class="price_main_value wv_new-price">49</span>
+                <span class="price_main_currency wv_currency">€</span>
+              </span>
+            </div>
+            <div class="form-oldprice lt67">preço regular:
+              <span class="price_old">
+                <span class="price_main_value wv_old-price">98</span>
+                <span class="price_main_currency wv_currency">€</span>
+              </span>
+            </div>
+          </div>
+          <div class="form-timer">
+            
+
+            <div class="time-block">
+              <div class="time-title"> Até ao final da promoção: </div>
+              <div class="time-remain">
+                <div class="time-remain-items">
+                  <span class="hour">03</span><span>HORAS</span>
+                </div>
+                <div class="time-dots">:</div>
+                <div class="time-remain-items">
+                  <span class="minutes">45</span><span>MINUTOS</span>
+                </div>
+                <div class="time-dots">:</div>
+                <div class="time-remain-items">
+                  <span class="seconds">00</span><span>SEGUNDOS</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="contact-form">
+            <form action="order.php" method="POST" class="wv_order-form order_form" id="order_form1">
+              <label class="lt69">Selecione o seu país:
+                <select class="country_select" id="country" name="id_country">
+                  <option value="pt">Portugal</option>
+                </select>
+              </label>
+              <label class="lt70">Escreva o seu nome:
+                <input name="name" class="wv_name" placeholder="Olga Morães" required type="text">
+              </label>
+              <label class="lt71">Escreva o seu número de telefone:
+                <input name="phone" placeholder="+351 (937) 552-27-65" class="wv_phone" required type="tel">
+              </label>
+              <label class="form__checkbox">
+                <input name="terms" type="checkbox" required>
+                <span class="form__checkbox-mark" tabindex="1"></span>
+                <span>Li e concordo com a <a href="https://minio.cdnwv.com/cdnwv/document/terms_pt.pdf" target="_blank">Política de Privacidade</a></span>
+              </label>
+
+              <input name="lang" type="hidden" class="" value="pt">
+              <input name="ym" type="hidden" class="" value="default">
+              <input name="utm_source" type="hidden" class="">
+              <input name="utm_medium" type="hidden" class="">
+              <input name="utm_campaign" type="hidden" class="">
+              <input name="utm_content" type="hidden" class="">
+              <input name="utm_term" type="hidden" class="">
+              <input name="referer" type="hidden" class="" value="default">
+              <input name="guid" type="hidden" class="">
+              <input name="first_guid" type="hidden" class="">
+              <input name="landing_id" type="hidden" class="" value="9586">
+              <input name="prelanding_id" type="hidden" class="">
+              <input name="offer_id" type="hidden" class="" value="269">
+              <input name="url" type="hidden" class="">
+              <input name="shopwindow_id" type="hidden" class="">
+              <input name="cookie_enabled" type="hidden" class="">
+
+              <button class="form-btn lt72">encomendar agora</button>
+              <div class="form-arrow"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="how-we-work">
+    <div class="how-we-work-title lt73">Como trabalhamos</div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="how-we-work-card">
+            <img alt="" src="./img/i1.jpg">
+            <div class="how-we-work-card-title lt74">FAZER PEDIDO</div>
+            <div class="how-we-work-description lt75">Logo depois de você enviar o pedido, o nosso gerente entrará em
+              contato com você para
+              <br>
+              <b>confirmá-lo</b>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="how-we-work-card">
+            <img alt="" src="./img/i2.jpg">
+            <div class="how-we-work-card-title lt76">ENTREGA</div>
+            <div class="how-we-work-description lt77">Logo depois de você enviar o pedido, o nosso gerente entrará em
+              contato com você para
+              <br>
+              <b>confirmá-lo</b>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="how-we-work-card">
+            <img alt="" src="./img/i3.jpg">
+            <div class="how-we-work-card-title lt78">PAGAMENTO</div>
+            <div class="how-we-work-description lt79">
+              <b>Sem pré-pagamento! </b>Você paga apenas depois de receber o produto.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="how-we-work-card">
+            <img alt="" src="./img/i4.jpg">
+            <div class="how-we-work-card-title lt80">Garantias</div>
+            <div class="how-we-work-description lt81">Ao fazer uma compra na nossa
+              <br>loja-online você pode ter certeza que está a adquirir um produto de alta qualidade, da alta qualidade
+              dos produtos
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="footer lt82">
+    <p>
+      
+    </p>
+    <p>©
+      <script>document.write(new Date().getFullYear())</script> Keton Aktiv. Todos os direitos reservados.
+    </p>
+  </div>
+
+
+  
+  <script src="js/script.js"></script>
+  <noscript><img src="//webvkrd.com/pixel.php?offer_id=269&landing_id=9586&page_type=landing" alt=""></noscript>
+  <script src="./js/webvork.js"></script>
+
+</body>
+
+</html>

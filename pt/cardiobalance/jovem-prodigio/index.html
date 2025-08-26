@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html data-landing_id="13522" data-offer_id="118" data-page_type="landing">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+    <title>Cardio Balance</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/preloader.css">
+    <link rel="stylesheet" href="css/doors.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/formmb.css" media="all">
+    <script src="js/jquery.js"></script>
+    <script>
+      function fdateTwoDigits(d) {
+        let now = new Date();
+        now.setDate(now.getDate() + d);
+        let mm = now.getMonth() + 1;
+        let day = now.getDate();
+        if (now.getDate() < 10) day = "0" + now.getDate();
+        if (mm < 10) mm = "0" + mm;
+        document.write(" " + day + "." + mm + "." + now.getFullYear() + " ");
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="site-change-menu-container">
+      <div class="ui container" id="top">
+        <div class="ui container">
+          <div class="ui menu secondary pointing no-mobile site-select-menu" style="padding: 10px 0">
+            <a class="vtbadlink ui item active site-mv" scroll="goScrollToForm" data-counter-id="884">
+              <div class="icon" style="background-image: url('img/05f71b4ac5.png')"></div> </a><a class="vtbadlink ui item site-lib" scroll="goScrollToForm" data-counter-id="883">
+              <div class="text">Biblioteca do médico</div> </a><a class="vtbadlink ui item site-ls" scroll="goScrollToForm" data-counter-id="1200">
+              <div class="text">Guia de medicamentos</div> </a><a class="vtbadlink ui item site-bz" scroll="goScrollToForm" data-counter-id="892">
+              <div class="text">Base de conhecimentos</div>
+            </a>
+          </div>
+          <data data-module="main.sites" data-action="select"></data>
+        </div>
+      </div>
+    </div>
+
+    <div class="red-line" style="background-color: red">
+      <div class="red-line-container">
+        <div class="rel-line_left" style="display: flex; flex-direction: row; align-items: center; justify-content: space-between">
+          <a class="vtbadlink" scroll="goScrollToForm"><img src="img/menu.svg" alt="menu" style="width: 30px; display: inline-block; margin-right: 15px"></a>
+          <a class="vtbadlink" scroll="goScrollToForm"><img src="img/9397bbe895.png" style="display: inline-block; margin-right: 15px"></a>
+          <span class="official-version" style="color: white">
+            VERSÃO ELETRÓNICA OFICIAL
+          </span>
+        </div>
+        <div class="rel-line_right" style="display: flex; flex-direction: row; align-items: center; justify-content: space-between">
+          <a class="vtbadlink" scroll="goScrollToForm"><img src="img/loupe.svg" alt="menu" class="loupe" style="width: 30px; margin-right: 15px"></a>
+          <a class="vtbadlink" scroll="goScrollToForm" style="color: white; font-weight: bold; border: 2px solid white; padding: 10px; border-radius: 5px; display: inline-block">Autorização</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="ui segment secondary no-top-marged no-bottom-marged no-border no-padded no-mobile no-tablet vertical" id="submenu-top">
+      <div class="ui container">
+        <div class="ui menu first-level secondary borderless">
+          <a class="ui item" data-counter-id="886" data-plugin="popup" data-on="click" data-position="bottom left" data-last-resort="bottom center" data-variation="default" data-exclusive="1" data-inline="1" data-thanx="true" data-pushed="true">
+            Especialização
+          </a>
+          <a class="vtbadlink ui item" data-counter-id="1096" scroll="goScrollToForm" data-pushed="true">
+            COVID-19
+          </a>
+          <a class="vtbadlink ui item" data-counter-id="888" scroll="goScrollToForm" data-pushed="true">
+            Eventos
+          </a>
+          <a class="vtbadlink ui item" data-counter-id="889" scroll="goScrollToForm" data-pushed="true">
+            Notícias
+          </a>
+          <a class="vtbadlink ui item" data-counter-id="890" scroll="goScrollToForm" data-pushed="true">
+            Video
+          </a>
+          <a class="vtbadlink ui item" data-counter-id="918" scroll="goScrollToForm" data-pushed="true">
+            Escola para médicos
+          </a>
+          <a class="vtbadlink ui item" data-counter-id="924" scroll="goScrollToForm" data-pushed="true">
+            Computador
+          </a>
+          <a class="vtbadlink ui item" data-counter-id="1153" scroll="goScrollToForm" data-pushed="true">
+            Documentos
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-wrap">
+      <div class="main-content">
+        <div class="content">
+          <div class="content__inner content__inner_wide">
+            <div class="article">
+              <div class="article__date">
+                <span id="locdate1"></span>
+                <script>
+                  d = new Date();
+                  var localeString = new Date(d.getTime() - 1 * 86400000).toLocaleString("pt", {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                  });
+                  var elem = document.getElementById("locdate1");
+                  elem.innerHTML = localeString;
+                </script>
+                <span class="article__time"></span><span class="article__author">
+                  Pedro Nunes
+                </span>
+              </div>
+              <h3 class="article__title">
+                <strong>
+                  O estudante português João Lucas Cipriano foi reconhecido como um prodígio nos EUA e premiado com uma bolsa de estudos por ter descoberto um método de limpeza dos vasos sanguíneos: “A minha ideia é uma nova palavra na luta contra a hipertensão”
+                </strong>
+              </h3>
+              <h4 class="article__subtitle">
+                Um estudante português foi reconhecido nos EUA como um prodígio por ter descoberto uma forma de limpar os vasos sanguíneos; leia a nossa entrevista sobre o seu método inovador.
+              </h4>
+              <div class="article__text js-mediator-article">
+                <span class="red-text-1">
+                  O jovem gênio poderia salvar milhares de vidas há um ano, mas o seu talento só foi reconhecido em Portugal depois de ter vencido em Nova Iorque. Antes disso, ele tentou obter o apoio das autoridades locais, apresentando a sua invenção, capaz de salvar muitas vidas em todo o país. No entanto, sua ideia foi ignorada.
+                </span>
+                <p>
+                  João Lucas Cipriano está convencido de que o segredo da longevidade reside no estado dos vasos sanguíneos. Se estiverem limpos e saudáveis, é possível viver até aos 120 anos e sentir-se ótimo.
+                </p>
+                <p>
+                  O nosso correspondente conseguiu falar com o jovem gênio. João Lucas demonstrou o seu método inovador de limpeza dos vasos sanguíneos e de prolongamento da vida, graças ao qual recebeu uma bolsa de estudos e reconhecimento mundial.
+                </p>
+                <center>
+                  <picture>
+                    <source srcset="img/image2.webp" type="image/webp"></source>
+                    <img src="img/image2.jpg" class="photo-desktop" style="margin: 30px 0 0 0" width="1000" height="667">
+                  </picture>
+                </center>
+                <center>
+                  <picture>
+                    <source srcset="img/portrait.webp" type="image/webp"></source>
+                    <img src="img/portrait.png" loading="lazy" class="photo-mob" style="margin: 30px 0 0 0" width="350" height="390">
+                  </picture>
+                </center>
+                <p style="max-width: 550px; margin: 0px auto">
+                  <i style="font-style: italic; font-size: 14px; line-height: 1.3; text-align: center; display: block">
+                    O próprio Presidente felicitou João Lucas Cipriano pela sua bolsa internacional
+                  </i>
+                </p>
+                <div class="ctContent">
+                  <div class="trust_wrap" style="margin: 30px auto">
+                    <p class="trust_title">
+                      <span class="trust_subtitle">como se pode ver em</span>
+                    </p>
+                    <div class="trust_group trust_group-news">
+                      <img class="logo_trust trust_news" src="img/lr.jpg" alt="">
+                      <img class="logo_trust trust_news" src="img/ansa.jpg" alt="">
+                      <img class="logo_trust trust_news" src="img/logo_corriere-black.svg" alt="">
+                      <img class="logo_trust trust_news" src="img/logo-desktop.svg" alt="">
+                      <img class="logo_trust trust_news" src="img/ilsole24ore-o-2021.svg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <style>
+                  .trust_wrap {
+                    margin: 30px auto;
+                    padding: 0 20px;
+                  }
+
+                  .trust_group {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                  }
+
+                  .logo_trust {
+                    display: block;
+                    max-width: 100px;
+                  }
+
+                  .trust_news {
+                    max-width: 180px;
+                  }
+
+                  .trust_title {
+                    position: relative;
+                    text-align: center;
+                    font-size: 25px !important;
+                    margin: 20px auto;
+                    text-transform: uppercase;
+                    color: #00a2b8;
+                  }
+
+                  .trust_subtitle {
+                    position: relative;
+                    z-index: 10;
+                    display: inline-block;
+                    padding: 0 20px;
+                    background-color: #fff;
+                  }
+
+                  .trust_title::before {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    top: 50%;
+                    z-index: 0;
+                    width: 100%;
+                    height: 1px;
+                    background-color: grey;
+                    transform: translateY(-50%);
+                  }
+
+                  .logo_trust {
+                    max-width: 200px !important;
+                    width: 100% !important;
+                    margin: 30px;
+                  }
+
+                  @media (max-width: 992px) {
+                    .trust_news {
+                      max-width: 140px;
+                    }
+
+                    .logo_trust {
+                      margin: 10px;
+                    }
+                  }
+
+                  @media (max-width: 768px) {
+                    .trust_group-news {
+                      justify-content: center;
+                      gap: 15px;
+                    }
+                  }
+
+                  @media (max-width: 450px) {
+                    .trust_subtitle {
+                      padding: 0 10px;
+                    }
+
+                    .trust_news {
+                      max-width: 120px;
+                    }
+                  }
+                </style>
+                <p>
+                  —
+                  <b>João Lucas, tem afirmado repetidamente que a limpeza dos vasos sanguíneos  é essencial para a saúde. Porque é que está convencido disso?</b>
+                </p>
+                <p>
+                  É simples. O estado do sistema circulatório afeta o funcionamento de todos os órgãos e sistemas do organismo. A circulação sanguínea é o processo de fornecimento de oxigênio e nutrientes aos órgãos, assim como a remoção de dióxido de carbono e produtos do metabolismo. Na infância, juventude e adolescência, os nossos vasos são elásticos, limpos e fornecem a nutrição ideal aos órgãos devido à alta atividade física. Mas com a idade, a situação muda:movemo-nos menos e os vasos começam a 'ficar obstruídos'.
+                </p>
+                <p>
+                  Isso acontece devido a vários fatores. Alguns são claramente prejudiciais, tais como o tabagismo, alimentação inadequada, má qualidade do meio ambiente ou um estilo de vida sedentário. Mas também existem causas naturais, como o acúmulo de lipídios, que ocorre em toda a gente.
+                </p>
+                <p>
+                  O que são vasos sanguíneos obstruídos? Imagine tubos cobertos de ferrugem. A pressão da água dentro deles aumenta e a própria água torna-se turva e desagradável. O mesmo acontece com os vasos sanguíneos. Quando o colesterol e outras substâncias se acumulam nas suas paredes, a pressão aumenta – essa é a principal causa da hipertensão. O sangue se torna 'sujo' e o fornecimento de sangue aos tecidos piora. Isso afeta todos os órgãos, incluindo a pele. Como resultado, a pessoa começa a envelhecer.
+                </p>
+                <p>
+                  Mas se limpar os seus vasos sanguíneos regularmente, é possível prolongar a vida até os 120 anos. Você não sentirá dor, seu cérebro funcionará de forma eficiente e seu corpo, de modo geral, permanecerá saudável. A limpeza dos vasos é uma maneira real de prolongar a vida, e não apenas uma teoria. Todos que seguiram as minhas recomendações viveram muito mais do que os seus colegas.
+                </p>
+                <center>
+                  <picture>
+                    <source srcset="img/image1.webp" type="image/webp"></source>
+                    <img src="img/image1.jpg" alt="" loading="lazy" width="400" height="240">
+                  </picture>
+                  <i style="font-style: italic; font-size: 14px; line-height: 1.3; text-align: center; display: block">
+                    Com o tempo, os vasos sanguíneos inevitavelmente ficam obstruídos. Se você nunca fez a limpeza dos vasos e já tem mais de 40 anos, é provável que eles estejam bastante sujos. Em breve, isso pode afetar negativamente a sua saúde, caso ainda não se manifestou.
+                  </i>
+                </center>
+                <br>
+                <p>
+                  —
+                  <b>Quais patologias exatamente surgem devido à obstrução dos vasos sanguíneos?</b>
+                </p>
+                <p>
+                  Em primeiro lugar, o próprio sistema cardiovascular é afetado. O bloqueio vascular provoca tais doenças como:
+                </p>
+                <ul style="padding-left: 50px; margin-bottom: 30px; list-style-type: decimal">
+                  <li>
+                    <b>Aterosclerose.</b> Os vasos deixam de funcionar corretamente: os pequenos ficam completamente obstruídos, enquanto os vasos principais contêm muito colesterol.
+                  </li>
+                  <li>
+                    <b>Doença arterial isquêmica.</b> É causada pela falta de fluxo sanguíneo para o músculo cardíaco.
+                  </li>
+                  <li>
+                    <b>Acidente vascular cerebral (AVC).</b> A interrupção repentina do fornecimento de sangue ao cérebro causa a morte de neurônios, levando à perda de algumas funções.
+                  </li>
+                  <li>
+                    <b>Hipertensão (hipertensão arterial).</b> As impurezas causam o estreitamento do lúmen dos vasos e o aumento da pressão arterial.
+                  </li>
+                  <li>
+                    <b>Tromboses vasculares.</b> O acúmulo de impurezas nos vasos sanguíneos provoca a formação de coágulos sanguíneos e a obstrução do lúmen dos vasos. Se o coágulo se soltar e entrar na circulação principal, pode ocorrer obstrução dos vasos cardíacos (parada cardíaca), o que em 70% dos casos resulta na morte do paciente.
+                  </li>
+                </ul>
+                <p>
+                  Estas fotografias mostram os perigos que os depósitos de vasos sanguíneos representam para a sua saúde.
+                </p>
+                <div>
+                  <center>
+                    <picture>
+                      <source srcset="img/image4.webp" type="image/webp"></source>
+                      <img src="img/image4.jpg" alt="" loading="lazy" width="350" height="250">
+                    </picture>
+                  </center>
+                  <br>
+
+                  <center>
+                    <p style="max-width: 550px; margin: 0px auto; text-align: center !important">
+                      <i style="font-style: italic; font-size: 14px; line-height: 1.3; display: block">Coração após um enfarte do miocárdio fatal</i>
+                    </p>
+                  </center>
+                </div>
+                <div>
+                  <center>
+                    <picture>
+                      <source srcset="img/image3.webp" type="image/webp"></source>
+                      <img src="img/image3.jpg" alt="" loading="lazy" width="350" height="250">
+                    </picture>
+                  </center>
+                  <br>
+
+                  <p style="max-width: 550px; margin: 0px auto">
+                    <i style="font-style: italic; font-size: 14px; line-height: 1.3; text-align: center; display: block">
+                      Acidente vascular cerebral num homem de 53 anos. Um AVC conduz SEMPRE a uma deficiência: a pessoa deixa de poder viver sem ajuda. A causa é um bloqueio dos vasos sanguíneos.
+                    </i>
+                  </p>
+                </div>
+                <div style="margin-bottom: 50px">
+                  <center>
+                    <picture>
+                      <source srcset="img/image6.webp" type="image/webp"></source>
+                      <img src="img/image6.jpg" alt="" loading="lazy" width="350" height="170">
+                    </picture>
+                  </center>
+                  <br>
+
+                  <p style="max-width: 550px; margin: 0px auto">
+                    <i style="font-style: italic; font-size: 14px; line-height: 1.3; text-align: center; display: block">
+                      As varizes, de que muitas mulheres sofrem, são também uma consequência direta da obstrução vascular.
+                    </i>
+                  </p>
+                </div>
+                <p>
+                  Este problema está a espalhar-se na sociedade. Atualmente, as patologias cardiovasculares causam 4 vezes mais mortes do que outras causas. Os médicos estão conscientes deste facto, mas por razões que não são claras, a medicina está inativa.
+                </p>
+                <p>
+                  A maioria dos médicos prescreve remédios sintomáticos: por exemplo, para baixar a tensão arterial. No entanto, estes remédios não têm por objetivo curar o problema, mas apenas combater os efeitos do problema. Os vasos sanguíneos têm de ser limpos!
+                </p>
+                <p>
+                  —
+                  <b>Existem alguns sintomas que indicam a obstrução dos vasos sanguíneos?</b>
+                </p>
+                <p>Sim,  claro. Os sintomas principais são:</p>
+                <ul style="padding-left: 50px; margin-bottom: 30px; list-style-type: decimal">
+                  <li>Dores de cabeça, enxaquecas;</li>
+                  <li>Perturbações da memória;</li>
+                  <li>Fadiga crónica;</li>
+                  <li>Insónias;</li>
+                  <li>Problemas íntimos;</li>
+                  <li>Distúrbios visuais e auditivos;</li>
+                  <li>Hipertensão arterial;</li>
+                  <li>Perturbações respiratórias e angina de peito;</li>
+                  <li>Pele pálida nas pernas;</li>
+                  <li>Dores musculares e articulares.</li>
+                </ul>
+                <p>
+                  Quer tenha alguns destes sintomas quer não, depois dos 30-35 anos, precisa de limpar os seus vasos sanguíneos. Ao fazê-lo, terá uma saúde de ferro.
+                </p>
+                <p>
+                  De facto, os vasos sanguíneos ficam “sujos” muito rapidamente, especialmente nas pessoas mais velhas. Não é preciso comer hambúrgueres e batatas fritas durante todo o dia para enfrentar este problema. O simples facto de comer salsichas ou ovos pode provocar o depósito de colesterol nos vasos sanguíneos. Com o tempo, as impurezas acumulam-se.
+                </p>
+                <p>
+                  —
+                  <b>Conseguiu descobrir um produto inovador para a hipertensão que limpa os vasos sanguíneos. Para que ele serve, se já existem medicamentos padrão para controlar a tensão arterial?</b>
+                </p>
+                <p>
+                  Os medicamentos modernos para as doenças cardiovasculares nem sempre produzem os resultados desejados. Além disso, muitas pessoas precisam de ajuda adicional. Foi por isso que desenvolvi um produto inovador que ajuda a manter a saúde do sistema cardiovascular.
+                </p>
+                <p>
+                  Este produto tanto limpa os vasos sanguíneos, reforça as suas paredes e melhora a circulação sanguínea, como também ajuda a eliminar os fatores que podem causar problemas cardíacos e vasculares. Contribui para minimizar os riscos de desenvolvimento de complicações graves, tais como ataques cardíacos e acidentes vasculares cerebrais, e ajuda a melhorar o estado geral do organismo.
+                </p>
+                <p style="color: rgb(59, 103, 188); margin-top: 30px" class="head">
+                  <strong>Vergílio Morais, um dos principais cirurgiões cardíacos do país, partilhou com o nosso correspondente a sua opinião sobre o método inovador desenvolvido pelo jovem génio.</strong>
+                </p>
+                <p class="indent">
+                  <picture>
+                    <source srcset="img/image13.webp" type="image/webp"></source>
+                    <img class="img2" src="img/image13.jpg" alt="" style="max-width: 600px; display: block; margin: 0px auto" width="494" height="395">
+                  </picture>
+                  <span style="display: block; max-width: 600px; margin: 0px auto; font-size: 14px; font-style: italic; text-align: center">
+                    Doutor em Medicina, Presidente do Conselho de Administração do Centro Científico Nacional de Cirurgia Cardíaca explicou como reduzir a tensão arterial de uma vez por todas
+                  </span>
+                </p>
+                <p>
+                  João Lucas teve uma ideia brilhante e os consultores científicos ajudaram a concretizá-la. Muitos especialistas estiveram envolvidos no projeto, incluindo a equipa de laboratório do Centro Nacional de Cirurgia Cardíaca, que forneceu a base para as experiências. O tratamento que desenvolvemos está agora pronto e está a mostrar os resultados impressionantes. Chama-se <a href="" scroll="goScrollToForm">Cardio Balance</a>.
+                </p>
+                <p></p>
+                <center>
+                  <a scroll="goScrollToForm" class="vtbadlink">
+                    <picture>
+                      <img src="img/product.png" alt="" loading="lazy" width="400" height="440">
+                    </picture>
+                  </a>
+                </center>
+                <p></p>
+                <p>
+                  <a href="" scroll="goScrollToForm">Cardio Balance</a> contém extrato de frutos de arando, extrato de frutos de oliveira, magnésio, L-arginina, extrato de folhas e flores de espinheiro, pó de flores de hibisco, extrato de folhas de oliveira, extrato de grainhas de uva, coenzima Q10, vitamina B6 e ácido fólico.
+                </p>
+                <center>
+                  <picture>
+                    <source srcset="img/student2.webp" type="image/webp"></source>
+                    <img src="img/student2.png" style="margin: 30px 0" width="700" height="480">
+                  </picture>
+                  <i style="font-style: italic; font-size: 14px; line-height: 1.3; text-align: center; display: block">
+                    João Lucas Cipriano com o resultado do seu estudo: Cardio Balance.
+                  </i>
+                </center>
+                <br>
+                <p>
+                  A ação do <a href="" scroll="goScrollToForm">Cardio Balance</a> visa melhorar a função cardíaca, normalizar a tensão arterial e eliminar os possíveis fatores de risco de complicações. Todos os componentes são selecionados de forma ótima para potenciar a ação de cada um.
+                </p>
+                <p>
+                  As estatísticas oficiais dos ensaios clínicos do <a href="" scroll="goScrollToForm">Cardio Balance</a> estão disponíveis no Website do Centro Científico Nacional de Cirurgia Cardíaca. No total, participaram no estudo cerca de 2000 doentes. O <a href="" scroll="goScrollToForm">Cardio Balance</a> foi tomado por todos eles como parte do curso.
+                </p>
+                <p>Resultados:</p>
+                <ul style="padding-left: 50px; margin-bottom: 30px; list-style-type: decimal">
+                  <li>
+                    Normalização da tensão arterial - 99% dos voluntários.
+                  </li>
+                  <li>
+                    Normalização do ritmo cardíaco - 97% dos voluntários.
+                  </li>
+                  <li>
+                    Eliminação completa do colesterol dos vasos sanguíneos - 99% dos voluntários.
+                  </li>
+                  <li>
+                    Aumento da eficácia do tratamento de doenças crônicas - 99% dos voluntários.
+                  </li>
+                  <li>
+                    Melhoria do estado geral de saúde - 100% dos voluntários.
+                  </li>
+                  <li>
+                    Ausência de efeitos secundários - 100% dos voluntários.
+                  </li>
+                </ul>
+                <p class="rub-ramka">
+                  <span class="myh4">
+                    Isto é especialmente importante! Novembro e dezembro são os meses ideais para começar a cuidar da saúde. Estudos mostram que, nesse período, devido à estabilização da temperatura média, os processos metabólicos no organismo aceleram, e a ação do Cardio Balance torna-se mais eficaz. A recuperação ocorre 37% mais rápido do que em qualquer outra época do ano.
+                  </span>
+                </p>
+                <br>
+                <p style="color: white; background-color: #4689e4">
+                  —
+                  <b>Quanto custa o Cardio Balance e onde se pode comprá-lo?</b>
+                </p>
+                <p>
+                  Os hospitais compram-no diretamente ao fabricante oficial. Isto deve-se ao facto de existirem muitas falsificações no mercado. Uma vez deparámo-nos com uma situação destas: recorremos a outro fornecedor, mas em vez do ingrediente ativo recebemos, grosso modo, giz! Você pode imaginar o que isso pode causar. Por isso, confiamos apenas em fornecedores comprovados.
+                </p>
+                <p>
+                  Para aqueles que querem poupar dinheiro, há ótimas notícias. Até 14 de novembro de 2024, o fabricante oficial está a realizar um sorteio onde o Cardio Balance pode ser obtido com um desconto de até <span class="wv_discount">-50%</span>. Para participar, é necessário registar-se no sorteio, cujas informações estão publicadas abaixo.
+                </p>
+                <div class="pg" style="background: rgb(255, 236, 166) none repeat scroll 0% 0%; padding: 20px; border: 1px solid red">
+                  <h3>
+                    Condições de encomenda do Cardio Balance em promoção:
+                  </h3>
+                  <ul style="font-size: 18px">
+                    <li>
+                      1. Residir na região que participa no programa. A promoção está disponível apenas para os residentes das regiões onde está disponível um programa de descontos especiais.
+                    </li>
+                    <li>
+                      2. Encomendar o produto exclusivamente para uso pessoal. A condição é introduzida para evitar a revenda. Ajuda a excluir as ações dos intermediários que compram o Cardio Balance a granel e o vendem com uma margem de lucro.
+                    </li>
+                    <li>
+                      3. Apresentar um pedido através do sorteio oficial. Esta condição garante um desconto garantido pelo fabricante e protege os interesses dos retalhistas.
+                    </li>
+                  </ul>
+                </div>
+                <br>
+                <p>
+                  Respeitando estas condições, poderá usufruir de todas as vantagens do programa e ter a garantia da qualidade do produto.
+                </p>
+                <p>
+                  Para manter os vasos sanguíneos limpos, recomendo efetuar uma limpeza a cada 1-2 anos. Isto é especialmente importante para as pessoas mais velhas. Neste caso, pode melhorar significativamente a sua saúde e atrasar o aparecimento da velhice. Afinal de contas, os vasos sanguíneos limpos são a chave para uma boa saúde.
+                </p>
+                <p>
+                  —
+                  <b>Muito obrigado ao João Lucas e ao Vergílio pela entrevista bem detalhada.</b>
+                </p>
+                <p class="rub-ramka">
+                  <span class="myh4">Adicionado há 12 horas | Nota do editor:</span>
+                  <span>
+                    Notícia importante: no presente momento o programa é válido em Portugal até
+                    <span id="locdate18966"></span>
+                    <script>
+                    d = new Date();
+                    var localeString = new Date(d.getTime() - 0 * 86400000).toLocaleString("pt", {
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric",
+                    });
+                    var elem = document.getElementById("locdate18966");
+                    elem.innerHTML = localeString;</script>. Até ao final da promoção, o produto original <a class="vtbadlink" scroll="goScrollToForm">Cardio Balance</a> pode ser adquirido por todos os interessados através do <a class="vtbadlink" scroll="goScrollToForm">site oficial</a> com descontos até <span class="wv_discount">-50%</span>! De momento, o estoque das embalagens promocionais é de <font color="red"><b>43 unidades</b></font>.
+                  </span>
+                </p>
+                <br>
+                <div class="v-order-wrapper-fon-bg2">
+                  <div class="vik-winners-bl">
+                    <div class="left_block">
+                      <div class="lb_top">
+                        <div class="lbt_text_1 lt37">
+                          Tente a sua sorte! Clique na porta! Experimente o Cardio Balance a um preço reduzido!
+                        </div>
+                        <div class="lbt_text_2 lt38">
+                          <script>
+                            fdateTwoDigits(0);
+                          </script>
+                           Início da promoç
+                        </div>
+                      </div>
+                      <div class="lb_text lt39">
+                        Eles já têm um desconto,
+                        <br>
+                        e Você também pode obter um!
+                      </div>
+                      <div class="wins">
+                        <div class="win_line">
+                          <div class="lt40">Nome</div>
+                          <div class="lt41">Desconto</div>
+                        </div>
+                        <div class="win_line wincomment">
+                          <div class="lt42">Maria O.</div>
+                          <div class="lt43">Ganhou o desconto de -40%</div>
+                        </div>
+                        <div class="win_line wincomment">
+                          <div class="lt42">Bruna P.</div>
+                          <div class="lt43">Ganhou o desconto de -25%</div>
+                        </div>
+                        <div class="win_line wincomment">
+                          <div class="lt42">João D.</div>
+                          <div class="lt43">Ganhou o desconto de -30%</div>
+                        </div>
+                        <div class="win_line wincomment">
+                          <div class="lt42">Matilde S.</div>
+                          <div class="lt43">Ganhou o desconto de -15%</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <script>
+                    $(document).ready(function () {
+                      var discounts = [],
+                        curWinner;
+
+                      function randomIntFromInterval(min, max) {
+                        return Math.floor(Math.random() * (max - min + 1) + min);
+                      }
+
+                      function fnShowNextWinner(i) {
+                        var rndInt = randomIntFromInterval(7, 15);
+                        setTimeout(function () {
+                          curWinner = $('<div style="display:none;" class="win_line wincomment"><div class="lt48">' + discounts[i].name + '</script></div><div class="lt49">' + discounts[i].text + "</div></div>");
+
+                          $(".wins .wincomment").first().css("opacity", "0");
+
+                          $(".wins").append(curWinner);
+                          setTimeout(function () {
+                            curWinner.fadeIn();
+                            if (i + 1 
+
+                  <div id="roll"></div>
+                </div>
+                <span id="goToForm"></span>
+                <div id="form-block">
+                  <h3 class="door__head">
+                    Participe no sorteio para ganhar até <span class="wv_discount">-50%</span> de desconto na sua compra do Cardio Balance.
+                  </h3>
+                  <div class="door__wrapper">
+                    <h2 class="door__title">
+                      ADIVINHE QUAL PORTA TEM O DESCONTO DE <span class="wv_discount">-50%</span>
+                    </h2>
+                    <div class="door__container">
+                      <div class="door_box">
+                        <div class="hi">
+                          <p id="door__sales2" class="door__sales"></p>
+                        </div>
+                        <div id="door__2" class="door"></div>
+                      </div>
+
+                      <div class="door_box">
+                        <div class="hi">
+                          <p id="door__sales1" class="door__sales"></p>
+                        </div>
+                        <div id="door__1" class="door"></div>
+                      </div>
+
+                      <div class="door_box">
+                        <div class="hi">
+                          <p id="door__sales3" class="door__sales"></p>
+                        </div>
+                        <div id="door__3" class="door"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="order">
+                    <div class="order_block">
+                      <div id="form" class="api-form1">
+                        <div class="form-header1">
+                          <div class="cta-form1">
+                            <div class="product-image1">
+                              <img src="img/product.png">
+                              <div class="product-banner1">
+                                <div class="product-banner-text1">
+                                  <span class="wv_new-price">39</span>
+                                  <span class="wv_currency">€</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-body">
+                          <div class="text">
+                            Preencha o formulário para obter o Cardio Balance com desconto de <span class="danger-text"><span class="wv_discount">-50%</span>*</span>
+                          </div>
+                          <div class="deadline1">
+                            <b>
+                              <br>
+                              Só tem de introduzir o seu nome e número de telefone. Despache-se! Ainda tem<br>
+                              <div class="time-remain">
+                                <div class="time-remain-items">
+                                  <span class="hour">03</span>
+                                  <span class="time-text">horas</span>
+                                </div>
+                                <div class="time-dots">:</div>
+                                <div class="time-remain-items">
+                                  <span class="minutes">45</span>
+                                  <span class="time-text">minutos</span>
+                                </div>
+                                <div class="time-dots">:</div>
+                                <div class="time-remain-items">
+                                  <span class="seconds">00</span>
+                                  <span class="time-text">segundos</span>
+                                </div>
+                              </div>
+                            </b>
+                          </div>
+
+                          <form name="form" class="orderForm landing__form wv_order-form" method="post" action="order.php">
+                            <div class="form_control_vik_group">
+                              <select class="country_select" id="id_country" name="id_country">
+                                <option value="pt">Portugal</option>
+                              </select>
+                            </div>
+                            <div class="form_control_vik_group">
+                              <input type="text" class="form_control_vik name wv_name" required="" name="name" minlength="2" placeholder="Nome">
+                            </div>
+                            <div class="form_control_vik_group">
+                              <input type="tel" class="form_control_vik phone wv_phone" required="" name="phone" placeholder="+351">
+                            </div>
+                            <input name="lang" type="hidden" class="" value="pt">
+                            <input name="ym" type="hidden" class="" value="default">
+                            <input name="utm_source" type="hidden" class="">
+                            <input name="utm_medium" type="hidden" class="">
+                            <input name="utm_campaign" type="hidden" class="">
+                            <input name="utm_content" type="hidden" class="">
+                            <input name="utm_term" type="hidden" class="">
+                            <input name="referer" type="hidden" class="" value="default">
+                            <input name="guid" type="hidden" class="">
+                            <input name="first_guid" type="hidden" class="">
+                            <input name="landing_id" type="hidden" class="" value="13522">
+                            <input name="prelanding_id" type="hidden" class="">
+                            <input name="offer_id" type="hidden" class="" value="118">
+                            <input name="url" type="hidden" class="">
+                            <input name="shopwindow_id" type="hidden" class="">
+                            <input name="cookie_enabled" type="hidden" class="">
+
+                            <button class="btn1 px30 bold upp white blg shakingbutton" type="submit">Encomendar</button>
+                          </form>
+                          <p class="footnote1">
+                            * - ao encomendar um curso.
+                            <br>
+                            A encriptação é utilizada para garantir a proteção dos seus dados.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <br>
+                <br>
+                <div class="trust_wrap" style="margin: 30px auto">
+                  <p style="text-align: center; font-size: 30px !important; font-weight: 600; margin: 20px auto">
+                    Com apoio de:
+                  </p>
+                  <div class="trust_group">
+                    <img class="logo_trust" loading="lazy" src="img/log1.svg" alt="">
+                    <img class="logo_trust" loading="lazy" src="img/log2.png" alt="">
+                    <img class="logo_trust" loading="lazy" src="img/log3.svg" alt="">
+                    <img class="logo_trust" loading="lazy" src="img/log4.jpg" alt="">
+                    <img class="logo_trust" loading="lazy" src="img/log5.svg" alt="">
+                    <img class="logo_trust" loading="lazy" src="img/log6.png" alt="">
+                    <img class="logo_trust" loading="lazy" src="img/log7.svg" alt="">
+                  </div>
+                </div>
+                <style>
+                  .logo_trust {
+                    display: block;
+                    max-width: 100px;
+                  }
+                </style>
+              </div>
+            </div>
+          </div>
+          <br><br>
+
+          <div class="comment-block">
+            <div class="article">
+              <br><br><br>
+              <h3 class="article__title">Comentários</h3>
+              <div class="article__text">
+                <div class="comment-user">
+                  <p class="user-name">Isabel Dias</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Que disparate é este???? Porque é que não há promoção na minha cidade? As pessoas não vivem aqui?!?!?!?!?!?!?!?!?!?!?!?!?!?!?!? Porque é que existe um programa apenas para regiões “selecionadas”? E o que é que o resto de nós deve fazer? ????
+                  </p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Maria Das Dores Estrela</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Já encomendei o Cardio Balance e experimentei os seus efeitos. Durante 7 anos sofri de tensão arterial elevada e já não me lembrava de como era sentir-me normal. Por recomendação do médico, decidi limpar os meus vasos sanguíneos. Após o curso de tratamento de Cardio Balance, a minha tensão arterial normalizou completamente! Já passaram dois meses e estou a viver sem hipertensão. É uma vida completamente diferente, sinto-me muito melhor. Recomendo este maravilhoso produto a toda a gente, especialmente enquanto houver descontos!
+                  </p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Pedro Barbosa</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Os nossos filhos são mesmo os mais espertos! Muito bem, rapaz! Eu tomei as cápsulas Cardio Balance e a minha hipertensão desapareceu completamente. Agora sinto-me ótimo!
+                  </p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Paula  Andrade</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Obrigada! Também encomendei o Cardio Balance. É muito conveniente que a entrega seja feita por transportadora - pode receber o produto em qualquer parte do país.
+                  </p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Enrique Lopes</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    As nossas autoridades raramente prestam atenção aos jovens e aos talentosos! É bom que o inventor tenha encontrado o seu caminho. Já encomendei este produto e recebi-o ontem. Vou tomá-lo juntamente com a minha mulher, pois ambos sofremos de hipertensão.
+                  </p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Manuel Oliveira</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Estava a tomar o Cardio Balance ao longo de um mês e, durante esse tempo, a minha tensão arterial só subiu ocasionalmente. Agora sinto-me uma pessoa saudável.
+                  </p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Ricardo Freitas</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Tenho 61 anos e pratico a limpeza vascular há cerca de 5 anos. Ajuda-me a manter-me forte e saudável. Não tenho qualquer patologia, enquando muitos dos meus colegas já faleceram, infelizmente. E, para ser sincero, ainda tenho uma vida íntima ativa. A limpeza dos vasos é algo que precisa ser feito, sem dúvida!
+                  </p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Ana Beatriz Gomes</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    A hipertensão já faz parte da minha vida há muito tempo, e com o tempo, o diabetes e os problemas nos rins também surgiram. Minha memória e visão também pioraram muito. Eu tentei muitos métodos, mas nada funcionava. Então, decidi tentar o Cardio Balance. Fiz o pedido online pela primeira vez, e o processo foi simples e conveniente.
+                  </p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Ana Clara Nunes</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Obrigado! Vi recentemente um programa na televisão sobre este homem e as suas cápsulas. Muitos médicos elogiaram o novo produto.
+                  </p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Júlio Figueiredo</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Ótimo produto, concordo plenamente! A minha tensão arterial era de 140/90 durante muito tempo e vivi com ela durante vários anos. Após o curso Cardio Balance, a minha tensão arterial baixou para 125/85. A minha saúde melhorou muitas vezes!
+                  </p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Vitor Teixeira</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Acabei de descobrir estas cápsulas. Impressionante!
+                  </p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Miguel Pereira</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Encomendei o Cardio Balance! Obrigado!
+                  </p>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Caio Sequeira.</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Tomo o Cardio Balance (com intervalos).  A minha tensão arterial está quase normalizada e sinto-me visivelmente melhor em geral.
+                  </p>
+                  <br>
+                </div>
+                <div class="comment-user">
+                  <p class="user-name">Ana Moura</p>
+                  <img width="60" height="60" alt="" class="user-avatar" src="img/user_no_foto.jpg">
+                  <p>
+                    Vou ser sincera, este é um produto fantástico! Encomendei o Cardio Balance assim que soube do nosso pequeno milagre e do programa de descontos. A encomenda chegou em 3 dias. Assim que a recebi, comecei imediatamente a tomar as cápsulas. A minha tensão arterial tornou-se gradualmente normal - não apenas “normal para uma pessoa hipertensa”, mas como uma pessoa saudável. Também notei mudanças incríveis: a energia apareceu, o meu sono melhorou e, à noite, senti-me como uma pessoa completamente saudável. Este é o melhor remédio que alguma vez experimentei!
+                  </p>
+                </div>
+                <br>
+              </div>
+              <br><br>
+            </div>
+          </div>
+
+          <div>
+            <div id="roll_bottom"></div>
+          </div>
+        </div>
+      
+      <strong> </strong>
+    
+    <strong>
+      <div>
+        <div class="ui segment vertical inverted" id="copyright">
+          <div class="ui container">
+            <div class="ui grid stackable computer reversed tablet reversed">
+              <div class="column twelve wide computer eleven wide tablet">
+                <div class="ui grid stackable">
+                  <div class="column twelve wide">
+                    <small>
+                      <div style="line-height: 120%">
+                        <p>
+                          Ao clicar no botão "Encomendar", está a autorizar o tratamento dos seus dados pessoais.
+                        </p>
+                        <p>
+                          © <script>document.write(new Date().getFullYear());</script> Cardio Balance. Todos os direitos reservados.
+                        </p>
+                      </div>
+                    </small>
+                  </div>
+                  <div class="column right aligned mobile-aligned-center four wide">
+                    <a class="vtbadlink ui button facebook circular icon" scroll="goScrollToForm" style="padding: 0; background-color: transparent; display: inline">
+                      <img src="img/facebook.svg" alt="menu" style="width: 30px; display: inline-block">
+                    </a>
+                    <a class="vtbadlink ui button twitter circular icon" scroll="goScrollToForm" style="padding: 0; background-color: transparent; display: inline">
+                      <img src="img/twitter.svg" alt="menu" style="width: 30px; display: inline-block">
+                    </a>
+                    <a class="vtbadlink ui button youtube circular icon" scroll="goScrollToForm" style="padding: 0; background-color: transparent; display: inline">
+                      <img src="img/youtube.svg" alt="menu" style="width: 30px; display: inline-block">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="column four wide computer five wide tablet no-mobile">
+                <a class="vtbadlink ui" scroll="goScrollToForm"><img class="ui image" src="img/9397bbe895.png"></a><a class="vtbadlink ui" scroll="goScrollToForm"><img class="ui image small spaced-top-half" src="img/537209b54a.png"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </strong>
+
+    <div class="spin-result-wrapper" style="display: none">
+      <div class="pop-up-window">
+        <div class="close-popup"></div>
+        <span class="pop-up-heading">Parabéns!</span>
+        <p class="ruletka-p pop-up-text">
+          Recebeu <span class="danger-text"><span class="wv_discount">-50%</span></span> de desconto e pode adquirir o produto <span class="danger-text">agora</span>!
+        </p>
+        <a class="pop-up-button">BEM</a>
+      </div>
+    </div>
+
+    <script>
+      document.querySelectorAll("[scroll='goScrollToForm']").forEach((link) => {
+        link.addEventListener("click", function (e) {
+          e.preventDefault();
+          document.getElementById("goToForm").scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+          });
+        });
+      });
+    </script>
+    <script src="js/doors.js"></script>
+    <script>
+      function flytoorder() {
+        return (
+          $("html, body").animate(
+            {
+              scrollTop: $("#goToForm").offset().top + 2,
+            },
+            500
+          ),
+          !1
+        );
+      }
+      $(document).ready(function () {
+        0 == $("#btnbarscroll").length &&
+          ($("body").prepend('<div class="b-top-bar-button" id="anchor_0"><div><span id="btnbarscroll" onclick="flytoorder();" class="btn-main"><span>Página inicial'),
+          $(document).scroll(function () {
+            var t = $(this).scrollTop();
+            var o = $("#roll").offset().top;
+            var rollbot = $("#roll_bottom");
+            if (rollbot.length > 0) {
+              var z = $("#roll_bottom").offset().top;
+            } else {
+              var z = o;
+            }
+            66 < t && (t < o - 100 || o + 480 < t) && (t < z - 300 || z + 480 < t) ? $(".b-top-bar-button").addClass("sticky") : $(".b-top-bar-button").removeClass("sticky");
+          }));
+      });
+    </script>
+        <noscript><img src="//webvkrd.com/pixel.php?offer_id=118&landing_id=13522&page_type=landing" alt=""></noscript>
+        <script src="js/webvork.js"></script>
+    
+  </body>
+</html>
