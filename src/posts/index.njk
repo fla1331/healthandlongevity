@@ -1,0 +1,17 @@
+---
+pagination:
+  data: posts
+  size: 1
+  alias: post
+permalink: "/{{ post._embedded['wp:term'][0][0].slug }}/{{ post.slug }}/index.html"
+layout: "base.njk"
+---
+
+{%- if post.yoast_head -%}
+  {{ post.yoast_head | safe }}
+{%- endif -%}
+
+<article>
+  <h1>{{ post.title.rendered }}</h1>
+  <div>{{ post.content.rendered | safe }}</div>
+</article>
