@@ -1,16 +1,11 @@
 const { DateTime } = require("luxon");
 
 module.exports = function(eleventyConfig) {
-  // Copia a pasta inteira de assets
   eleventyConfig.addPassthroughCopy("./src/assets");
-
-  // Copia a nova pasta do sitemap
-  eleventyConfig.addPassthroughCopy("./src/sitemap");
-
-  // Copia o robots.txt
   eleventyConfig.addPassthroughCopy("./src/robots.txt");
+  eleventyConfig.addPassthroughCopy("./src/*.xml");
+  eleventyConfig.addPassthroughCopy("./src/*.xsl");
 
-  // Adiciona o filtro de data
   eleventyConfig.addFilter("date", (dateObj) => {
     if (dateObj) {
       const date = DateTime.fromISO(dateObj, { zone: "utc" });
