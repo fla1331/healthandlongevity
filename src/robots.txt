@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://healthandlongevity.reviewnexus.blog/assets/uploads/rank-math/sitemap.xml
+Sitemap: https://healthandlongevity.reviewnexus.blog/sitemap.xml
