@@ -1,9 +1,14 @@
 const { DateTime } = require("luxon");
 
 module.exports = function(eleventyConfig) {
-  // Copia a pasta inteira de assets e o robots.txt
+  // Copia a pasta inteira de assets
   eleventyConfig.addPassthroughCopy("./src/assets");
+
+  // Copia o robots.txt
   eleventyConfig.addPassthroughCopy("./src/robots.txt");
+  
+  // Isso garante que o sitemap.njk seja processado e gerado como sitemap.xml
+  eleventyConfig.addPassthroughCopy("./src/sitemap.njk");
 
   // Adiciona o filtro de data para ser usado nos templates
   eleventyConfig.addFilter("date", (dateObj) => {
