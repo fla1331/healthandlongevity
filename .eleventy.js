@@ -6,9 +6,12 @@ module.exports = function(eleventyConfig) {
 
   // Copia o robots.txt para a raiz do site.
   eleventyConfig.addPassthroughCopy("./src/robots.txt");
+  
+  // Garante que o sitemap.njk seja processado e gerado como sitemap.xml
+  eleventyConfig.addPassthroughCopy("./src/sitemap.njk");
 
-  // Adiciona a pasta rank-math, onde estão os sitemaps
-  eleventyConfig.addPassthroughCopy("./src/assets/uploads/rank-math");
+  // Adiciona uma regra explícita para o arquivo de estilo do sitemap
+  eleventyConfig.addPassthroughCopy("./src/assets/uploads/rank-math/main-sitemap.xsl");
 
   // Adiciona o filtro de data para ser usado nos templates
   eleventyConfig.addFilter("date", (dateObj) => {
