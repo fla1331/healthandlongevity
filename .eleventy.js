@@ -1,27 +1,20 @@
-const { DateTime } = require("luxon");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("./src/assets");
-  eleventyConfig.addPassthroughCopy("./src/robots.txt");
-  eleventyConfig.addPassthroughCopy("./src/sitemap_assets");
-  eleventyConfig.addPassthroughCopy("./src/sitemap.xml");
+    eleventyConfig.addPlugin(pluginRss);
+    eleventyConfig.addPassthroughCopy({ 'src/posts/assets': 'assets' });
 
-  eleventyConfig.addFilter("date", (dateObj) => {
-    if (dateObj) {
-      const date = DateTime.fromISO(dateObj, { zone: "utc" });
-      if (date.isValid) {
-        return date.toFormat("yyyy-LL-dd");
-      }
-    }
-    return "";
-  });
-
-  return {
-    dir: {
-      input: "src",
-      output: "docs",
-      includes: "_includes",
-      data: "_data"
-    }
-  };
+    eleventyConfig.addCollection("posts", function(collectionApi) {
+        return collectionApi.getFilteredByGlob("src/posts/**/*.njk");
+    });
+    
+    return {
+        dir: {
+            input: "src",
+            output: "docs"
+        },
+        markdownTemplateEngine: "njk",
+        htmlTemplateEngine: "njk",
+        dataTemplateEngine: "njk"
+    };
 };
