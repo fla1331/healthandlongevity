@@ -1,19 +1,9 @@
 const { DateTime } = require("luxon");
 
 module.exports = function(eleventyConfig) {
-  // Copia as pastas inteiras de assets para a pasta final
+  // Copia a pasta inteira de assets e o robots.txt
   eleventyConfig.addPassthroughCopy("./src/assets");
-
-  // Copia a pasta rank-math, onde estão os sitemaps
-  eleventyConfig.addPassthroughCopy("./src/assets/uploads/rank-math");
-
-  // Copia o robots.txt para a raiz do site
   eleventyConfig.addPassthroughCopy("./src/robots.txt");
-
-  // Cria uma coleção para as páginas (não-posts)
-  eleventyConfig.addCollection("pages", function(collection) {
-      return collection.getFilteredByGlob("./src/pages/*.njk");
-  });
 
   // Adiciona o filtro de data para ser usado nos templates
   eleventyConfig.addFilter("date", (dateObj) => {
