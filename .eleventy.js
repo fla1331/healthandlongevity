@@ -4,7 +4,7 @@ module.exports = function(eleventyConfig) {
   // Copia a pasta inteira de assets e o robots.txt
   eleventyConfig.addPassthroughCopy("./src/assets");
   eleventyConfig.addPassthroughCopy("./src/robots.txt");
-  
+
   // Adiciona o filtro de data para ser usado nos templates
   eleventyConfig.addFilter("date", (dateObj) => {
     if (dateObj) {
