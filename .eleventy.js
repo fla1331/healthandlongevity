@@ -1,14 +1,17 @@
-const { DateTime } = require("luxon");
+const { DateTime = require("luxon");
 
 module.exports = function(eleventyConfig) {
-  // Copia a pasta inteira de assets
+  // Copia a pasta inteira de assets, incluindo a pasta rank-math
   eleventyConfig.addPassthroughCopy("./src/assets");
 
-  // Copia o robots.txt
+  // Copia o robots.txt para a raiz do site.
   eleventyConfig.addPassthroughCopy("./src/robots.txt");
   
   // Isso garante que o sitemap.njk seja processado e gerado como sitemap.xml
   eleventyConfig.addPassthroughCopy("./src/sitemap.njk");
+
+  // Adiciona uma regra explícita para o arquivo de estilo do sitemap
+  eleventyConfig.addPassthroughCopy("./src/assets/uploads/rank-math/main-sitemap.xsl");
 
   // Adiciona o filtro de data para ser usado nos templates
   eleventyConfig.addFilter("date", (dateObj) => {
