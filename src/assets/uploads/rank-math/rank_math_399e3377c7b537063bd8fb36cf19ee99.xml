@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//localhost/healthandlongevity/main-sitemap.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
-		<loc>http://localhost/healthandlongevity/post-sitemap.xml</loc>
+		<loc>https://healthandlongevity.reviewnexus.blog/post-sitemap.xml</loc>
 		<lastmod>2025-08-23T13:28:51+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>http://localhost/healthandlongevity/page-sitemap.xml</loc>
+		<loc>https://healthandlongevity.reviewnexus.blog/page-sitemap.xml</loc>
 		<lastmod>2025-08-25T11:47:26+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>http://localhost/healthandlongevity/category-sitemap.xml</loc>
+		<loc>https://healthandlongevity.reviewnexus.blog/category-sitemap.xml</loc>
 		<lastmod>2025-08-22T17:18:44+00:00</lastmod>
 	</sitemap>
 </sitemapindex>
