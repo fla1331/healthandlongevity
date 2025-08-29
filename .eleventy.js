@@ -8,7 +8,6 @@ module.exports = function(eleventyConfig) {
         return collectionApi.getFilteredByGlob("src/posts/**/*.njk");
     });
     
-    // LINHA CORRETA QUE VOCÊ DEVE ADICIONAR
     eleventyConfig.addFilter("rssDate", (date) => pluginRss.rssDate(date));
     
     return {
