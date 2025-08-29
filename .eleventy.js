@@ -1,8 +1,11 @@
 const { DateTime } = require("luxon");
 
 module.exports = function(eleventyConfig) {
-  // Copia a pasta inteira de assets para a pasta final
+  // Copia as pastas inteiras de assets para a pasta final
   eleventyConfig.addPassthroughCopy("./src/assets");
+
+  // Copia a pasta rank-math, onde estão os sitemaps
+  eleventyConfig.addPassthroughCopy("./src/assets/uploads/rank-math");
 
   // Copia o robots.txt para a raiz do site
   eleventyConfig.addPassthroughCopy("./src/robots.txt");
