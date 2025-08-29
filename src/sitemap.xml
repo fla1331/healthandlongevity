@@ -1,7 +1,3 @@
----
-permalink: /sitemap.xml
-eleventyExcludeFromCollections: true
----
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/sitemap_assets/main-sitemap.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -12,7 +8,7 @@ eleventyExcludeFromCollections: true
     <loc>https://healthandlongevity.reviewnexus.blog/sitemap_assets/rank_math_399e3377c7b537063bd8fb36cf19ee99.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://healthandlongevity.reviewnexus.blog/sitemap_assets/rank_math_43705608ecf687477ac63f5af5d052e9.xml</loc>
+    <loc>https://healthandlongevity.reviewnexus.blog/sitemap_assets/rank_math_43705608ecf6874acac63f5af5d052e9.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://healthandlongevity.reviewnexus.blog/sitemap_assets/rank_math_484c4d61429c64957d5fb966b1502b80.xml</loc>
