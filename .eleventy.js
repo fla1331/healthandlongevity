@@ -8,6 +8,10 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("pages", function(collection) {
       return collection.getFilteredByGlob("./src/pages/*.njk");
   });
+
+  // Copia a pasta inteira de uploads do rank-math, que contem os arquivos XML
+  eleventyConfig.addPassthroughCopy("./src/assets/uploads/rank-math");
+
   
   // Adiciona o filtro de data para ser usado nos templates
   eleventyConfig.addFilter("date", (dateObj) => {
