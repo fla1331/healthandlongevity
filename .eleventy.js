@@ -4,6 +4,8 @@ module.exports = function(eleventyConfig) {
   // Copia as pastas inteiras de assets para a pasta final
   eleventyConfig.addPassthroughCopy("./src/assets");
 
+  eleventyConfig.addPassthroughCopy("./src/robots.txt");
+
   // Cria uma coleção para as páginas (não-posts)
   eleventyConfig.addCollection("pages", function(collection) {
       return collection.getFilteredByGlob("./src/pages/*.njk");
